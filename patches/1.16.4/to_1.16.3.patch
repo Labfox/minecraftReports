@@ -1,0 +1,64 @@
+diff -urN versions/1.16.4/generated/.cache/cache versions/1.16.3/generated/.cache/cache
+--- versions/1.16.4/generated/.cache/cache	2025-07-27 17:01:59.221477370 +0000
++++ versions/1.16.3/generated/.cache/cache	2025-07-27 17:02:21.983479539 +0000
+@@ -1877,8 +1877,8 @@
+ 9c477455687c7766336066814710a75990538d29 data/minecraft/loot_tables/blocks/crimson_roots.json
+ dc75383538924232f2b4d0882dc9645bd6944291 data/minecraft/recipes/birch_planks.json
+ 343f3a373bf971985b87907914113519efb95a10 data/minecraft/recipes/yellow_wool.json
+-fb67adc2dfeafd38005b5af1d448ef907381b975 assets/minecraft/blockstates/brown_glazed_terracotta.json
+ a312a601ab95d445ca6cedd127b4fbb37a9b625a assets/minecraft/blockstates/prismarine_brick_stairs.json
++fb67adc2dfeafd38005b5af1d448ef907381b975 assets/minecraft/blockstates/brown_glazed_terracotta.json
+ 305fe272833afea72f97591d3555e3566f54eaba data/minecraft/tags/blocks/infiniburn_overworld.json
+ c0e6c103308b6e71224b987c40daffff1178d3ec data/minecraft/advancements/recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting.json
+ 936aa6f80b253c64096b78009886ed5c64175999 assets/minecraft/models/block/red_terracotta.json
+@@ -2041,8 +2041,8 @@
+ 0924df5f3ff492428f6bc4b0fde145dbaea066a4 data/minecraft/loot_tables/blocks/gilded_blackstone.json
+ 668715c7f3531a71c7dab554246e8fb86676a5e3 assets/minecraft/models/item/totem_of_undying.json
+ 4b8a6d5a094f3de4acb1930dd8629de8ed4449fc reports/biomes/swamp.json
+-c1dcfaa801ee2979a045994b62cda09e23f0dc06 assets/minecraft/blockstates/potted_azure_bluet.json
+ 21f508fd9e62829c8e0b656bcf8c088c9f68c21c assets/minecraft/blockstates/orange_carpet.json
++c1dcfaa801ee2979a045994b62cda09e23f0dc06 assets/minecraft/blockstates/potted_azure_bluet.json
+ d97bfc12fb97b5b26f7540df3db224461e12c570 data/minecraft/advancements/recipes/building_blocks/polished_diorite_slab.json
+ 47e4f4b6952c8ddd2965129599fcc1f8252e0d92 assets/minecraft/models/item/pink_stained_glass.json
+ 05fce0a87e3100cb6a3b081640f73794959fb1fa reports/biomes/badlands.json
+@@ -2610,8 +2610,8 @@
+ e9da22859c6fb85e18c5a138bee2091823d99b46 data/minecraft/recipes/magenta_carpet_from_white_carpet.json
+ c4d268471ee793597917c966d1aaed29e438d366 assets/minecraft/models/block/oak_trapdoor_bottom.json
+ 03b1a7bd64ba5cd8bfeba0161d3d8f323f611ad8 data/minecraft/loot_tables/gameplay/hero_of_the_village/mason_gift.json
+-fd952e0611d1d2b8cf5f38c142812ea47183f975 assets/minecraft/blockstates/black_banner.json
+ 5832973c838f5c68df5d2e39e64b108d1581148d assets/minecraft/blockstates/bubble_coral_block.json
++fd952e0611d1d2b8cf5f38c142812ea47183f975 assets/minecraft/blockstates/black_banner.json
+ 82de813b80b3787ef086b1beb8471293ec54d124 assets/minecraft/models/block/seagrass.json
+ a09864908e2800513b0bc837917822eae07d88ff assets/minecraft/models/item/warped_fungus.json
+ 799b9cfba4f6b4aac9cc4a621e36584c854e2d5d assets/minecraft/models/item/dark_oak_door.json
+@@ -2950,8 +2950,8 @@
+ e0902436f75b9ae8d769e54538f5c61f0b5bf98e assets/minecraft/blockstates/purple_stained_glass.json
+ db70a5bd4349b1a08b32e042e9e16015e302691b assets/minecraft/models/block/cobweb.json
+ 6e97658d1bdf74eb0f8a07586f2e97397b456b76 data/minecraft/loot_tables/chests/village/village_tannery.json
+-fd952e0611d1d2b8cf5f38c142812ea47183f975 assets/minecraft/blockstates/light_gray_banner.json
+ 9278ed2c2b188aebaca50f20f7165642ab2e1ab2 assets/minecraft/blockstates/trapped_chest.json
++fd952e0611d1d2b8cf5f38c142812ea47183f975 assets/minecraft/blockstates/light_gray_banner.json
+ 374fc761ad454802cb3e7a484cfec94537b114d8 data/minecraft/loot_tables/blocks/spawner.json
+ 51ab17aa2b58b8019ae26e21fc63a4a2bf829c0e data/minecraft/loot_tables/blocks/dead_fire_coral_block.json
+ 6b1a135ab1aa69a5b8677b21be712b9e63593475 data/minecraft/loot_tables/blocks/chiseled_nether_bricks.json
+@@ -4545,8 +4545,8 @@
+ 70b0c5f021a71460c557e6cd14796c6ba383ff3e data/minecraft/loot_tables/blocks/snow_block.json
+ 4fc6e343d55707f42794af1d8ae41521987f7845 assets/minecraft/models/block/smithing_table.json
+ 462f0f161ad0454f2306d8db623ca96a5be07fb8 data/minecraft/loot_tables/blocks/white_wool.json
+-8ad21f2b4fd064c5d5601600d542398844136bdb assets/minecraft/blockstates/red_stained_glass.json
+ fd952e0611d1d2b8cf5f38c142812ea47183f975 assets/minecraft/blockstates/magenta_wall_banner.json
++8ad21f2b4fd064c5d5601600d542398844136bdb assets/minecraft/blockstates/red_stained_glass.json
+ 281d1dd2c849f2c9fda83befa6d890ff7fcb758e data/minecraft/advancements/recipes/misc/coal_from_smelting.json
+ d78520369a2213206e96d2e620b6a87639936479 data/minecraft/loot_tables/blocks/warped_fence.json
+ e83da38bd57a3eb734354a963c6ec88b7c5e8caa assets/minecraft/models/block/stone_pressure_plate_down.json
+@@ -4554,9 +4554,9 @@
+ b0ede084e13e81c652d74c448fa0f43a87252750 data/minecraft/recipes/lime_glazed_terracotta.json
+ 01d34ce9764ddcaba1c2cbf6cd29668092c9d722 assets/minecraft/models/block/crimson_fence_gate_open.json
+ 778cec8b29e25bc5c7e8408f505b1be026ad3cbb assets/minecraft/models/block/crimson_door_bottom_hinge.json
++b39a6a51f8cc6b70e4574cb5efbe03bdaf0ac267 assets/minecraft/blockstates/petrified_oak_slab.json
+ 9d8bd6fa2b95c59337a7a671963dcd7be1291a61 assets/minecraft/blockstates/birch_pressure_plate.json
+ 8d7520d4ee4247a2f53adf06ac5f61834233f775 assets/minecraft/blockstates/potted_dandelion.json
+-b39a6a51f8cc6b70e4574cb5efbe03bdaf0ac267 assets/minecraft/blockstates/petrified_oak_slab.json
+ af818bffd2040385128723425abb59a139189b98 data/minecraft/advancements/recipes/building_blocks/jungle_planks.json
+ 98167609bf3898587f7565736a6fc24a7966cacd assets/minecraft/models/item/magma_cube_spawn_egg.json
+ bec85ef58397ba876f78cb4c07a5aef4d0e34c04 data/minecraft/advancements/recipes/decorations/granite_wall.json

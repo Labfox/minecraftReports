@@ -1,0 +1,371 @@
+diff -urN versions/1.14/data/minecraft/advancements/nether/all_effects.json versions/1.14.1/data/minecraft/advancements/nether/all_effects.json
+--- versions/1.14/data/minecraft/advancements/nether/all_effects.json	2025-07-27 17:05:06.951044322 +0000
++++ versions/1.14.1/data/minecraft/advancements/nether/all_effects.json	2025-07-27 17:06:39.119354601 +0000
+@@ -23,33 +23,33 @@
+       "trigger": "minecraft:effects_changed",
+       "conditions": {
+         "effects": {
+-          "minecraft:hero_of_the_village": {},
++          "minecraft:weakness": {},
++          "minecraft:absorption": {},
++          "minecraft:slow_falling": {},
+           "minecraft:speed": {},
+-          "minecraft:hunger": {},
+-          "minecraft:regeneration": {},
+-          "minecraft:blindness": {},
+-          "minecraft:bad_omen": {},
+-          "minecraft:strength": {},
+-          "minecraft:nausea": {},
+-          "minecraft:glowing": {},
+           "minecraft:water_breathing": {},
+-          "minecraft:jump_boost": {},
+-          "minecraft:absorption": {},
+-          "minecraft:levitation": {},
+-          "minecraft:night_vision": {},
+-          "minecraft:dolphins_grace": {},
++          "minecraft:resistance": {},
++          "minecraft:hero_of_the_village": {},
+           "minecraft:mining_fatigue": {},
+-          "minecraft:weakness": {},
+-          "minecraft:poison": {},
+-          "minecraft:conduit_power": {},
++          "minecraft:nausea": {},
++          "minecraft:strength": {},
+           "minecraft:wither": {},
+-          "minecraft:resistance": {},
+-          "minecraft:slowness": {},
+-          "minecraft:haste": {},
+           "minecraft:fire_resistance": {},
++          "minecraft:slowness": {},
++          "minecraft:bad_omen": {},
+           "minecraft:invisibility": {},
++          "minecraft:levitation": {},
++          "minecraft:blindness": {},
+           "minecraft:saturation": {},
+-          "minecraft:slow_falling": {}
++          "minecraft:night_vision": {},
++          "minecraft:conduit_power": {},
++          "minecraft:poison": {},
++          "minecraft:jump_boost": {},
++          "minecraft:regeneration": {},
++          "minecraft:haste": {},
++          "minecraft:hunger": {},
++          "minecraft:glowing": {},
++          "minecraft:dolphins_grace": {}
+         }
+       }
+     }
+diff -urN versions/1.14/data/minecraft/advancements/nether/all_potions.json versions/1.14.1/data/minecraft/advancements/nether/all_potions.json
+--- versions/1.14/data/minecraft/advancements/nether/all_potions.json	2025-07-27 17:05:06.950985222 +0000
++++ versions/1.14.1/data/minecraft/advancements/nether/all_potions.json	2025-07-27 17:06:39.119310779 +0000
+@@ -23,19 +23,19 @@
+       "trigger": "minecraft:effects_changed",
+       "conditions": {
+         "effects": {
+-          "minecraft:night_vision": {},
++          "minecraft:fire_resistance": {},
++          "minecraft:slowness": {},
++          "minecraft:invisibility": {},
+           "minecraft:weakness": {},
+-          "minecraft:poison": {},
++          "minecraft:slow_falling": {},
++          "minecraft:night_vision": {},
+           "minecraft:speed": {},
+-          "minecraft:regeneration": {},
+-          "minecraft:resistance": {},
+-          "minecraft:strength": {},
+-          "minecraft:slowness": {},
+-          "minecraft:fire_resistance": {},
+           "minecraft:water_breathing": {},
+-          "minecraft:invisibility": {},
++          "minecraft:resistance": {},
++          "minecraft:poison": {},
+           "minecraft:jump_boost": {},
+-          "minecraft:slow_falling": {}
++          "minecraft:regeneration": {},
++          "minecraft:strength": {}
+         }
+       }
+     }
+diff -urN versions/1.14/data/minecraft/loot_tables/chests/shipwreck_supply.json versions/1.14.1/data/minecraft/loot_tables/chests/shipwreck_supply.json
+--- versions/1.14/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-07-27 17:05:07.000441352 +0000
++++ versions/1.14.1/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-07-27 17:06:39.142690587 +0000
+@@ -91,13 +91,6 @@
+               "function": "minecraft:set_stew_effect",
+               "effects": [
+                 {
+-                  "type": "minecraft:weakness",
+-                  "duration": {
+-                    "min": 6.0,
+-                    "max": 8.0
+-                  }
+-                },
+-                {
+                   "type": "minecraft:poison",
+                   "duration": {
+                     "min": 10.0,
+@@ -105,31 +98,38 @@
+                   }
+                 },
+                 {
+-                  "type": "minecraft:saturation",
++                  "type": "minecraft:jump_boost",
+                   "duration": {
+                     "min": 7.0,
+                     "max": 10.0
+                   }
+                 },
+                 {
+-                  "type": "minecraft:jump_boost",
++                  "type": "minecraft:blindness",
+                   "duration": {
+-                    "min": 7.0,
+-                    "max": 10.0
++                    "min": 5.0,
++                    "max": 7.0
+                   }
+                 },
+                 {
+-                  "type": "minecraft:speed",
++                  "type": "minecraft:weakness",
++                  "duration": {
++                    "min": 6.0,
++                    "max": 8.0
++                  }
++                },
++                {
++                  "type": "minecraft:saturation",
+                   "duration": {
+                     "min": 7.0,
+                     "max": 10.0
+                   }
+                 },
+                 {
+-                  "type": "minecraft:blindness",
++                  "type": "minecraft:speed",
+                   "duration": {
+-                    "min": 5.0,
+-                    "max": 7.0
++                    "min": 7.0,
++                    "max": 10.0
+                   }
+                 }
+               ]
+diff -urN versions/1.14/generated/.cache/cache versions/1.14.1/generated/.cache/cache
+--- versions/1.14/generated/.cache/cache	2025-07-27 17:05:06.611495221 +0000
++++ versions/1.14.1/generated/.cache/cache	2025-07-27 17:06:39.015504023 +0000
+@@ -244,7 +244,7 @@
+ 48e3f51b2fa7d50d138cc704fd0269abdccab73e data/minecraft/recipes/nether_brick_fence.json
+ a721d78d594282a09dfc8da7aab481f4f04d240e data/minecraft/recipes/gold_nugget_from_blasting.json
+ 8ea6728c26d15d0748affc47fceed65924bdf2e2 data/minecraft/recipes/end_stone_brick_slab_from_end_stone_brick_stonecutting.json
+-c02691cc11ac8da5620e330bd6995be64f7b906a data/minecraft/advancements/nether/all_effects.json
++ec84359323bfd688001710edaf12c7b95b23c083 data/minecraft/advancements/nether/all_effects.json
+ d5c0921435c01e5d0f7ff468d9c99b6b66b621b7 data/minecraft/advancements/recipes/misc/composter.json
+ a4933ebabe39245128ee357f4635fa9d81af0db9 data/minecraft/advancements/recipes/building_blocks/green_terracotta.json
+ 6babe9e1bd5d96b0f3d6de3d4994fec35343cb4d data/minecraft/loot_tables/blocks/acacia_leaves.json
+@@ -501,7 +501,7 @@
+ 5656dd6d010165e9af1370ac224ba7f515b75233 data/minecraft/recipes/diamond_axe.json
+ 473c30955f3175aec24f5d841ffc056915101506 data/minecraft/advancements/recipes/decorations/red_nether_brick_wall_from_red_nether_bricks_stonecutting.json
+ 44c3384519fedd58e2867b3d9b0278b230017c77 data/minecraft/advancements/recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting.json
+-c5e49ec240fce0d0a4424b2df493846d10a7357b reports/registries.json
++895a892f50eefd1ad9f1f37198f85c8a5504e314 reports/registries.json
+ cfab5e6b78de3c6d1401f86236ea9da0e606e9cc data/minecraft/tags/items/buttons.json
+ b1feda4433c17812c6b3197c29f3825faa0f7924 data/minecraft/loot_tables/blocks/purple_bed.json
+ 4cedbaf4ba1e3050119db35021b55eb4c6419381 data/minecraft/loot_tables/blocks/poppy.json
+@@ -953,7 +953,7 @@
+ 19e73af1b356ee0f1162268d3c162831bcf203e9 data/minecraft/tags/blocks/dragon_immune.json
+ d762810c00b292afccc2ac343a2dabfeecb39c50 data/minecraft/recipes/smooth_stone.json
+ ecec0cd80c0f218f899888a4e248522ce6d4ffe6 data/minecraft/recipes/orange_dye_from_red_yellow.json
+-05d5efa78a3166d70beb1c4f832482c95bf1a5a0 data/minecraft/loot_tables/chests/shipwreck_supply.json
++a7c74ab3bf0974dc1ee1be3fe8b385dd415518e1 data/minecraft/loot_tables/chests/shipwreck_supply.json
+ 3b575239a8bb39eca265e3a49900822360567630 data/minecraft/advancements/recipes/building_blocks/cracked_stone_bricks.json
+ 2142d5c4b4dfeef393f1ccf20f0e1bf14adc1349 data/minecraft/recipes/stone_bricks_from_stone_stonecutting.json
+ 376bdb72c2b9b5704096269845e553cf90b24781 data/minecraft/recipes/jungle_boat.json
+@@ -1527,7 +1527,7 @@
+ fb4ae8267d9df72cde8b1fa348becc035aaabe00 data/minecraft/advancements/recipes/food/cooked_rabbit_from_smoking.json
+ 8fbee58b43ceab9cc4516ae77f54e4eb5a91b1b2 data/minecraft/advancements/end/levitate.json
+ a1b1c8ae47ccf3840f533f9d2ccb2484315ea19f data/minecraft/loot_tables/blocks/dragon_head.json
+-42ee694e09b1f7dff658e4f16c158783119e1cf8 data/minecraft/advancements/nether/all_potions.json
++0ecb2aa102560dd1f01ac27db012c4df3f0178a9 data/minecraft/advancements/nether/all_potions.json
+ fba69c8391e3c6f8572dcfdd8c83d621acd8b1a7 data/minecraft/loot_tables/blocks/smoker.json
+ d283a796c10d14ea185c8ac8cc63f84a59a1d4ce data/minecraft/loot_tables/blocks/creeper_head.json
+ 300aa4a80ce8079cac2311c2b31527982af9832b data/minecraft/advancements/recipes/decorations/yellow_carpet_from_white_carpet.json
+diff -urN versions/1.14/generated/data/minecraft/advancements/nether/all_effects.json versions/1.14.1/generated/data/minecraft/advancements/nether/all_effects.json
+--- versions/1.14/generated/data/minecraft/advancements/nether/all_effects.json	2025-07-27 17:05:02.312494811 +0000
++++ versions/1.14.1/generated/data/minecraft/advancements/nether/all_effects.json	2025-07-27 17:06:37.110503841 +0000
+@@ -23,33 +23,33 @@
+       "trigger": "minecraft:effects_changed",
+       "conditions": {
+         "effects": {
+-          "minecraft:hero_of_the_village": {},
++          "minecraft:weakness": {},
++          "minecraft:absorption": {},
++          "minecraft:slow_falling": {},
+           "minecraft:speed": {},
+-          "minecraft:hunger": {},
+-          "minecraft:regeneration": {},
+-          "minecraft:blindness": {},
+-          "minecraft:bad_omen": {},
+-          "minecraft:strength": {},
+-          "minecraft:nausea": {},
+-          "minecraft:glowing": {},
+           "minecraft:water_breathing": {},
+-          "minecraft:jump_boost": {},
+-          "minecraft:absorption": {},
+-          "minecraft:levitation": {},
+-          "minecraft:night_vision": {},
+-          "minecraft:dolphins_grace": {},
++          "minecraft:resistance": {},
++          "minecraft:hero_of_the_village": {},
+           "minecraft:mining_fatigue": {},
+-          "minecraft:weakness": {},
+-          "minecraft:poison": {},
+-          "minecraft:conduit_power": {},
++          "minecraft:nausea": {},
++          "minecraft:strength": {},
+           "minecraft:wither": {},
+-          "minecraft:resistance": {},
+-          "minecraft:slowness": {},
+-          "minecraft:haste": {},
+           "minecraft:fire_resistance": {},
++          "minecraft:slowness": {},
++          "minecraft:bad_omen": {},
+           "minecraft:invisibility": {},
++          "minecraft:levitation": {},
++          "minecraft:blindness": {},
+           "minecraft:saturation": {},
+-          "minecraft:slow_falling": {}
++          "minecraft:night_vision": {},
++          "minecraft:conduit_power": {},
++          "minecraft:poison": {},
++          "minecraft:jump_boost": {},
++          "minecraft:regeneration": {},
++          "minecraft:haste": {},
++          "minecraft:hunger": {},
++          "minecraft:glowing": {},
++          "minecraft:dolphins_grace": {}
+         }
+       }
+     }
+diff -urN versions/1.14/generated/data/minecraft/advancements/nether/all_potions.json versions/1.14.1/generated/data/minecraft/advancements/nether/all_potions.json
+--- versions/1.14/generated/data/minecraft/advancements/nether/all_potions.json	2025-07-27 17:05:02.311494811 +0000
++++ versions/1.14.1/generated/data/minecraft/advancements/nether/all_potions.json	2025-07-27 17:06:37.108503841 +0000
+@@ -23,19 +23,19 @@
+       "trigger": "minecraft:effects_changed",
+       "conditions": {
+         "effects": {
+-          "minecraft:night_vision": {},
++          "minecraft:fire_resistance": {},
++          "minecraft:slowness": {},
++          "minecraft:invisibility": {},
+           "minecraft:weakness": {},
+-          "minecraft:poison": {},
++          "minecraft:slow_falling": {},
++          "minecraft:night_vision": {},
+           "minecraft:speed": {},
+-          "minecraft:regeneration": {},
+-          "minecraft:resistance": {},
+-          "minecraft:strength": {},
+-          "minecraft:slowness": {},
+-          "minecraft:fire_resistance": {},
+           "minecraft:water_breathing": {},
+-          "minecraft:invisibility": {},
++          "minecraft:resistance": {},
++          "minecraft:poison": {},
+           "minecraft:jump_boost": {},
+-          "minecraft:slow_falling": {}
++          "minecraft:regeneration": {},
++          "minecraft:strength": {}
+         }
+       }
+     }
+diff -urN versions/1.14/generated/data/minecraft/loot_tables/chests/shipwreck_supply.json versions/1.14.1/generated/data/minecraft/loot_tables/chests/shipwreck_supply.json
+--- versions/1.14/generated/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-07-27 17:05:03.660494940 +0000
++++ versions/1.14.1/generated/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-07-27 17:06:37.639503892 +0000
+@@ -91,13 +91,6 @@
+               "function": "minecraft:set_stew_effect",
+               "effects": [
+                 {
+-                  "type": "minecraft:weakness",
+-                  "duration": {
+-                    "min": 6.0,
+-                    "max": 8.0
+-                  }
+-                },
+-                {
+                   "type": "minecraft:poison",
+                   "duration": {
+                     "min": 10.0,
+@@ -105,31 +98,38 @@
+                   }
+                 },
+                 {
+-                  "type": "minecraft:saturation",
++                  "type": "minecraft:jump_boost",
+                   "duration": {
+                     "min": 7.0,
+                     "max": 10.0
+                   }
+                 },
+                 {
+-                  "type": "minecraft:jump_boost",
++                  "type": "minecraft:blindness",
+                   "duration": {
+-                    "min": 7.0,
+-                    "max": 10.0
++                    "min": 5.0,
++                    "max": 7.0
+                   }
+                 },
+                 {
+-                  "type": "minecraft:speed",
++                  "type": "minecraft:weakness",
++                  "duration": {
++                    "min": 6.0,
++                    "max": 8.0
++                  }
++                },
++                {
++                  "type": "minecraft:saturation",
+                   "duration": {
+                     "min": 7.0,
+                     "max": 10.0
+                   }
+                 },
+                 {
+-                  "type": "minecraft:blindness",
++                  "type": "minecraft:speed",
+                   "duration": {
+-                    "min": 5.0,
+-                    "max": 7.0
++                    "min": 7.0,
++                    "max": 10.0
+                   }
+                 }
+               ]
+diff -urN versions/1.14/generated/reports/registries.json versions/1.14.1/generated/reports/registries.json
+--- versions/1.14/generated/reports/registries.json	2025-07-27 17:05:04.904367568 +0000
++++ versions/1.14.1/generated/reports/registries.json	2025-07-27 17:06:38.334417250 +0000
+@@ -9789,6 +9789,9 @@
+       },
+       "minecraft:heard_bell_time": {
+         "protocol_id": 22
++      },
++      "minecraft:cant_reach_walk_target_since": {
++        "protocol_id": 23
+       }
+     }
+   },
+diff -urN versions/1.14/reports/registries.json versions/1.14.1/reports/registries.json
+--- versions/1.14/reports/registries.json	2025-07-27 17:05:07.009495259 +0000
++++ versions/1.14.1/reports/registries.json	2025-07-27 17:06:39.144722398 +0000
+@@ -9789,6 +9789,9 @@
+       },
+       "minecraft:heard_bell_time": {
+         "protocol_id": 22
++      },
++      "minecraft:cant_reach_walk_target_since": {
++        "protocol_id": 23
+       }
+     }
+   },

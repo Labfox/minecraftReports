@@ -1,0 +1,2066 @@
+diff -urN versions/1.20/assets/minecraft/blockstates/chiseled_bookshelf.json versions/1.20.1/assets/minecraft/blockstates/chiseled_bookshelf.json
+--- versions/1.20/assets/minecraft/blockstates/chiseled_bookshelf.json	2025-07-27 16:52:40.485759643 +0000
++++ versions/1.20.1/assets/minecraft/blockstates/chiseled_bookshelf.json	2025-07-27 16:52:53.369953560 +0000
+@@ -4,21 +4,85 @@
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf",
+         "uvlock": true,
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+-        "facing": "east"
++        "facing": "north"
++      }
++    },
++    {
++      "apply": {
++        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
++        "y": 0
++      },
++      "when": {
++        "AND": [
++          {
++            "facing": "north"
++          },
++          {
++            "slot_4_occupied": "true"
++          }
++        ]
++      }
++    },
++    {
++      "apply": {
++        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid",
++        "y": 0
++      },
++      "when": {
++        "AND": [
++          {
++            "facing": "north"
++          },
++          {
++            "slot_4_occupied": "false"
++          }
++        ]
++      }
++    },
++    {
++      "apply": {
++        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_left",
++        "y": 0
++      },
++      "when": {
++        "AND": [
++          {
++            "facing": "north"
++          },
++          {
++            "slot_0_occupied": "true"
++          }
++        ]
++      }
++    },
++    {
++      "apply": {
++        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_left",
++        "y": 0
++      },
++      "when": {
++        "AND": [
++          {
++            "facing": "north"
++          },
++          {
++            "slot_0_occupied": "false"
++          }
++        ]
+       }
+     },
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_2_occupied": "true"
+@@ -29,12 +93,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_2_occupied": "false"
+@@ -45,12 +109,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_5_occupied": "true"
+@@ -61,12 +125,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_5_occupied": "false"
+@@ -77,12 +141,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_3_occupied": "true"
+@@ -93,12 +157,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_3_occupied": "false"
+@@ -109,12 +173,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_1_occupied": "true"
+@@ -125,12 +189,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_1_occupied": "false"
+@@ -140,6 +204,16 @@
+     },
+     {
+       "apply": {
++        "model": "minecraft:block/chiseled_bookshelf",
++        "uvlock": true,
++        "y": 90
++      },
++      "when": {
++        "facing": "east"
++      }
++    },
++    {
++      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+         "y": 90
+       },
+@@ -204,23 +278,13 @@
+     },
+     {
+       "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf",
+-        "uvlock": true,
+-        "y": 180
+-      },
+-      "when": {
+-        "facing": "south"
+-      }
+-    },
+-    {
+-      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_2_occupied": "true"
+@@ -231,12 +295,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_2_occupied": "false"
+@@ -247,12 +311,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_5_occupied": "true"
+@@ -263,12 +327,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_5_occupied": "false"
+@@ -279,12 +343,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_3_occupied": "true"
+@@ -295,12 +359,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_3_occupied": "false"
+@@ -311,12 +375,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_1_occupied": "true"
+@@ -327,12 +391,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_1_occupied": "false"
+@@ -342,6 +406,16 @@
+     },
+     {
+       "apply": {
++        "model": "minecraft:block/chiseled_bookshelf",
++        "uvlock": true,
++        "y": 180
++      },
++      "when": {
++        "facing": "south"
++      }
++    },
++    {
++      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+         "y": 180
+       },
+@@ -406,23 +480,13 @@
+     },
+     {
+       "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf",
+-        "uvlock": true,
+-        "y": 270
+-      },
+-      "when": {
+-        "facing": "west"
+-      }
+-    },
+-    {
+-      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_2_occupied": "true"
+@@ -433,12 +497,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_2_occupied": "false"
+@@ -449,12 +513,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_5_occupied": "true"
+@@ -465,12 +529,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_5_occupied": "false"
+@@ -481,12 +545,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_3_occupied": "true"
+@@ -497,12 +561,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_3_occupied": "false"
+@@ -513,12 +577,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_1_occupied": "true"
+@@ -529,12 +593,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_1_occupied": "false"
+@@ -544,6 +608,16 @@
+     },
+     {
+       "apply": {
++        "model": "minecraft:block/chiseled_bookshelf",
++        "uvlock": true,
++        "y": 270
++      },
++      "when": {
++        "facing": "west"
++      }
++    },
++    {
++      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+         "y": 270
+       },
+@@ -608,23 +682,13 @@
+     },
+     {
+       "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf",
+-        "uvlock": true,
+-        "y": 0
+-      },
+-      "when": {
+-        "facing": "north"
+-      }
+-    },
+-    {
+-      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_2_occupied": "true"
+@@ -635,12 +699,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_2_occupied": "false"
+@@ -651,12 +715,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_5_occupied": "true"
+@@ -667,12 +731,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_5_occupied": "false"
+@@ -683,12 +747,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_3_occupied": "true"
+@@ -699,12 +763,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_3_occupied": "false"
+@@ -715,12 +779,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_1_occupied": "true"
+@@ -731,82 +795,18 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_1_occupied": "false"
+           }
+         ]
+       }
+-    },
+-    {
+-      "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+-        "y": 0
+-      },
+-      "when": {
+-        "AND": [
+-          {
+-            "facing": "north"
+-          },
+-          {
+-            "slot_4_occupied": "true"
+-          }
+-        ]
+-      }
+-    },
+-    {
+-      "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid",
+-        "y": 0
+-      },
+-      "when": {
+-        "AND": [
+-          {
+-            "facing": "north"
+-          },
+-          {
+-            "slot_4_occupied": "false"
+-          }
+-        ]
+-      }
+-    },
+-    {
+-      "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_left",
+-        "y": 0
+-      },
+-      "when": {
+-        "AND": [
+-          {
+-            "facing": "north"
+-          },
+-          {
+-            "slot_0_occupied": "true"
+-          }
+-        ]
+-      }
+-    },
+-    {
+-      "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_left",
+-        "y": 0
+-      },
+-      "when": {
+-        "AND": [
+-          {
+-            "facing": "north"
+-          },
+-          {
+-            "slot_0_occupied": "false"
+-          }
+-        ]
+-      }
+     }
+   ]
+ }
+\ No newline at end of file
+diff -urN versions/1.20/generated/.cache/07ae89b447f4f28ebe1019e28fd8eaf85b3c5469 versions/1.20.1/generated/.cache/07ae89b447f4f28ebe1019e28fd8eaf85b3c5469
+--- versions/1.20/generated/.cache/07ae89b447f4f28ebe1019e28fd8eaf85b3c5469	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/07ae89b447f4f28ebe1019e28fd8eaf85b3c5469	2025-07-27 16:52:53.219425360 +0000
+@@ -1 +1 @@
+-// 1.20	2025-07-27T16:52:40.325720939	vanilla/SNBT -> NBT
++// 1.20.1	2025-07-27T16:52:53.220373481	vanilla/SNBT -> NBT
+diff -urN versions/1.20/generated/.cache/0d5e9a2f5763b6afd6cddcf342bea51aa0300df1 versions/1.20.1/generated/.cache/0d5e9a2f5763b6afd6cddcf342bea51aa0300df1
+--- versions/1.20/generated/.cache/0d5e9a2f5763b6afd6cddcf342bea51aa0300df1	2025-07-27 16:52:40.324424131 +0000
++++ versions/1.20.1/generated/.cache/0d5e9a2f5763b6afd6cddcf342bea51aa0300df1	2025-07-27 16:52:53.219425360 +0000
+@@ -1,3 +1,3 @@
+-// 1.20	2025-07-27T16:52:40.325421088	vanilla/Tags for minecraft:cat_variant
++// 1.20.1	2025-07-27T16:52:53.21983315	vanilla/Tags for minecraft:cat_variant
+ 438af46519492d30c9f70f7b000514e91189c727 data/minecraft/tags/cat_variant/full_moon_spawns.json
+ 57eed34a77b40c42d1af8c1144b111321771955c data/minecraft/tags/cat_variant/default_spawns.json
+diff -urN versions/1.20/generated/.cache/0f0419d4e35dadf40f45344381b66246dcbf2eff versions/1.20.1/generated/.cache/0f0419d4e35dadf40f45344381b66246dcbf2eff
+--- versions/1.20/generated/.cache/0f0419d4e35dadf40f45344381b66246dcbf2eff	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/0f0419d4e35dadf40f45344381b66246dcbf2eff	2025-07-27 16:52:53.220425360 +0000
+@@ -1,3 +1,3 @@
+-// 1.20	2025-07-27T16:52:40.326161703	bundle/Recipes
++// 1.20.1	2025-07-27T16:52:53.220728776	bundle/Recipes
+ 57b26695832d41d7e623ad5b6941a5d4be7a7882 data/minecraft/datapacks/bundle/data/minecraft/recipes/bundle.json
+ ac32c68ba94b9bbaac501e54db4eab71747ba816 data/minecraft/datapacks/bundle/data/minecraft/advancements/recipes/tools/bundle.json
+diff -urN versions/1.20/generated/.cache/1409ef9e6b1f5b99e95b5bbb6e47e47dc15b5a4c versions/1.20.1/generated/.cache/1409ef9e6b1f5b99e95b5bbb6e47e47dc15b5a4c
+--- versions/1.20/generated/.cache/1409ef9e6b1f5b99e95b5bbb6e47e47dc15b5a4c	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/1409ef9e6b1f5b99e95b5bbb6e47e47dc15b5a4c	2025-07-27 16:52:53.220425360 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.326003728	vanilla/Tags for minecraft:point_of_interest_type
++// 1.20.1	2025-07-27T16:52:53.220595426	vanilla/Tags for minecraft:point_of_interest_type
+ a2bbc38191404160511826ec4c5c2d0447f6ecb7 data/minecraft/tags/point_of_interest_type/acquirable_job_site.json
+ c0592cf2b547fda417c3d55356ee1b912a53b865 data/minecraft/tags/point_of_interest_type/village.json
+ 077cbdf449fccc3020a4159bf29058a7aff232d8 data/minecraft/tags/point_of_interest_type/bee_home.json
+diff -urN versions/1.20/generated/.cache/163bdb8bd430d57d6e96299a7e9dd809b91244f4 versions/1.20.1/generated/.cache/163bdb8bd430d57d6e96299a7e9dd809b91244f4
+--- versions/1.20/generated/.cache/163bdb8bd430d57d6e96299a7e9dd809b91244f4	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/163bdb8bd430d57d6e96299a7e9dd809b91244f4	2025-07-27 16:52:53.219425360 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.325774859	vanilla/Tags for minecraft:entity_type
++// 1.20.1	2025-07-27T16:52:53.220420649	vanilla/Tags for minecraft:entity_type
+ 4c073b476785113705dfd3c6b286a337ddbd56b0 data/minecraft/tags/entity_types/beehive_inhabitors.json
+ 8629ab74d7e233ee955826685af6d6e0b912cac4 data/minecraft/tags/entity_types/axolotl_always_hostiles.json
+ e6bb1e32246a74615e8d3425540ddab618245861 data/minecraft/tags/entity_types/skeletons.json
+diff -urN versions/1.20/generated/.cache/1b94ff5f67111165b5ec6dee19b7c7d6fbc0677c versions/1.20.1/generated/.cache/1b94ff5f67111165b5ec6dee19b7c7d6fbc0677c
+--- versions/1.20/generated/.cache/1b94ff5f67111165b5ec6dee19b7c7d6fbc0677c	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/1b94ff5f67111165b5ec6dee19b7c7d6fbc0677c	2025-07-27 16:52:53.219425360 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.325857143	vanilla/Tags for minecraft:banner_pattern
++// 1.20.1	2025-07-27T16:52:53.220485631	vanilla/Tags for minecraft:banner_pattern
+ 2fde436967c97bd28b21e6d604d3e3d0909aa5fa data/minecraft/tags/banner_pattern/pattern_item/globe.json
+ fd8784340c4bcf8c4f20feea086ceebd965d20d7 data/minecraft/tags/banner_pattern/pattern_item/skull.json
+ 8a9a603a5ac941a149f07099fb0bcbb6320026c8 data/minecraft/tags/banner_pattern/pattern_item/flower.json
+diff -urN versions/1.20/generated/.cache/211593f3f24aa9694ddef58e4e84f6f2d01349a7 versions/1.20.1/generated/.cache/211593f3f24aa9694ddef58e4e84f6f2d01349a7
+--- versions/1.20/generated/.cache/211593f3f24aa9694ddef58e4e84f6f2d01349a7	2025-07-27 16:52:40.324424131 +0000
++++ versions/1.20.1/generated/.cache/211593f3f24aa9694ddef58e4e84f6f2d01349a7	2025-07-27 16:52:53.218425359 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.324608257	vanilla/Tags for minecraft:worldgen/biome
++// 1.20.1	2025-07-27T16:52:53.219307567	vanilla/Tags for minecraft:worldgen/biome
+ cfdcb319da5d14a39f3b32e5f0e83e496eee9e43 data/minecraft/tags/worldgen/biome/snow_golem_melts.json
+ f813468c93191d40d0ec09e399b71a5f9c33ce5d data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_warm.json
+ 0f241c94b10e4b16b4304f66ad949bb089955b1e data/minecraft/tags/worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
+@@ -13,8 +13,8 @@
+ 7b579e8660b80a30df3693ab8b42a9cb43915aef data/minecraft/tags/worldgen/biome/increased_fire_burnout.json
+ c3d4e55bd4ed5d178abb10df76626eccdab7c209 data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_jungle.json
+ 6410267e4c6c6e433ffa5df5cb5f1fefed919409 data/minecraft/tags/worldgen/biome/produces_corals_from_bonemeal.json
+-a053eff4bd26b67c251ccf59a66ab8a98bbe5f6b data/minecraft/tags/worldgen/biome/is_badlands.json
+ 70978571ac75b9d8954293882c95413c8505d39f data/minecraft/tags/worldgen/biome/spawns_snow_foxes.json
++a053eff4bd26b67c251ccf59a66ab8a98bbe5f6b data/minecraft/tags/worldgen/biome/is_badlands.json
+ eac36e45c24e9f2ff3c1f50ad2ea4fc921892916 data/minecraft/tags/worldgen/biome/has_structure/village_taiga.json
+ 92d2cbd84ddef8c77972b539dd8c7cffaa131aed data/minecraft/tags/worldgen/biome/reduce_water_ambient_spawns.json
+ ff13fafcc6c847d2ce8a4262842bf1316dc580ea data/minecraft/tags/worldgen/biome/has_structure/shipwreck_beached.json
+@@ -26,8 +26,8 @@
+ 92d2cbd84ddef8c77972b539dd8c7cffaa131aed data/minecraft/tags/worldgen/biome/more_frequent_drowned_spawns.json
+ 1d08d3b15c59b4c742161ec69693b66fc2ef75d6 data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_cold.json
+ f85bfa0d4b462706e486bac541e720ebc630330c data/minecraft/tags/worldgen/biome/is_jungle.json
+-4515b902a2803d77400aa33b8a3a7751bcaf389a data/minecraft/tags/worldgen/biome/has_structure/jungle_temple.json
+ 45707864d688ef531d52bd0287366ea1e7736874 data/minecraft/tags/worldgen/biome/has_structure/mineshaft_mesa.json
++4515b902a2803d77400aa33b8a3a7751bcaf389a data/minecraft/tags/worldgen/biome/has_structure/jungle_temple.json
+ 9f1a7b9d7c1f633c2245e7066a7bdc93fafb7ffd data/minecraft/tags/worldgen/biome/is_deep_ocean.json
+ 6525dda69924a36f16797ed873bffc083e1f4de5 data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_swamp.json
+ f435c629c4e64303cb04329925903bda3d917ba9 data/minecraft/tags/worldgen/biome/is_hill.json
+@@ -54,8 +54,8 @@
+ a24545b58f3f91c6c033586e2b2ae12f1e8131b1 data/minecraft/tags/worldgen/biome/has_structure/nether_fortress.json
+ f3ef2895c49e29111297e950661e5bc71a79989e data/minecraft/tags/worldgen/biome/has_structure/desert_pyramid.json
+ 7ab168754d6e78ecef39a6d1baa046622304b683 data/minecraft/tags/worldgen/biome/polar_bears_spawn_on_alternate_blocks.json
+-080d246ec6009090db8d9470d55c3ec78f26eced data/minecraft/tags/worldgen/biome/has_structure/igloo.json
+ 068e9616fd14b1280352ffc9d66cc3846c00a5e4 data/minecraft/tags/worldgen/biome/is_ocean.json
++080d246ec6009090db8d9470d55c3ec78f26eced data/minecraft/tags/worldgen/biome/has_structure/igloo.json
+ 5f176659fa27569cc678ddae4a306c2055a89a16 data/minecraft/tags/worldgen/biome/has_structure/woodland_mansion.json
+ ec7bbb0c9b5fc5378f8716f54862806404f04360 data/minecraft/tags/worldgen/biome/has_structure/ocean_monument.json
+ 65aef629239b5fa923be6767bb43c837ebb35e8a data/minecraft/tags/worldgen/biome/plays_underwater_music.json
+diff -urN versions/1.20/generated/.cache/2684ce933959e21b1877dd70df4e2422904619b1 versions/1.20.1/generated/.cache/2684ce933959e21b1877dd70df4e2422904619b1
+--- versions/1.20/generated/.cache/2684ce933959e21b1877dd70df4e2422904619b1	2025-07-27 16:52:40.330424132 +0000
++++ versions/1.20.1/generated/.cache/2684ce933959e21b1877dd70df4e2422904619b1	2025-07-27 16:52:53.226425360 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.326236723	vanilla/Recipes
++// 1.20.1	2025-07-27T16:52:53.220787235	vanilla/Recipes
+ b0778075ac0a123fb739c605a45ee3c0af83076e data/minecraft/advancements/recipes/redstone/oak_pressure_plate.json
+ 5800c1f05a328e7d3dc1d876d398e373af5419e9 data/minecraft/recipes/end_stone_brick_wall_from_end_stone_stonecutting.json
+ 72a12f4361f64ca72a81baada53e09337f483ac9 data/minecraft/advancements/recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting.json
+@@ -1059,8 +1059,8 @@
+ 58ab5c8a11b3512c1f29917b49fb7373794bfb37 data/minecraft/recipes/book_cloning.json
+ 764fb46f35c64fbd1a92d0d97026cbd85deca613 data/minecraft/advancements/recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting.json
+ 544e97182b30ef086d92433609174dd7d49b47a5 data/minecraft/recipes/yellow_candle.json
+-835088d2e2d842734ca20a95b37043d5dca7459b data/minecraft/advancements/recipes/building_blocks/mossy_cobblestone_slab.json
+ 5bbf4a562369a15c0f706e0a458ee05577af2ee4 data/minecraft/recipes/pink_stained_glass_pane_from_glass_pane.json
++835088d2e2d842734ca20a95b37043d5dca7459b data/minecraft/advancements/recipes/building_blocks/mossy_cobblestone_slab.json
+ c48f3a47a65c783a96df1c8a191b680f4145d1c7 data/minecraft/recipes/raw_iron.json
+ 7738484753fa82dd54ce852a6bf1b0ad77dba743 data/minecraft/advancements/recipes/transportation/furnace_minecart.json
+ 02fb50ac97fbd7aed65f847d0dea7463f41f190a data/minecraft/recipes/bamboo_mosaic.json
+@@ -1960,8 +1960,8 @@
+ b251f7128cc60a1639b8c3846b2ab5c2e71b5f05 data/minecraft/recipes/mossy_stone_brick_wall.json
+ e978520a9d7ffeeeddf4b56eb2a168914029a37c data/minecraft/advancements/recipes/building_blocks/raw_copper_block.json
+ fa892b60b7fbc8eaccf8f791b6ca6721359c02ff data/minecraft/recipes/diorite_wall_from_diorite_stonecutting.json
+-2d4bc92853af852e4eb2007e46a69437bb54a1ce data/minecraft/advancements/recipes/building_blocks/mangrove_stairs.json
+ de82e2c61755cddc1ff8a4b412446084a12f824f data/minecraft/recipes/mangrove_fence.json
++2d4bc92853af852e4eb2007e46a69437bb54a1ce data/minecraft/advancements/recipes/building_blocks/mangrove_stairs.json
+ 0626e7fe22a59a77cd9d0f19471ee933137d0d8f data/minecraft/advancements/recipes/building_blocks/cobbled_deepslate_stairs.json
+ 50a4f15260c2b9203fb36512e9a295adef5c3a0b data/minecraft/advancements/recipes/misc/tide_armor_trim_smithing_template_smithing_trim.json
+ 667db7d4be9b2b06dbb2de5939b85b6eed7dd317 data/minecraft/recipes/blue_concrete_powder.json
+@@ -2096,8 +2096,8 @@
+ 94f56e3b1a245a3c002d3da00c5f53bfe7e3b0f9 data/minecraft/advancements/recipes/misc/sugar_from_honey_bottle.json
+ df211a1236c61c8a02f053957268514dacd833d9 data/minecraft/recipes/leather.json
+ 012bd07ed4bee25b6cfc8e7ca79bab29cf55b9f4 data/minecraft/recipes/sandstone_wall.json
+-af47d8b6d2e58bffd9263154db48b6d3f9286001 data/minecraft/recipes/warped_trapdoor.json
+ efbc412c4ad9ec793fdc85929c13baaee75069f1 data/minecraft/advancements/recipes/redstone/warped_button.json
++af47d8b6d2e58bffd9263154db48b6d3f9286001 data/minecraft/recipes/warped_trapdoor.json
+ d702b49273bb111e4a94ae3867f8309271c6f820 data/minecraft/recipes/redstone_torch.json
+ ff556789a0aaba8607e682aa362b7cef4e64b256 data/minecraft/advancements/recipes/decorations/snow.json
+ dfef357657b1a94e99735a0803f7f2ebc0a01449 data/minecraft/recipes/red_sandstone_stairs.json
+diff -urN versions/1.20/generated/.cache/301612c7823ddaacac075c3b9657257e970a6b56 versions/1.20.1/generated/.cache/301612c7823ddaacac075c3b9657257e970a6b56
+--- versions/1.20/generated/.cache/301612c7823ddaacac075c3b9657257e970a6b56	2025-07-27 16:52:40.319424131 +0000
++++ versions/1.20.1/generated/.cache/301612c7823ddaacac075c3b9657257e970a6b56	2025-07-27 16:52:53.215425359 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.310165508	vanilla/Model Definitions
++// 1.20.1	2025-07-27T16:52:53.203262761	vanilla/Model Definitions
+ 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/minecraft/models/item/husk_spawn_egg.json
+ 032d5086adbdc64098925cfc465a7030434bf9cd assets/minecraft/models/block/stripped_bamboo_block.json
+ 1992ec8533ec64e4e699df945406934594b00abc assets/minecraft/models/item/stripped_spruce_log.json
+@@ -1814,8 +1814,8 @@
+ a8682cb8761abbfc76902a9d821ba3a754029b32 assets/minecraft/models/item/charcoal.json
+ 5c42c82f268b59175965f6e4c61519e279952ce0 assets/minecraft/models/item/spider_eye.json
+ 0f63858305e854fe1e72ae3af831eea98e16dc4c assets/minecraft/blockstates/sculk_vein.json
+-aa33ed5d0ce328b90fab2bfc8d2b5153ca649fd9 assets/minecraft/models/block/potted_cornflower.json
+ 6637967b795608b940bdcb8e1e3605c3873806b7 assets/minecraft/models/item/waxed_cut_copper_stairs.json
++aa33ed5d0ce328b90fab2bfc8d2b5153ca649fd9 assets/minecraft/models/block/potted_cornflower.json
+ 6ba83fbbbef1f7f3ccb4f46507147b1a87d681ef assets/minecraft/models/block/oak_stairs.json
+ bc7171400d91fa0fe7e2e88144458806d3582444 assets/minecraft/models/item/netherite_boots_gold_trim.json
+ 61e1fd675c524254729a08fdf6300012972c146d assets/minecraft/models/block/white_stained_glass_pane_noside_alt.json
+@@ -2790,8 +2790,8 @@
+ 74b931d91e6b5fddbfbd854e6eae0f5610d669c2 assets/minecraft/blockstates/lily_of_the_valley.json
+ 02488aa3546e8fce840870b0538b9f14d862fc4f assets/minecraft/models/block/light_gray_stained_glass_pane_noside.json
+ 5e78f223a471bff6ac847c78d3daecd0bda83a13 assets/minecraft/blockstates/red_sandstone_slab.json
+-e9dfddc7af37bf380db539ba52a6d5a8d9f9489f assets/minecraft/models/item/compass_15.json
+ 90bdfea6efd47f31122b2f2180873039639a8379 assets/minecraft/models/item/sandstone_wall.json
++e9dfddc7af37bf380db539ba52a6d5a8d9f9489f assets/minecraft/models/item/compass_15.json
+ ba736b6b008aee189856d7864b16c2669893b2c2 assets/minecraft/models/block/birch_button.json
+ 052d8b2327ee6bcfa9ecf8353f6294cc9e1a7cf7 assets/minecraft/models/item/mangrove_stairs.json
+ a607411dd5ace003c8f051f410986cbaecebf97d assets/minecraft/blockstates/pink_glazed_terracotta.json
+@@ -2805,7 +2805,7 @@
+ b3c7ac87f735c9813d09ee46f1d26c844c06353c assets/minecraft/models/item/gold_block.json
+ 0021ec0a6a012353fc3294979a59e61e7c5c8f27 assets/minecraft/models/block/white_wool.json
+ 8514d990936663eeb49948a99d70d713e0283799 assets/minecraft/models/item/cherry_sign.json
+-b2428ef90c41f9cf7b50f034c91dd991da67ed70 assets/minecraft/blockstates/chiseled_bookshelf.json
++72a58684f910c5af0c7eabbdb14442b6ac9b9977 assets/minecraft/blockstates/chiseled_bookshelf.json
+ c714bea04808c2dfcb83a643e7198feb8fb61f8c assets/minecraft/models/item/purple_terracotta.json
+ 3be4489859dda9e69a8ea8f5b8ce2f0fe5451289 assets/minecraft/models/item/oxidized_cut_copper.json
+ 75d9a9da311d1483bd5d71cac42989754f7dce5e assets/minecraft/models/item/mossy_cobblestone_wall.json
+@@ -2914,9 +2914,9 @@
+ eb650d7d899ec1d30d9185176d26b0bc8447c3b0 assets/minecraft/models/item/cyan_concrete_powder.json
+ e2553ba1288ebad99f527120487a70c6f7fdd0bd assets/minecraft/models/item/cactus.json
+ 2032d7592e669ffcac9ce296dd71d6c5c7f676f5 assets/minecraft/models/block/green_stained_glass_pane_side.json
++0af930659ac1138fb1b34e0ec7b8c26f1548fd01 assets/minecraft/models/block/rooted_dirt.json
+ 17296d1f704e13c9c3e0fbb62dce2981d2b88972 assets/minecraft/models/block/potted_lily_of_the_valley.json
+ 5f71b69fdc7f69334996822777f31b35b325767c assets/minecraft/blockstates/spruce_stairs.json
+-0af930659ac1138fb1b34e0ec7b8c26f1548fd01 assets/minecraft/models/block/rooted_dirt.json
+ d41be67e49e1c2f0df3a26a90720dbc97055548c assets/minecraft/models/block/purple_candle_cake_lit.json
+ 8d2416a97e063380f11bf951b93cad7546274f4c assets/minecraft/models/item/spruce_wood.json
+ 23282e4a40ec7ac7171fbe42d3012d15f24d7c2b assets/minecraft/models/block/green_stained_glass_pane_post.json
+@@ -3734,8 +3734,8 @@
+ 671148a6caa46cb4950206a4caf771e16fe3494c assets/minecraft/blockstates/blue_wool.json
+ 54f61cffb70a48d41c7987afdab6eb9f5af75e5e assets/minecraft/models/item/nether_star.json
+ fc0369541315d7c831c2f908c0e399b740858864 assets/minecraft/models/item/soul_sand.json
+-5982e12013574cbaf83df96c173c07990d10dd55 assets/minecraft/models/block/lime_candle_four_candles_lit.json
+ 59bbe7705f1cc4f29fe0c0d54c330b1c89c67a30 assets/minecraft/models/block/stripped_cherry_log_z.json
++5982e12013574cbaf83df96c173c07990d10dd55 assets/minecraft/models/block/lime_candle_four_candles_lit.json
+ cbc1a9a937dd027d9c6c14863214aacf1c5e10cb assets/minecraft/blockstates/stone_brick_slab.json
+ b2bee6ef80b628d538890a8c8069f05a35afcd7c assets/minecraft/blockstates/gray_carpet.json
+ 3a36408e3079cf28259f4959cc5915346eba66f2 assets/minecraft/models/block/dark_oak_hanging_sign.json
+diff -urN versions/1.20/generated/.cache/39b291fbdb52ea8aa418d199746a264da3559e6b versions/1.20.1/generated/.cache/39b291fbdb52ea8aa418d199746a264da3559e6b
+--- versions/1.20/generated/.cache/39b291fbdb52ea8aa418d199746a264da3559e6b	2025-07-27 16:52:40.324424131 +0000
++++ versions/1.20.1/generated/.cache/39b291fbdb52ea8aa418d199746a264da3559e6b	2025-07-27 16:52:53.219425360 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.325272219	vanilla/Tags for minecraft:game_event
++// 1.20.1	2025-07-27T16:52:53.219718115	vanilla/Tags for minecraft:game_event
+ 641d5946c42493fe7a161d4a3971814600234ffd data/minecraft/tags/game_events/shrieker_can_listen.json
+ 442198863e9a486ba7623fc744cde3fe9f3c70df data/minecraft/tags/game_events/vibrations.json
+ efee3a7cc1178a4a303b5e834c6be5d0c4ab3d0d data/minecraft/tags/game_events/warden_can_listen.json
+diff -urN versions/1.20/generated/.cache/3f8ae98b838fea3b24c3e4e0769560101c160b0c versions/1.20.1/generated/.cache/3f8ae98b838fea3b24c3e4e0769560101c160b0c
+--- versions/1.20/generated/.cache/3f8ae98b838fea3b24c3e4e0769560101c160b0c	2025-07-27 16:52:40.323424131 +0000
++++ versions/1.20.1/generated/.cache/3f8ae98b838fea3b24c3e4e0769560101c160b0c	2025-07-27 16:52:53.218425359 +0000
+@@ -1,2 +1,2 @@
+-// 1.20	2025-07-27T16:52:40.32452971	vanilla/Tags for minecraft:worldgen/flat_level_generator_preset
++// 1.20.1	2025-07-27T16:52:53.219260088	vanilla/Tags for minecraft:worldgen/flat_level_generator_preset
+ 84f182be8bbee842e930783287a8505d8ac7db94 data/minecraft/tags/worldgen/flat_level_generator_preset/visible.json
+diff -urN versions/1.20/generated/.cache/66cd14648e19a0fe96a4dd1359dcf832500ab31d versions/1.20.1/generated/.cache/66cd14648e19a0fe96a4dd1359dcf832500ab31d
+--- versions/1.20/generated/.cache/66cd14648e19a0fe96a4dd1359dcf832500ab31d	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/66cd14648e19a0fe96a4dd1359dcf832500ab31d	2025-07-27 16:52:53.220425360 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.326072286	vanilla/Tags for minecraft:worldgen/structure
++// 1.20.1	2025-07-27T16:52:53.22066124	vanilla/Tags for minecraft:worldgen/structure
+ a124e2034270a8639a98494959c2524661377ecc data/minecraft/tags/worldgen/structure/shipwreck.json
+ f2401a25b1b014422c676d22732df78913b05497 data/minecraft/tags/worldgen/structure/on_woodland_explorer_maps.json
+ 2e3ef883a0d81134c688c5a78b72dcc44dfa15be data/minecraft/tags/worldgen/structure/on_ocean_explorer_maps.json
+diff -urN versions/1.20/generated/.cache/67d7aa54236aa4bddc9471250ef45ad1b290a297 versions/1.20.1/generated/.cache/67d7aa54236aa4bddc9471250ef45ad1b290a297
+--- versions/1.20/generated/.cache/67d7aa54236aa4bddc9471250ef45ad1b290a297	2025-07-27 16:52:40.309424130 +0000
++++ versions/1.20.1/generated/.cache/67d7aa54236aa4bddc9471250ef45ad1b290a297	2025-07-27 16:52:53.202425358 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.310058017	vanilla/Tags for minecraft:damage_type
++// 1.20.1	2025-07-27T16:52:53.203174336	vanilla/Tags for minecraft:damage_type
+ d254e21f432676e5224504c193e10f6e8fceae9c data/minecraft/tags/damage_type/is_freezing.json
+ 01b02411e50cf6797a7cfe1546b58b44125cddb5 data/minecraft/tags/damage_type/damages_helmet.json
+ 39551688c222c1bb009f79ed169be85995c54d6a data/minecraft/tags/damage_type/no_impact.json
+diff -urN versions/1.20/generated/.cache/72552a7e195671b823b9a0f085f32fb9cecc2933 versions/1.20.1/generated/.cache/72552a7e195671b823b9a0f085f32fb9cecc2933
+--- versions/1.20/generated/.cache/72552a7e195671b823b9a0f085f32fb9cecc2933	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/72552a7e195671b823b9a0f085f32fb9cecc2933	2025-07-27 16:52:53.219425360 +0000
+@@ -1,3 +1,3 @@
+-// 1.20	2025-07-27T16:52:40.325659123	vanilla/Tags for minecraft:worldgen/world_preset
++// 1.20.1	2025-07-27T16:52:53.220302649	vanilla/Tags for minecraft:worldgen/world_preset
+ a032e8ffc87e47999b9622ce4559ea91123d84cd data/minecraft/tags/worldgen/world_preset/extended.json
+ e947d3e1932170da4f4ecb5e456bd62cab761ac0 data/minecraft/tags/worldgen/world_preset/normal.json
+diff -urN versions/1.20/generated/.cache/828e6b158606486c03118ac5f3fd682296779b9c versions/1.20.1/generated/.cache/828e6b158606486c03118ac5f3fd682296779b9c
+--- versions/1.20/generated/.cache/828e6b158606486c03118ac5f3fd682296779b9c	2025-07-27 16:52:40.323424131 +0000
++++ versions/1.20.1/generated/.cache/828e6b158606486c03118ac5f3fd682296779b9c	2025-07-27 16:52:53.218425359 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.321864234	vanilla/Loot Tables
++// 1.20.1	2025-07-27T16:52:53.21760391	vanilla/Loot Tables
+ 54c3a075fffe891f5304f78431b399591c21254d data/minecraft/loot_tables/entities/pillager.json
+ c7a410c9af5115f9e305d37401560439823f174c data/minecraft/loot_tables/blocks/light_gray_terracotta.json
+ 646e3c32bdf5f578758ceaa773aa590decc61c97 data/minecraft/loot_tables/blocks/mud_bricks.json
+@@ -463,8 +463,8 @@
+ f0614904de6e69bb2c444aa1f84d2ee01b3cb5de data/minecraft/loot_tables/blocks/warped_slab.json
+ ea6e205f36ad5c25c5a1a84eb507dca6eb81a061 data/minecraft/loot_tables/blocks/dirt.json
+ 31a8db4e9f86f6772f066cb6a4cfcc26ddab97af data/minecraft/loot_tables/blocks/purple_bed.json
+-2c774be6af6487d08c3fdbdbcacd5f75ec79f636 data/minecraft/loot_tables/blocks/poppy.json
+ 0713d20ba836be963a6c057977ba0ccb42aa4e79 data/minecraft/loot_tables/blocks/dirt_path.json
++2c774be6af6487d08c3fdbdbcacd5f75ec79f636 data/minecraft/loot_tables/blocks/poppy.json
+ 14bc193e5dd1d6bc78d22e73e9ac91d0a1273680 data/minecraft/loot_tables/blocks/warped_hanging_sign.json
+ d41754cfba6a30581b74d09cef9758b1ef67efb9 data/minecraft/loot_tables/blocks/gilded_blackstone.json
+ c95c4c4c74e4db1f81db80d074d5529879e5cafe data/minecraft/loot_tables/blocks/spruce_leaves.json
+@@ -895,8 +895,8 @@
+ f0f5f1da7c1f522873538d89d77d16359e58a62b data/minecraft/loot_tables/blocks/carved_pumpkin.json
+ 4efdf816d3b485a5be1f7614265602590f5fd77c data/minecraft/loot_tables/blocks/orange_stained_glass_pane.json
+ 0ec59e325a5991cff2362682aeecca522a2d5331 data/minecraft/loot_tables/entities/cod.json
+-0034f4a785e4be10120c944640b9f2a9f0ec810f data/minecraft/loot_tables/blocks/deepslate_brick_wall.json
+ 07a8d7221f574e81ca7afbba089651c6c249eef7 data/minecraft/loot_tables/blocks/comparator.json
++0034f4a785e4be10120c944640b9f2a9f0ec810f data/minecraft/loot_tables/blocks/deepslate_brick_wall.json
+ 88da0d4429d083546d8e2a8099c3f780fb692bca data/minecraft/loot_tables/blocks/potted_warped_fungus.json
+ dfc21865bb97a0de84183293fbd18f783f624898 data/minecraft/loot_tables/blocks/lily_pad.json
+ a74d12d3f6f2b6f951ed5b6533dab373e05084f6 data/minecraft/loot_tables/blocks/pink_concrete_powder.json
+@@ -1052,8 +1052,8 @@
+ 206a5e07ea875fa95b36fe18098d9c7b68130e89 data/minecraft/loot_tables/blocks/cave_vines_plant.json
+ 3702b8e1f73f43be7dd722d0f013e76a0ea121ac data/minecraft/loot_tables/blocks/waxed_oxidized_cut_copper.json
+ 87c1be3dc8e7eb5f4397c268efcf81470f629f63 data/minecraft/loot_tables/entities/silverfish.json
+-a1907666d67586f32ac3689feaf47500d022ae1c data/minecraft/loot_tables/blocks/mangrove_sign.json
+ 52f08265fbe5842952d7ebdf29d07bd889fe3081 data/minecraft/loot_tables/blocks/light_gray_carpet.json
++a1907666d67586f32ac3689feaf47500d022ae1c data/minecraft/loot_tables/blocks/mangrove_sign.json
+ ee9e7f3f636d04492cc8dfd33d047c5c94f24bb3 data/minecraft/loot_tables/blocks/white_terracotta.json
+ 3bcf4ca5237f63bfbb2cd3213a57bd9b3c1b268a data/minecraft/loot_tables/blocks/purple_concrete_powder.json
+ 255b95ec5c1888d40631a100ab2c3684ad187750 data/minecraft/loot_tables/blocks/deepslate_lapis_ore.json
+diff -urN versions/1.20/generated/.cache/86cd9dfe408de32ac5d63951de3373977ed1faa8 versions/1.20.1/generated/.cache/86cd9dfe408de32ac5d63951de3373977ed1faa8
+--- versions/1.20/generated/.cache/86cd9dfe408de32ac5d63951de3373977ed1faa8	2025-07-27 16:52:40.324424131 +0000
++++ versions/1.20.1/generated/.cache/86cd9dfe408de32ac5d63951de3373977ed1faa8	2025-07-27 16:52:53.219425360 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.32483947	vanilla/Tags for minecraft:block
++// 1.20.1	2025-07-27T16:52:53.219444523	vanilla/Tags for minecraft:block
+ 51d8bf3885db56e8d2baea74147e7db3db031d51 data/minecraft/tags/blocks/maintains_farmland.json
+ 60f661a9b26b7f6b1910e5390a40644354fe0919 data/minecraft/tags/blocks/frogs_spawnable_on.json
+ a91a14b0d844c2e8beb882a51072178e0667620c data/minecraft/tags/blocks/jungle_logs.json
+@@ -119,8 +119,8 @@
+ 1ee8b3901adcfea5e7b1046694b5f80d7575bbc5 data/minecraft/tags/blocks/mineable/shovel.json
+ fe67f656c64c8654f29be025478ff7af10c3cfac data/minecraft/tags/blocks/rabbits_spawnable_on.json
+ d5aebde1fd1141df86b6ed4ace3f720504b32ab2 data/minecraft/tags/blocks/soul_fire_base_blocks.json
+-92861bbfc33718f65a6c66f4468675fa09ac162f data/minecraft/tags/blocks/animals_spawnable_on.json
+ 21826e6d8baefa69712a8a9b5ccdd0ca304ab3d7 data/minecraft/tags/blocks/sculk_replaceable.json
++92861bbfc33718f65a6c66f4468675fa09ac162f data/minecraft/tags/blocks/animals_spawnable_on.json
+ c8ec59201ede7ff6cb74a70bd44fb6be642a3f40 data/minecraft/tags/blocks/stone_pressure_plates.json
+ 12567916f0340a8d2a6baf0d253dcc8f8b4817b5 data/minecraft/tags/blocks/overworld_natural_logs.json
+ f46daef72cebb7ee09a3d1e4971b314ffd7f0352 data/minecraft/tags/blocks/dragon_transparent.json
+diff -urN versions/1.20/generated/.cache/88383432ba52a699b52d8751ecc36fd9eaa389c4 versions/1.20.1/generated/.cache/88383432ba52a699b52d8751ecc36fd9eaa389c4
+--- versions/1.20/generated/.cache/88383432ba52a699b52d8751ecc36fd9eaa389c4	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/88383432ba52a699b52d8751ecc36fd9eaa389c4	2025-07-27 16:52:53.219425360 +0000
+@@ -1,2 +1,2 @@
+-// 1.20	2025-07-27T16:52:40.325943224	vanilla/Command Syntax
++// 1.20.1	2025-07-27T16:52:53.220540734	vanilla/Command Syntax
+ e7ec45396a6ede5d152288ed488a611292c2ddea reports/commands.json
+diff -urN versions/1.20/generated/.cache/894b36890805753216f5621b68dd109021f342c0 versions/1.20.1/generated/.cache/894b36890805753216f5621b68dd109021f342c0
+--- versions/1.20/generated/.cache/894b36890805753216f5621b68dd109021f342c0	2025-07-27 16:52:40.324424131 +0000
++++ versions/1.20.1/generated/.cache/894b36890805753216f5621b68dd109021f342c0	2025-07-27 16:52:53.219425360 +0000
+@@ -1,2 +1,2 @@
+-// 1.20	2025-07-27T16:52:40.325487482	vanilla/Registry Dump
++// 1.20.1	2025-07-27T16:52:53.219885007	vanilla/Registry Dump
+ 2e62250f5f6631a92c59483459d0b524686b459a reports/registries.json
+diff -urN versions/1.20/generated/.cache/a80c1399639551bcec5a98f96a61482a6e276606 versions/1.20.1/generated/.cache/a80c1399639551bcec5a98f96a61482a6e276606
+--- versions/1.20/generated/.cache/a80c1399639551bcec5a98f96a61482a6e276606	2025-07-27 16:52:40.324424131 +0000
++++ versions/1.20.1/generated/.cache/a80c1399639551bcec5a98f96a61482a6e276606	2025-07-27 16:52:53.219425360 +0000
+@@ -1,2 +1,2 @@
+-// 1.20	2025-07-27T16:52:40.325360935	bundle/Pack Metadata
++// 1.20.1	2025-07-27T16:52:53.219783548	bundle/Pack Metadata
+ bc07a8ada8d745bd8f614bc3a77f2d78d6d7602e data/minecraft/datapacks/bundle/pack.mcmeta
+diff -urN versions/1.20/generated/.cache/c127dd416e67cc74de45f465ff795f11110e0486 versions/1.20.1/generated/.cache/c127dd416e67cc74de45f465ff795f11110e0486
+--- versions/1.20/generated/.cache/c127dd416e67cc74de45f465ff795f11110e0486	2025-07-27 16:52:40.309424130 +0000
++++ versions/1.20.1/generated/.cache/c127dd416e67cc74de45f465ff795f11110e0486	2025-07-27 16:52:53.202425358 +0000
+@@ -1,3 +1,3 @@
+-// 1.20	2025-07-27T16:52:40.309928074	vanilla/Biome Parameters
++// 1.20.1	2025-07-27T16:52:53.203058098	vanilla/Biome Parameters
+ 7d0da916ac96573015de7aae6ea12f8735f84747 reports/biome_parameters/minecraft/nether.json
+ 7f4f8e2bde3c36f2c7d45235ec66207e3cedc90a reports/biome_parameters/minecraft/overworld.json
+diff -urN versions/1.20/generated/.cache/c693ed33b50cafef7db603d5b6b250e8754ca740 versions/1.20.1/generated/.cache/c693ed33b50cafef7db603d5b6b250e8754ca740
+--- versions/1.20/generated/.cache/c693ed33b50cafef7db603d5b6b250e8754ca740	2025-07-27 16:52:40.308424130 +0000
++++ versions/1.20.1/generated/.cache/c693ed33b50cafef7db603d5b6b250e8754ca740	2025-07-27 16:52:53.202425358 +0000
+@@ -1 +1 @@
+-// 1.20	2025-07-27T16:52:40.30902266	vanilla/NBT -> SNBT
++// 1.20.1	2025-07-27T16:52:53.20252988	vanilla/NBT -> SNBT
+diff -urN versions/1.20/generated/.cache/e4c9ff9cf778b3392ac5b075491985abb40bb166 versions/1.20.1/generated/.cache/e4c9ff9cf778b3392ac5b075491985abb40bb166
+--- versions/1.20/generated/.cache/e4c9ff9cf778b3392ac5b075491985abb40bb166	2025-07-27 16:52:40.323424131 +0000
++++ versions/1.20.1/generated/.cache/e4c9ff9cf778b3392ac5b075491985abb40bb166	2025-07-27 16:52:53.218425359 +0000
+@@ -1,3 +1,3 @@
+-// 1.20	2025-07-27T16:52:40.324300601	vanilla/Tags for minecraft:fluid
++// 1.20.1	2025-07-27T16:52:53.219132369	vanilla/Tags for minecraft:fluid
+ c9ae54a7510073b17edf82f7591e14bdb2c51837 data/minecraft/tags/fluids/water.json
+ e191d5f912e05091b3a0b1df17f4c4181e04d96f data/minecraft/tags/fluids/lava.json
+diff -urN versions/1.20/generated/.cache/e838474c387e02fbd60e83dd8d8093985fc1ad20 versions/1.20.1/generated/.cache/e838474c387e02fbd60e83dd8d8093985fc1ad20
+--- versions/1.20/generated/.cache/e838474c387e02fbd60e83dd8d8093985fc1ad20	2025-07-27 16:52:40.323424131 +0000
++++ versions/1.20.1/generated/.cache/e838474c387e02fbd60e83dd8d8093985fc1ad20	2025-07-27 16:52:53.218425359 +0000
+@@ -1,2 +1,2 @@
+-// 1.20	2025-07-27T16:52:40.324427719	vanilla/Tags for minecraft:painting_variant
++// 1.20.1	2025-07-27T16:52:53.219203683	vanilla/Tags for minecraft:painting_variant
+ d8c2ba0abb657e77d46be8bde6f6e19cee1119f2 data/minecraft/tags/painting_variant/placeable.json
+diff -urN versions/1.20/generated/.cache/e951e14a64d238c49e2ddb8ca184b4e9a4b3c5b2 versions/1.20.1/generated/.cache/e951e14a64d238c49e2ddb8ca184b4e9a4b3c5b2
+--- versions/1.20/generated/.cache/e951e14a64d238c49e2ddb8ca184b4e9a4b3c5b2	2025-07-27 16:52:40.309424130 +0000
++++ versions/1.20.1/generated/.cache/e951e14a64d238c49e2ddb8ca184b4e9a4b3c5b2	2025-07-27 16:52:53.202425358 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.309467733	vanilla/Advancements
++// 1.20.1	2025-07-27T16:52:53.202771452	vanilla/Advancements
+ 55f7468b0019b9ab85a55597b4250a19cdb7b9ac data/minecraft/advancements/story/form_obsidian.json
+ fbf5d35e642be2b7c281ccc751e44faa8e4a72e3 data/minecraft/advancements/nether/fast_travel.json
+ cde06b9ba0da7a8b778f40c4d12f1fb256c70a3d data/minecraft/advancements/story/enter_the_nether.json
+diff -urN versions/1.20/generated/.cache/f3347abbaee3cb41b295c4e12cc5f660f2cb16c5 versions/1.20.1/generated/.cache/f3347abbaee3cb41b295c4e12cc5f660f2cb16c5
+--- versions/1.20/generated/.cache/f3347abbaee3cb41b295c4e12cc5f660f2cb16c5	2025-07-27 16:52:40.325424131 +0000
++++ versions/1.20.1/generated/.cache/f3347abbaee3cb41b295c4e12cc5f660f2cb16c5	2025-07-27 16:52:53.219425360 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.325549858	vanilla/Tags for minecraft:instrument
++// 1.20.1	2025-07-27T16:52:53.219949198	vanilla/Tags for minecraft:instrument
+ 24a57f6fa9a0522c2179f8ed32fd39747c51c37e data/minecraft/tags/instrument/regular_goat_horns.json
+ 363b5db5feca490b645366d5fcdd8cf46efac13f data/minecraft/tags/instrument/goat_horns.json
+ eaf5ee5f2260dc42044894cb7c2d29f529b253e6 data/minecraft/tags/instrument/screaming_goat_horns.json
+diff -urN versions/1.20/generated/.cache/fa4a53054c48325af353a837ddccae6530598328 versions/1.20.1/generated/.cache/fa4a53054c48325af353a837ddccae6530598328
+--- versions/1.20/generated/.cache/fa4a53054c48325af353a837ddccae6530598328	2025-07-27 16:52:40.321424131 +0000
++++ versions/1.20.1/generated/.cache/fa4a53054c48325af353a837ddccae6530598328	2025-07-27 16:52:53.216425359 +0000
+@@ -1,4 +1,4 @@
+-// 1.20	2025-07-27T16:52:40.321291472	vanilla/Tags for minecraft:item
++// 1.20.1	2025-07-27T16:52:53.217240991	vanilla/Tags for minecraft:item
+ a91a14b0d844c2e8beb882a51072178e0667620c data/minecraft/tags/items/jungle_logs.json
+ a6c8bad401aae8576742844c87f1b8717cf253b7 data/minecraft/tags/items/noteblock_top_instruments.json
+ 53c528d880bafa4b87443f610db9f1ad05996ce6 data/minecraft/tags/items/banners.json
+diff -urN versions/1.20/generated/.cache/fe59d4b487bf2eebc0d6fc888b49b5d2a802d63d versions/1.20.1/generated/.cache/fe59d4b487bf2eebc0d6fc888b49b5d2a802d63d
+--- versions/1.20/generated/.cache/fe59d4b487bf2eebc0d6fc888b49b5d2a802d63d	2025-07-27 16:52:40.309424130 +0000
++++ versions/1.20.1/generated/.cache/fe59d4b487bf2eebc0d6fc888b49b5d2a802d63d	2025-07-27 16:52:53.202425358 +0000
+@@ -1,2 +1,2 @@
+-// 1.20	2025-07-27T16:52:40.309996993	vanilla/Block List
++// 1.20.1	2025-07-27T16:52:53.20311771	vanilla/Block List
+ d71c2e7f02f2da4902b985ec9cc99e62e8424f6f reports/blocks.json
+diff -urN versions/1.20/generated/.cache/ff85aeffff7b400453d938ac4326ddfe68257a73 versions/1.20.1/generated/.cache/ff85aeffff7b400453d938ac4326ddfe68257a73
+--- versions/1.20/generated/.cache/ff85aeffff7b400453d938ac4326ddfe68257a73	2025-07-27 16:52:40.307424130 +0000
++++ versions/1.20.1/generated/.cache/ff85aeffff7b400453d938ac4326ddfe68257a73	2025-07-27 16:52:53.201425358 +0000
+@@ -1,8 +1,8 @@
+-// 1.20	2025-07-27T16:52:40.302729657	vanilla/Registries
++// 1.20.1	2025-07-27T16:52:53.194827922	vanilla/Registries
+ c85f4a624d7ea74ee15ca28483cde6af57306f13 data/minecraft/worldgen/placed_feature/ore_gold.json
+ 38f6d7875e3195bdaee448d2cb6917f3ae4994af data/minecraft/worldgen/density_function/zero.json
+-e5836a0fbfe6649f494f51c7c820f990789f078e data/minecraft/worldgen/placed_feature/forest_rock.json
+ ad53719fedfb60c16c0a4a5b29ca2212d55f086a data/minecraft/worldgen/placed_feature/patch_crimson_roots.json
++e5836a0fbfe6649f494f51c7c820f990789f078e data/minecraft/worldgen/placed_feature/forest_rock.json
+ 67cc2c1332a16575def867111056b591ed65cc36 data/minecraft/worldgen/placed_feature/jungle_bush.json
+ f5fcdab1a21b2f34da2fd2653821587061f9f8e9 data/minecraft/damage_type/magic.json
+ 4c7f16d77ddf9ff466785fff80264b0fe7be17fb data/minecraft/damage_type/drown.json
+@@ -122,16 +122,16 @@
+ 068f6635f5845ecd3b43f6bb7df016d69febf42d data/minecraft/worldgen/configured_feature/iceberg_packed.json
+ 4d7ba9f597123c9421093616a2264d60c892a4b2 data/minecraft/worldgen/multi_noise_biome_source_parameter_list/overworld.json
+ 9e7dc8074dccdee930efdbfb18ad9a95cef7dfd8 data/minecraft/worldgen/density_function/overworld/ridges_folded.json
+-a8c345af990f113519ca057f99842bd250a489c9 data/minecraft/worldgen/placed_feature/pine_checked.json
+ 2e235d94f52e65a583fbe0bad35940bc4bf4533e data/minecraft/worldgen/placed_feature/brown_mushroom_swamp.json
++a8c345af990f113519ca057f99842bd250a489c9 data/minecraft/worldgen/placed_feature/pine_checked.json
+ a11d877954a74246d9fbe5c18d75bd12371b1268 data/minecraft/worldgen/density_function/overworld/continents.json
+ ff7166ee247d06154dcffdb5c63807228bcf043d data/minecraft/worldgen/biome/the_void.json
+ 0f32757fef9c9a75ca00856efe314df162da2b5d data/minecraft/worldgen/configured_feature/patch_berry_bush.json
+ 4eefd59e5c57e435c654d5ece195b1365ac62583 data/minecraft/worldgen/configured_feature/warped_forest_vegetation_bonemeal.json
+ dcc262807cbab0e555cf409083a56b8640abd254 data/minecraft/worldgen/template_pool/bastion/hoglin_stable/large_stables/inner.json
+ c026da554461f70ad7f80f3248710217e2524430 data/minecraft/worldgen/placed_feature/ore_andesite_lower.json
+-4d48842550807332aba257cac89090d48b99e8b4 data/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
+ 9d21ac2a6d49df15e0a371753f46982044153b6c data/minecraft/worldgen/configured_feature/patch_taiga_grass.json
++4d48842550807332aba257cac89090d48b99e8b4 data/minecraft/worldgen/configured_feature/crimson_forest_vegetation.json
+ cfa3d51560d210e53a55fad8c4a0d5303e512647 data/minecraft/worldgen/configured_feature/flower_meadow.json
+ 2e83a4d945b4a5a81930d978bca1d87bdbf0017b data/minecraft/worldgen/placed_feature/monster_room.json
+ b4bf6566fdc17ee1ffeb17a40d5b8234e3f14886 data/minecraft/damage_type/player_explosion.json
+@@ -158,8 +158,8 @@
+ be0427c70062db76afa3d0519b4ec56fde0caf21 data/minecraft/dimension_type/the_end.json
+ 1f8e42129a0987accdb6d0de41d3f3e8eb9c01bd data/minecraft/damage_type/falling_stalactite.json
+ 9c98870be4d0f8fbd2ccc003938b5e0e767f600b data/minecraft/worldgen/configured_feature/oak_bees_002.json
+-e1769b181c004aa96be2fc43304079987805c50a data/minecraft/worldgen/placed_feature/end_gateway_return.json
+ 010f3bc3086ee5871ac5a9137a26eae5e0e56e4b data/minecraft/worldgen/placed_feature/spore_blossom.json
++e1769b181c004aa96be2fc43304079987805c50a data/minecraft/worldgen/placed_feature/end_gateway_return.json
+ f706fa51ff65876ce30334a7b405af63751c3608 data/minecraft/trim_material/iron.json
+ 0f0daf781d20dd2922dc56d7e5981a6c62d1bb31 data/minecraft/worldgen/processor_list/farm_taiga.json
+ 6161f0471ed8b2a77d9caee205ca9237c83616d1 data/minecraft/worldgen/placed_feature/super_birch_bees.json
+@@ -194,8 +194,8 @@
+ 07ddfaed73085a25f85621687804ea44258fd166 data/minecraft/worldgen/placed_feature/patch_tall_grass_2.json
+ 27934da5e828c22a6ffda823d29b10aa5311af95 data/minecraft/worldgen/template_pool/bastion/treasure/walls/mid.json
+ 99d5b4842d6d4c66d4d38a4d1a19ee9bb813a381 data/minecraft/worldgen/template_pool/bastion/units/edges.json
+-bb5da6043161e404c9756e67208cee2436ac137d data/minecraft/worldgen/configured_feature/ice_spike.json
+ e9480d9977d9e2bd6f4c560694c5fc0cdaa98ad2 data/minecraft/chat_type/chat.json
++bb5da6043161e404c9756e67208cee2436ac137d data/minecraft/worldgen/configured_feature/ice_spike.json
+ 5b5c9ee5bc4e0f580b1a01542caa45278dc0409c data/minecraft/worldgen/placed_feature/ore_coal_lower.json
+ 19c071043253f693516728d27b03ba7a402de388 data/minecraft/worldgen/noise/badlands_pillar.json
+ 115d86a11f52f472810fe0ce7f5d1d9b0688b263 data/minecraft/worldgen/structure/trail_ruins.json
+@@ -218,8 +218,8 @@
+ a13554a92ef22ea120e4537b1db4edfea5e8b1ec data/minecraft/worldgen/placed_feature/large_dripstone.json
+ 4f47c84453e9ff372aeb33797c156509bba1988f data/minecraft/worldgen/template_pool/village/taiga/zombie/decor.json
+ 01942a07d98f111c95e09937664fafa514603dd0 data/minecraft/worldgen/noise/vegetation_large.json
+-9ea2763f0b12775d9965fae95fca38333fb712ca data/minecraft/worldgen/placed_feature/ore_gold_nether.json
+ 64a170414e29e4eca43e8ecaabcf8dbf4dfb6b04 data/minecraft/worldgen/placed_feature/basalt_pillar.json
++9ea2763f0b12775d9965fae95fca38333fb712ca data/minecraft/worldgen/placed_feature/ore_gold_nether.json
+ cf31766ea152b2b001e3edf515c73d5985685b0a data/minecraft/worldgen/placed_feature/mega_jungle_tree_checked.json
+ 07b1d03e40c8d50c3da2f5d9ffc54c38629c3ebf data/minecraft/worldgen/structure/ancient_city.json
+ 4e86221de862d74d71095252e0951705b9925170 data/minecraft/worldgen/biome/frozen_peaks.json
+@@ -288,8 +288,8 @@
+ 94e08aafa88645f893c675d64e087d0b5db4905d data/minecraft/worldgen/biome/savanna_plateau.json
+ 0d0f85247665c1cc71d8820227fc7ca245002f41 data/minecraft/worldgen/template_pool/village/desert/zombie/streets.json
+ cf727ab879a5ea744d9fe9e6d39e70e83d9eba54 data/minecraft/worldgen/template_pool/trail_ruins/buildings.json
+-882d3e31137d83c2a02cd8a1622f409616ac754c data/minecraft/worldgen/placed_feature/patch_fire.json
+ d0f10747dc33d741961d13563f715f28269b5355 data/minecraft/worldgen/placed_feature/trees_windswept_savanna.json
++882d3e31137d83c2a02cd8a1622f409616ac754c data/minecraft/worldgen/placed_feature/patch_fire.json
+ dee3d1cb549513644a534b3d41b89380ace745a2 data/minecraft/worldgen/noise/pillar_rareness.json
+ a51434b354e95411c1bea04b64c3a5bd6f9d88b2 data/minecraft/worldgen/structure/ruined_portal_jungle.json
+ d6da39c95148a086857fe15795a881c35b796904 data/minecraft/worldgen/processor_list/street_snowy_or_taiga.json
+@@ -328,13 +328,13 @@
+ f6ecb76099b7019add854eb96cbdcb6c6ee81aca data/minecraft/worldgen/configured_feature/patch_waterlily.json
+ 6b1582c5c55512363f91a16124f9a9cc53eedee4 data/minecraft/worldgen/structure/village_savanna.json
+ 545b6502bc23c00653e41cc342a3cd52115c324e data/minecraft/worldgen/template_pool/ancient_city/city/entrance.json
+-1afe48e0e8ebc49e2563195602959b11ada91fdf data/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
+ 3e3314edf2ec682a51fbcd2e9b153e9009a4d45b data/minecraft/worldgen/configured_feature/ore_granite.json
++1afe48e0e8ebc49e2563195602959b11ada91fdf data/minecraft/worldgen/configured_feature/trees_sparse_jungle.json
+ 95e447fe02d06566b03cbbead424d969ba3d5c93 data/minecraft/worldgen/configured_feature/ore_clay.json
+ 74244c27918a50e1b34ee94fa2fd50e7917c8dd0 data/minecraft/worldgen/density_function/overworld/ridges.json
+ 345fa425e522e4d8d12ee677572597d3a2842359 data/minecraft/worldgen/configured_feature/flower_default.json
+-02985c8167398dfbf4bbb047cb37add12e4a6083 data/minecraft/worldgen/configured_feature/warped_fungus_planted.json
+ ff4a00f1d553cb8bd9d048858525e36bc74bd82f data/minecraft/worldgen/configured_feature/patch_fire.json
++02985c8167398dfbf4bbb047cb37add12e4a6083 data/minecraft/worldgen/configured_feature/warped_fungus_planted.json
+ 60a0265a11b7272ed0fb5e4a21160329e99d5209 data/minecraft/worldgen/structure_set/igloos.json
+ 95466e2c6cc348ba116c29c97d375b226fbbb8e2 data/minecraft/worldgen/noise/gravel.json
+ dee3d1cb549513644a534b3d41b89380ace745a2 data/minecraft/worldgen/noise/pillar_thickness.json
+@@ -354,8 +354,8 @@
+ 9a01a399a5b5d043889e9bb91335b38e14512ffa data/minecraft/worldgen/template_pool/village/snowy/trees.json
+ 4f21d4405a177e291cfc0133a7475d5b8ac6b138 data/minecraft/worldgen/noise/pillar.json
+ d120d51b58fcf535be73b1fde8f3ce5e1829adb2 data/minecraft/worldgen/biome/sunflower_plains.json
+-770b9983a39eedaf088282cc760326ff11450c30 data/minecraft/worldgen/configured_feature/fancy_oak_bees.json
+ cb791ce3612f8e48ff783b07c5b69b36f74c3be2 data/minecraft/worldgen/configured_feature/birch_bees_005.json
++770b9983a39eedaf088282cc760326ff11450c30 data/minecraft/worldgen/configured_feature/fancy_oak_bees.json
+ b0cbf6ba55de5d6a59a2e6c993bc65aac2210c2d data/minecraft/worldgen/placed_feature/flower_warm.json
+ 045e6322d781cead75ef911785ee78315a6cabb4 data/minecraft/worldgen/biome/snowy_slopes.json
+ df77e647988b42301b6eec7e95045ac05070e3e2 data/minecraft/worldgen/placed_feature/patch_large_fern.json
+@@ -394,8 +394,8 @@
+ 54772af48ab3aecad3e3cca1d12ced18dc43b488 data/minecraft/worldgen/processor_list/zombie_savanna.json
+ cb78b5a27af46c8f69876c05a23f59cb0c09bbf3 data/minecraft/worldgen/placed_feature/trees_windswept_hills.json
+ bb4f9c6555311fbd259a62ea928a5694097b484a data/minecraft/worldgen/configured_feature/meadow_trees.json
+-72764cbf876e5862d1b740447b2f44edcd6d141a data/minecraft/worldgen/placed_feature/end_island_decorated.json
+ 40f3c8a18bc048a356dd1842316619a7fc979bb1 data/minecraft/worldgen/placed_feature/ore_copper.json
++72764cbf876e5862d1b740447b2f44edcd6d141a data/minecraft/worldgen/placed_feature/end_island_decorated.json
+ cd009c5aa1ff9eb47843992652230567228cdbe3 data/minecraft/worldgen/structure_set/jungle_temples.json
+ e649c820183053a6f58c2a3d000e9fc16aefe26f data/minecraft/trim_material/amethyst.json
+ ce584c64480194eef33f7e92006a3fe5e5a3b4b9 data/minecraft/worldgen/biome/snowy_taiga.json
+@@ -422,8 +422,8 @@
+ bfcb8cb1179d77e2836b8a95fa656e4d2e160e68 data/minecraft/worldgen/processor_list/street_plains.json
+ 96a2f3be2bb9b5a343ce3ca7adccc976e7ded028 data/minecraft/worldgen/placed_feature/jungle_tree.json
+ 21c76eeee251ea2a00422b5b49ad4a3ab8bc22a2 data/minecraft/worldgen/configured_feature/spore_blossom.json
+-926f5990af8864827a98e2732922656fe4225aff data/minecraft/worldgen/biome/lush_caves.json
+ 3a5d16d361f89c101edc3061aaf37c910a155ef3 data/minecraft/worldgen/configured_feature/ore_coal_buried.json
++926f5990af8864827a98e2732922656fe4225aff data/minecraft/worldgen/biome/lush_caves.json
+ 7a7bd766f4a860577e1f59c613ad25e4a42f3f98 data/minecraft/damage_type/fly_into_wall.json
+ 5e083a6377973b28ec835432b7e5fcf5f969aa25 data/minecraft/worldgen/placed_feature/red_mushroom_taiga.json
+ 4429bfa24c5facae3c191e3e0e0769e955719d65 data/minecraft/worldgen/placed_feature/glow_lichen.json
+@@ -436,28 +436,28 @@
+ cc3e6ebcc3dec920b7323b461fb92c65f90cba49 data/minecraft/worldgen/biome/deep_dark.json
+ 08da1ecb31b35343b1fdff3a8cbabacc9cc8a812 data/minecraft/worldgen/placed_feature/large_basalt_columns.json
+ ef912851e80209554d8855418353cd2bab653459 data/minecraft/worldgen/configured_feature/azalea_tree.json
+-e4be00c75d0908e7de9b4cf40ccd5c9e77a8ba29 data/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
+ dee3d1cb549513644a534b3d41b89380ace745a2 data/minecraft/worldgen/noise/badlands_pillar_roof.json
++e4be00c75d0908e7de9b4cf40ccd5c9e77a8ba29 data/minecraft/worldgen/processor_list/ancient_city_generic_degradation.json
+ 27fea4b0db950f6b4d493890ce343e487a9e157e data/minecraft/worldgen/placed_feature/spruce_checked.json
+ 0e6ebbb238688a1b0d2a9fd49ad19115a925d784 data/minecraft/worldgen/structure/jungle_pyramid.json
+ 4b4b2ff422d23e4cb6282f664d89dad7ac8ff8e6 data/minecraft/damage_type/player_attack.json
+ aa150759cb6d2a6727976ae080e7c9061d848ab3 data/minecraft/worldgen/placed_feature/trees_meadow.json
+ 7bd627108d1e3bd8ea04e72b3a0c2e15e6c2c2df data/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
+-0a691f5b8b917cd07460a1506f15956c9b735e95 data/minecraft/worldgen/configured_feature/trees_windswept_hills.json
+ 939df351f01603b37bc025082c9af87d50d6376e data/minecraft/worldgen/biome/grove.json
++0a691f5b8b917cd07460a1506f15956c9b735e95 data/minecraft/worldgen/configured_feature/trees_windswept_hills.json
+ f819fb29070e13882767d5ea75439dde044abd17 data/minecraft/worldgen/noise/spaghetti_3d_2.json
+ 9ca3fd4e68dff1febc112ad536cfce57583be85e data/minecraft/worldgen/placed_feature/ore_dirt.json
+ 5a23cdc8f5cb6d13e4cd7185b7b9841bf550acf2 data/minecraft/worldgen/biome/end_barrens.json
+ 64bf9fafbe23ef4fffdf08a84644b24ec05bb42f data/minecraft/worldgen/placed_feature/seagrass_deep_warm.json
+ 9be68c7d77303809912c4034ec330c1e82427f1d data/minecraft/worldgen/configured_feature/ore_iron_small.json
+ c34cd16be54ce6f6e3bdcfe14cc5f0bc8a2c4155 data/minecraft/worldgen/placed_feature/seagrass_swamp.json
+-c31d2885dcce5f5c403891dce8f47f274160c77c data/minecraft/worldgen/configured_feature/lake_lava.json
+ 6b3984b548e3a8e40ac93859e44d56b60db72e58 data/minecraft/worldgen/configured_feature/oak_bees_005.json
++c31d2885dcce5f5c403891dce8f47f274160c77c data/minecraft/worldgen/configured_feature/lake_lava.json
+ 6ee174f671b9ee7e39bdf06eaf46718967c96f06 data/minecraft/worldgen/configured_feature/disk_grass.json
+ 54f70db999bc3947333d10e7ac2354763ff086e3 data/minecraft/worldgen/configured_carver/nether_cave.json
+ f10067f74125dda67f7e85428953eecd6176f8a2 data/minecraft/worldgen/placed_feature/warm_ocean_vegetation.json
+-f5cada2c7898370fd0d5a6ae22e365d54f7444ac data/minecraft/worldgen/placed_feature/mega_spruce_checked.json
+ 3b467de090bb3077fc2bfbf49287590d85503f95 data/minecraft/worldgen/placed_feature/red_mushroom_old_growth.json
++f5cada2c7898370fd0d5a6ae22e365d54f7444ac data/minecraft/worldgen/placed_feature/mega_spruce_checked.json
+ 94b9ad2f9decd67958b597d2a1f2afa79bdb69fe data/minecraft/worldgen/biome/plains.json
+ d9af40603f65a154ede1c3d4e48d14bb3c02479c data/minecraft/worldgen/configured_feature/weeping_vines.json
+ c3c8a39c993319119cc28e863d724c84691d31f7 data/minecraft/worldgen/placed_feature/ore_iron_upper.json
+@@ -473,8 +473,8 @@
+ 1004077b8e928c79aeddfa23d4519b7a670a3219 data/minecraft/worldgen/placed_feature/trees_savanna.json
+ 2da4e997fa87e73b079ae1e808d92313333df6bc data/minecraft/worldgen/configured_feature/fossil_diamonds.json
+ 24f4b9c9b49df73c75c23ef59b83b2d2e0f03dd9 data/minecraft/worldgen/biome/bamboo_jungle.json
+-b26d0dd82e58e577481cbf332d69b3c4c70c4eed data/minecraft/worldgen/placed_feature/patch_grass_badlands.json
+ aa5f6268f6a9c6d611baba7eb11afc55d2f8fba0 data/minecraft/worldgen/placed_feature/end_spike.json
++b26d0dd82e58e577481cbf332d69b3c4c70c4eed data/minecraft/worldgen/placed_feature/patch_grass_badlands.json
+ 25b81dfcd82dd455a00f8c66e1a1600393dc7741 data/minecraft/worldgen/template_pool/bastion/treasure/walls/bottom.json
+ 595514e31900dfc9c8de3c949c3b61c2e78fc495 data/minecraft/trim_pattern/vex.json
+ 53ed8b6316c4b69966f56d967d3e39ccfb21b098 data/minecraft/worldgen/noise/packed_ice.json
+@@ -483,8 +483,8 @@
+ a986f3b87cddf68a7d365a97ae0b57a2d5bb3f64 data/minecraft/worldgen/configured_feature/amethyst_geode.json
+ 823845807d2c6801cfb2f56c2265b7e47976bc77 data/minecraft/worldgen/configured_feature/spruce.json
+ 20dff721e378563d3b1c823d5e358dec5b9c539b data/minecraft/worldgen/template_pool/village/taiga/zombie/streets.json
+-6c691655ac0d9c742d1815fe8c328dd4c090b8dd data/minecraft/worldgen/placed_feature/flower_plain.json
+ 0a524e1a9066a6cc37cf0be39d5997744323f8a9 data/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
++6c691655ac0d9c742d1815fe8c328dd4c090b8dd data/minecraft/worldgen/placed_feature/flower_plain.json
+ b8b341909f99b06a722e249f1280d1ff06a4ba1e data/minecraft/worldgen/placed_feature/patch_sugar_cane_desert.json
+ d1f621b84e495bfee640ae735e21197525b0a616 data/minecraft/worldgen/template_pool/ancient_city/city_center/walls.json
+ 628a0fdb9dfa22e40e3f6e2cae7035260c893999 data/minecraft/worldgen/noise/spaghetti_2d_modulator.json
+@@ -514,8 +514,8 @@
+ 2ef7a987b0f86a317cbf59dbbc0d99a6c4244c18 data/minecraft/worldgen/configured_feature/super_birch_bees.json
+ e8630d358601f4aca5457d0d837fa44af2398406 data/minecraft/worldgen/placed_feature/dark_forest_vegetation.json
+ 725e88c81dff68d92570b1f37ef470ae4c1394b0 data/minecraft/worldgen/configured_feature/seagrass_tall.json
+-f885383394049e49522d55659d07d262b3ca0fdd data/minecraft/worldgen/template_pool/village/desert/villagers.json
+ 33826bea84ddf4a0e4c278cd05acdc40f8eaebe5 data/minecraft/worldgen/structure_set/shipwrecks.json
++f885383394049e49522d55659d07d262b3ca0fdd data/minecraft/worldgen/template_pool/village/desert/villagers.json
+ 5211881d69a11ac727b4b5c02120eb6e42450a0c data/minecraft/worldgen/template_pool/bastion/hoglin_stable/connectors.json
+ c23149b01b05d82adca6fe75ce3a8b45d6a175c2 data/minecraft/worldgen/noise/iceberg_pillar_roof.json
+ 05c1f620742164fd2f5338b477c22a8acca6d258 data/minecraft/worldgen/configured_feature/crimson_fungus.json
+@@ -622,8 +622,8 @@
+ 7638ad82b0f70cdf3362a86d431b336645c39a74 data/minecraft/worldgen/placed_feature/red_mushroom_nether.json
+ 848a3c49669f7e3996c929db2d935e6ae0fab00c data/minecraft/trim_pattern/spire.json
+ ef51757cad3840377b36a488adcca156806b80cf data/minecraft/damage_type/lava.json
+-673b8f368fb89d6010bf1b15271e9d4617ad7fa2 data/minecraft/worldgen/placed_feature/trees_taiga.json
+ f6e38231d4a5f0af3f7d89bc21d071bf172192f1 data/minecraft/worldgen/placed_feature/trees_mangrove.json
++673b8f368fb89d6010bf1b15271e9d4617ad7fa2 data/minecraft/worldgen/placed_feature/trees_taiga.json
+ 311ff34b828f49bc6884031b3e1931137d2bf66b data/minecraft/worldgen/placed_feature/kelp_warm.json
+ 180b4a43868ee126a458447d9e31dde6db71bcd4 data/minecraft/worldgen/configured_feature/crimson_fungus_planted.json
+ 67d243c37fdaa44b1a161aea5a6a5f78d567d3b9 data/minecraft/worldgen/placed_feature/seagrass_deep.json
+@@ -639,14 +639,14 @@
+ e226ee1784c5728e94957f0f62807a65ae4b16b2 data/minecraft/worldgen/structure/shipwreck_beached.json
+ fb1eaa08c36eb4de89ddb3a55e03ec5ab1ba825a data/minecraft/worldgen/placed_feature/trees_badlands.json
+ 3e50d629cad067befddc8135cb0bfd093898ca7a data/minecraft/worldgen/configured_feature/spring_lava_nether.json
+-eebd46ab60ba60a292aae47a72212fa8ed74c416 data/minecraft/worldgen/structure/mansion.json
+ e3ef268a684d050cfc452e430fe8c25409068721 data/minecraft/worldgen/structure/nether_fossil.json
++eebd46ab60ba60a292aae47a72212fa8ed74c416 data/minecraft/worldgen/structure/mansion.json
+ 09268e7de99246cb66afa5d58af7b809f6d57ecc data/minecraft/trim_pattern/eye.json
+ 1ca36a7cf94578a44ea1396eed62c5245a53946a data/minecraft/worldgen/biome/sparse_jungle.json
+ 7150329191336a5505c258fa7bef64428ddf951c data/minecraft/worldgen/placed_feature/spruce_on_snow.json
+ 5f92476f4b6eb3bcb7807d4878e16c6f1f80b92c data/minecraft/worldgen/placed_feature/brown_mushroom_old_growth.json
+-1400f6ae1120c8fac1a936f117867edee0434725 data/minecraft/worldgen/placed_feature/patch_pumpkin.json
+ 2fa944b00efb5d6e456176b72114f819bf8efeca data/minecraft/worldgen/placed_feature/cherry_checked.json
++1400f6ae1120c8fac1a936f117867edee0434725 data/minecraft/worldgen/placed_feature/patch_pumpkin.json
+ 0b629b0405b88fe529a549a12ce7bf4753669cd9 data/minecraft/worldgen/noise_settings/caves.json
+ dccf1e1f384f65cc82e2fae0607323f65be387e3 data/minecraft/damage_type/cactus.json
+ fe283ad5dd05fd0dd94e8584a2eb45550c729679 data/minecraft/worldgen/placed_feature/kelp_cold.json
+@@ -665,8 +665,8 @@
+ 85b656efe489104d8f8b223f8bae67984c857d97 data/minecraft/damage_type/unattributed_fireball.json
+ 07c54d972c66eb38662fd47c6c0570e818a26eb2 data/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json
+ 716d13de6acf1a3bfc6aa70841c34b999eb25afa data/minecraft/trim_material/gold.json
+-a5a7f1de150a428bc2f21bede05f235d0dcfff06 data/minecraft/worldgen/configured_feature/ore_nether_gold.json
+ acd73c0ff811fb7371cbaa9af6e0f48732b462c3 data/minecraft/worldgen/configured_feature/birch.json
++a5a7f1de150a428bc2f21bede05f235d0dcfff06 data/minecraft/worldgen/configured_feature/ore_nether_gold.json
+ 3cafffe921b38e6372c4af38f0e4db54055c3a31 data/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
+ bbe938cf4e99a6477e6b91f6aae6ae88670f0442 data/minecraft/damage_type/hot_floor.json
+ 177eb7d355d1bfb2374624c6a235e75cb57a563d data/minecraft/worldgen/placed_feature/patch_berry_common.json
+@@ -746,8 +746,8 @@
+ 27af4071f48292605213832a06da2b7766d17853 data/minecraft/worldgen/template_pool/bastion/hoglin_stable/walls.json
+ 12475c49a27516d415a08dd128bd98fee7f9b13e data/minecraft/worldgen/template_pool/village/plains/town_centers.json
+ 350801c39806bfde81d23d34af1a239e75a39b65 data/minecraft/worldgen/structure/ruined_portal.json
+-5a7504edbc9d3701800cba4390f1a6c7ef41e994 data/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
+ 05620cfdc4c2501b5ae2f2ef4125ae8b14f11d63 data/minecraft/worldgen/configured_feature/dripleaf.json
++5a7504edbc9d3701800cba4390f1a6c7ef41e994 data/minecraft/worldgen/configured_feature/twisting_vines_bonemeal.json
+ 4c565e9b9c0f42de182ea76a9df80af13272137e data/minecraft/worldgen/placed_feature/patch_berry_bush.json
+ 91457c6815db2f1ea9ab89cda53004227b0e33ec data/minecraft/worldgen/template_pool/village/common/well_bottoms.json
+ 592e02c67e9394996e4d4147d66cd8e5c66c0d56 data/minecraft/worldgen/template_pool/village/desert/streets.json
+@@ -782,9 +782,9 @@
+ a4a10abf16ff5fa261c4dc762d184e3a26509705 data/minecraft/worldgen/template_pool/bastion/units/walls/wall_bases.json
+ 7ef991c41038310f63304217ca5d1983964f5542 data/minecraft/worldgen/flat_level_generator_preset/classic_flat.json
+ 02f0e3905f293d180e4610519a31a5d4e1952d5b data/minecraft/worldgen/template_pool/village/common/cats.json
+-5f660fcb432320d9769b3a979253834bc3ba5b4f data/minecraft/worldgen/configured_feature/ore_soul_sand.json
+ 487e595ef242fdddeb488e50d9804313645ea0ab data/minecraft/worldgen/configured_feature/trees_flower_forest.json
+ 9483bf10a03bad963b547e65217e92e0750015db data/minecraft/worldgen/configured_feature/ore_ancient_debris_small.json
++5f660fcb432320d9769b3a979253834bc3ba5b4f data/minecraft/worldgen/configured_feature/ore_soul_sand.json
+ da2bd6836b8b2ebccb56be9a32e7a61c8330b452 data/minecraft/worldgen/configured_feature/pile_ice.json
+ c5f17458bdae1dce38dc62e1ab38ebd7965794e8 data/minecraft/worldgen/biome/meadow.json
+ e39d1166555cf564f15901035a3ec3b0c4f0485f data/minecraft/worldgen/biome/snowy_beach.json
+@@ -856,8 +856,8 @@
+ af3a856c3237510ceb8fbff20f266c678632b90a data/minecraft/worldgen/placed_feature/bamboo.json
+ 46fb312b92148af60dcd2fa370d31cd65d78d76e data/minecraft/worldgen/configured_feature/trees_jungle.json
+ 0ff8505ce130288658741f5fe1d90e2e07563d91 data/minecraft/damage_type/cramming.json
+-052cc14ff5a707f697c4ce9d7ecfc5a35a1a7878 data/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
+ 646ff05db25e4286a8e6f5a960bb99ffd0d11bbd data/minecraft/worldgen/configured_feature/huge_brown_mushroom.json
++052cc14ff5a707f697c4ce9d7ecfc5a35a1a7878 data/minecraft/worldgen/configured_feature/fancy_oak_bees_0002.json
+ f8ec8bcf21216144554e149c0bbab1e53ee80a9d data/minecraft/worldgen/placed_feature/ore_emerald.json
+ dee3d1cb549513644a534b3d41b89380ace745a2 data/minecraft/worldgen/noise/spaghetti_3d_thickness.json
+ 439f757c4dcc9161382c2da863987796de8d1fdd data/minecraft/worldgen/placed_feature/pile_snow.json
+@@ -891,8 +891,8 @@
+ 075112fc7b83e8d317ca725680903ee6b9fe058c data/minecraft/worldgen/placed_feature/seagrass_river.json
+ 0cde9e7b23300281688573d88d2af9427b50cd1a data/minecraft/worldgen/configured_feature/ore_lapis_buried.json
+ 2724e4892882365263b384f5afddfa2007157cf6 data/minecraft/worldgen/template_pool/village/snowy/zombie/decor.json
+-cb5264fea000757b698e8b8c4544552808ec609f data/minecraft/worldgen/configured_feature/ore_gravel.json
+ 1a5dbcbd703876df94c26f386d0056925e0d3e54 data/minecraft/chat_type/emote_command.json
++cb5264fea000757b698e8b8c4544552808ec609f data/minecraft/worldgen/configured_feature/ore_gravel.json
+ 9988de11528adddf050cd35b5fb70cd5d12f15b7 data/minecraft/trim_pattern/raiser.json
+ 8b2fff2c3267f59afd49769fbbc4e279a8faa0de data/minecraft/worldgen/noise/temperature_large.json
+ bd9df40e2ea8f9fa9a7f9c4571bbc5d7866d5e0c data/minecraft/worldgen/placed_feature/trees_grove.json
+@@ -913,8 +913,8 @@
+ f978b9d30c560161f2797be017acee50cc39f9ec data/minecraft/worldgen/placed_feature/nether_sprouts.json
+ 3ab2ce84fd0f5417236a451874e8be18657e1b7e data/minecraft/worldgen/structure/ocean_ruin_cold.json
+ 043ea13ddb6fc0deb416303395890fe00bd0e91c data/minecraft/worldgen/processor_list/treasure_rooms.json
+-790ac330ae9451f4c1ccbd8d93ae3fffe74b20e3 data/minecraft/worldgen/configured_feature/freeze_top_layer.json
+ 65d3adb2cbf203299a89aef30f4753ca1063820f data/minecraft/worldgen/configured_feature/ore_diorite.json
++790ac330ae9451f4c1ccbd8d93ae3fffe74b20e3 data/minecraft/worldgen/configured_feature/freeze_top_layer.json
+ 563db884ba9eaa1e61397c455f807a940eba4fb7 data/minecraft/worldgen/placed_feature/flower_cherry.json
+ 4e27cb867e663e018f96e3600af62437b84ed2e5 data/minecraft/chat_type/msg_command_incoming.json
+ edf790b4c8daf2b11236a7253b72a6bad8af295b data/minecraft/worldgen/configured_feature/patch_cactus.json
+diff -urN versions/1.20/generated/assets/minecraft/blockstates/chiseled_bookshelf.json versions/1.20.1/generated/assets/minecraft/blockstates/chiseled_bookshelf.json
+--- versions/1.20/generated/assets/minecraft/blockstates/chiseled_bookshelf.json	2025-07-27 16:52:38.988304251 +0000
++++ versions/1.20.1/generated/assets/minecraft/blockstates/chiseled_bookshelf.json	2025-07-27 16:52:51.892843890 +0000
+@@ -4,21 +4,85 @@
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf",
+         "uvlock": true,
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+-        "facing": "east"
++        "facing": "north"
++      }
++    },
++    {
++      "apply": {
++        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
++        "y": 0
++      },
++      "when": {
++        "AND": [
++          {
++            "facing": "north"
++          },
++          {
++            "slot_4_occupied": "true"
++          }
++        ]
++      }
++    },
++    {
++      "apply": {
++        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid",
++        "y": 0
++      },
++      "when": {
++        "AND": [
++          {
++            "facing": "north"
++          },
++          {
++            "slot_4_occupied": "false"
++          }
++        ]
++      }
++    },
++    {
++      "apply": {
++        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_left",
++        "y": 0
++      },
++      "when": {
++        "AND": [
++          {
++            "facing": "north"
++          },
++          {
++            "slot_0_occupied": "true"
++          }
++        ]
++      }
++    },
++    {
++      "apply": {
++        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_left",
++        "y": 0
++      },
++      "when": {
++        "AND": [
++          {
++            "facing": "north"
++          },
++          {
++            "slot_0_occupied": "false"
++          }
++        ]
+       }
+     },
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_2_occupied": "true"
+@@ -29,12 +93,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_2_occupied": "false"
+@@ -45,12 +109,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_5_occupied": "true"
+@@ -61,12 +125,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_5_occupied": "false"
+@@ -77,12 +141,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_3_occupied": "true"
+@@ -93,12 +157,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_3_occupied": "false"
+@@ -109,12 +173,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_1_occupied": "true"
+@@ -125,12 +189,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+-        "y": 90
++        "y": 0
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "east"
++            "facing": "north"
+           },
+           {
+             "slot_1_occupied": "false"
+@@ -140,6 +204,16 @@
+     },
+     {
+       "apply": {
++        "model": "minecraft:block/chiseled_bookshelf",
++        "uvlock": true,
++        "y": 90
++      },
++      "when": {
++        "facing": "east"
++      }
++    },
++    {
++      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+         "y": 90
+       },
+@@ -204,23 +278,13 @@
+     },
+     {
+       "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf",
+-        "uvlock": true,
+-        "y": 180
+-      },
+-      "when": {
+-        "facing": "south"
+-      }
+-    },
+-    {
+-      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_2_occupied": "true"
+@@ -231,12 +295,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_2_occupied": "false"
+@@ -247,12 +311,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_5_occupied": "true"
+@@ -263,12 +327,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_5_occupied": "false"
+@@ -279,12 +343,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_3_occupied": "true"
+@@ -295,12 +359,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_3_occupied": "false"
+@@ -311,12 +375,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_1_occupied": "true"
+@@ -327,12 +391,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+-        "y": 180
++        "y": 90
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "south"
++            "facing": "east"
+           },
+           {
+             "slot_1_occupied": "false"
+@@ -342,6 +406,16 @@
+     },
+     {
+       "apply": {
++        "model": "minecraft:block/chiseled_bookshelf",
++        "uvlock": true,
++        "y": 180
++      },
++      "when": {
++        "facing": "south"
++      }
++    },
++    {
++      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+         "y": 180
+       },
+@@ -406,23 +480,13 @@
+     },
+     {
+       "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf",
+-        "uvlock": true,
+-        "y": 270
+-      },
+-      "when": {
+-        "facing": "west"
+-      }
+-    },
+-    {
+-      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_2_occupied": "true"
+@@ -433,12 +497,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_2_occupied": "false"
+@@ -449,12 +513,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_5_occupied": "true"
+@@ -465,12 +529,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_5_occupied": "false"
+@@ -481,12 +545,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_3_occupied": "true"
+@@ -497,12 +561,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_3_occupied": "false"
+@@ -513,12 +577,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_1_occupied": "true"
+@@ -529,12 +593,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+-        "y": 270
++        "y": 180
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "west"
++            "facing": "south"
+           },
+           {
+             "slot_1_occupied": "false"
+@@ -544,6 +608,16 @@
+     },
+     {
+       "apply": {
++        "model": "minecraft:block/chiseled_bookshelf",
++        "uvlock": true,
++        "y": 270
++      },
++      "when": {
++        "facing": "west"
++      }
++    },
++    {
++      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+         "y": 270
+       },
+@@ -608,23 +682,13 @@
+     },
+     {
+       "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf",
+-        "uvlock": true,
+-        "y": 0
+-      },
+-      "when": {
+-        "facing": "north"
+-      }
+-    },
+-    {
+-      "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_right",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_2_occupied": "true"
+@@ -635,12 +699,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_right",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_2_occupied": "false"
+@@ -651,12 +715,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_right",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_5_occupied": "true"
+@@ -667,12 +731,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_right",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_5_occupied": "false"
+@@ -683,12 +747,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_left",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_3_occupied": "true"
+@@ -699,12 +763,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_left",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_3_occupied": "false"
+@@ -715,12 +779,12 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_mid",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_1_occupied": "true"
+@@ -731,82 +795,18 @@
+     {
+       "apply": {
+         "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_mid",
+-        "y": 0
++        "y": 270
+       },
+       "when": {
+         "AND": [
+           {
+-            "facing": "north"
++            "facing": "west"
+           },
+           {
+             "slot_1_occupied": "false"
+           }
+         ]
+       }
+-    },
+-    {
+-      "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_bottom_mid",
+-        "y": 0
+-      },
+-      "when": {
+-        "AND": [
+-          {
+-            "facing": "north"
+-          },
+-          {
+-            "slot_4_occupied": "true"
+-          }
+-        ]
+-      }
+-    },
+-    {
+-      "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf_empty_slot_bottom_mid",
+-        "y": 0
+-      },
+-      "when": {
+-        "AND": [
+-          {
+-            "facing": "north"
+-          },
+-          {
+-            "slot_4_occupied": "false"
+-          }
+-        ]
+-      }
+-    },
+-    {
+-      "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf_occupied_slot_top_left",
+-        "y": 0
+-      },
+-      "when": {
+-        "AND": [
+-          {
+-            "facing": "north"
+-          },
+-          {
+-            "slot_0_occupied": "true"
+-          }
+-        ]
+-      }
+-    },
+-    {
+-      "apply": {
+-        "model": "minecraft:block/chiseled_bookshelf_empty_slot_top_left",
+-        "y": 0
+-      },
+-      "when": {
+-        "AND": [
+-          {
+-            "facing": "north"
+-          },
+-          {
+-            "slot_0_occupied": "false"
+-          }
+-        ]
+-      }
+     }
+   ]
+ }
+\ No newline at end of file

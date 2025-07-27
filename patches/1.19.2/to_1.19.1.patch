@@ -1,0 +1,205 @@
+diff -urN versions/1.19.2/generated/.cache/03e4de26f1265135874f8cdcaebc09d9c08eb42b versions/1.19.1/generated/.cache/03e4de26f1265135874f8cdcaebc09d9c08eb42b
+--- versions/1.19.2/generated/.cache/03e4de26f1265135874f8cdcaebc09d9c08eb42b	2025-07-27 16:51:56.058419915 +0000
++++ versions/1.19.1/generated/.cache/03e4de26f1265135874f8cdcaebc09d9c08eb42b	2025-07-27 16:51:44.685418831 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.058613177	Tags for minecraft:item
++// 1.19.1	2025-07-27T16:51:44.686281293	Tags for minecraft:item
+ 302a7306008322c71a33f283b0796380e354dc07 data/minecraft/tags/items/slabs.json
+ a91a14b0d844c2e8beb882a51072178e0667620c data/minecraft/tags/items/jungle_logs.json
+ 1427990c03c12740923148023ff91c8dc180e080 data/minecraft/tags/items/signs.json
+diff -urN versions/1.19.2/generated/.cache/321e3f1c64fe85ef901420b88406be01ad84a311 versions/1.19.1/generated/.cache/321e3f1c64fe85ef901420b88406be01ad84a311
+--- versions/1.19.2/generated/.cache/321e3f1c64fe85ef901420b88406be01ad84a311	2025-07-27 16:51:56.044419913 +0000
++++ versions/1.19.1/generated/.cache/321e3f1c64fe85ef901420b88406be01ad84a311	2025-07-27 16:51:44.670418830 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.044951679	Tags for minecraft:game_event
++// 1.19.1	2025-07-27T16:51:44.671375378	Tags for minecraft:game_event
+ 641d5946c42493fe7a161d4a3971814600234ffd data/minecraft/tags/game_events/shrieker_can_listen.json
+ 9f0795d4a25002aec5b5c85088825969d54390b0 data/minecraft/tags/game_events/vibrations.json
+ 97a340daeb7b8ab4666c89fc885a05568fc036f3 data/minecraft/tags/game_events/warden_can_listen.json
+diff -urN versions/1.19.2/generated/.cache/439b9dbd3701473de5e03c61d2ff236a765b2427 versions/1.19.1/generated/.cache/439b9dbd3701473de5e03c61d2ff236a765b2427
+--- versions/1.19.2/generated/.cache/439b9dbd3701473de5e03c61d2ff236a765b2427	2025-07-27 16:51:56.066419915 +0000
++++ versions/1.19.1/generated/.cache/439b9dbd3701473de5e03c61d2ff236a765b2427	2025-07-27 16:51:44.702418833 +0000
+@@ -1,3 +1,3 @@
+-// 1.19.2	2025-07-27T16:51:56.067418179	Tags for minecraft:cat_variant
++// 1.19.1	2025-07-27T16:51:44.703125134	Tags for minecraft:cat_variant
+ 438af46519492d30c9f70f7b000514e91189c727 data/minecraft/tags/cat_variant/full_moon_spawns.json
+ 57eed34a77b40c42d1af8c1144b111321771955c data/minecraft/tags/cat_variant/default_spawns.json
+diff -urN versions/1.19.2/generated/.cache/55f0273cb61243ff3d2fde23212f03e66541da02 versions/1.19.1/generated/.cache/55f0273cb61243ff3d2fde23212f03e66541da02
+--- versions/1.19.2/generated/.cache/55f0273cb61243ff3d2fde23212f03e66541da02	2025-07-27 16:51:56.044419913 +0000
++++ versions/1.19.1/generated/.cache/55f0273cb61243ff3d2fde23212f03e66541da02	2025-07-27 16:51:44.670418830 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.044667307	Tags for minecraft:worldgen/biome
++// 1.19.1	2025-07-27T16:51:44.670995788	Tags for minecraft:worldgen/biome
+ f813468c93191d40d0ec09e399b71a5f9c33ce5d data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_warm.json
+ 0f241c94b10e4b16b4304f66ad949bb089955b1e data/minecraft/tags/worldgen/biome/allows_tropical_fish_spawns_at_any_height.json
+ afd9da16b8e57511d3b12c69ccd4555d71ebb29f data/minecraft/tags/worldgen/biome/has_structure/shipwreck.json
+diff -urN versions/1.19.2/generated/.cache/67cce32b1c3cbbcb1f646605f4914e3f196986c2 versions/1.19.1/generated/.cache/67cce32b1c3cbbcb1f646605f4914e3f196986c2
+--- versions/1.19.2/generated/.cache/67cce32b1c3cbbcb1f646605f4914e3f196986c2	2025-07-27 16:51:56.047419913 +0000
++++ versions/1.19.1/generated/.cache/67cce32b1c3cbbcb1f646605f4914e3f196986c2	2025-07-27 16:51:44.674418830 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.045053249	LootTables
++// 1.19.1	2025-07-27T16:51:44.671473131	LootTables
+ ef017fe8afbc1e704a7cfb4818ece7ba018f9c91 data/minecraft/loot_tables/entities/pillager.json
+ aef4becd6a9e27ead403fae58c8d35d9a7f54fc2 data/minecraft/loot_tables/blocks/light_gray_terracotta.json
+ 13c0785dd4ffa82b959a93f4eccb46309ccde68c data/minecraft/loot_tables/blocks/mud_bricks.json
+diff -urN versions/1.19.2/generated/.cache/75bcd4dba6ca7d365462b0ec45e291d1056349c4 versions/1.19.1/generated/.cache/75bcd4dba6ca7d365462b0ec45e291d1056349c4
+--- versions/1.19.2/generated/.cache/75bcd4dba6ca7d365462b0ec45e291d1056349c4	2025-07-27 16:51:56.043419913 +0000
++++ versions/1.19.1/generated/.cache/75bcd4dba6ca7d365462b0ec45e291d1056349c4	2025-07-27 16:51:44.669418830 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.043226762	Tags for minecraft:block
++// 1.19.1	2025-07-27T16:51:44.668685015	Tags for minecraft:block
+ 60f661a9b26b7f6b1910e5390a40644354fe0919 data/minecraft/tags/blocks/frogs_spawnable_on.json
+ 31855d768b20e56a7ad007279733d27e91becc21 data/minecraft/tags/blocks/dark_oak_logs.json
+ a91a14b0d844c2e8beb882a51072178e0667620c data/minecraft/tags/blocks/jungle_logs.json
+diff -urN versions/1.19.2/generated/.cache/7659991f6830bab8c6fea47f00fbf157da55dbda versions/1.19.1/generated/.cache/7659991f6830bab8c6fea47f00fbf157da55dbda
+--- versions/1.19.2/generated/.cache/7659991f6830bab8c6fea47f00fbf157da55dbda	2025-07-27 16:51:56.057419914 +0000
++++ versions/1.19.1/generated/.cache/7659991f6830bab8c6fea47f00fbf157da55dbda	2025-07-27 16:51:44.685418831 +0000
+@@ -1,3 +1,3 @@
+-// 1.19.2	2025-07-27T16:51:56.058249677	Tags for minecraft:worldgen/world_preset
++// 1.19.1	2025-07-27T16:51:44.686015306	Tags for minecraft:worldgen/world_preset
+ a032e8ffc87e47999b9622ce4559ea91123d84cd data/minecraft/tags/worldgen/world_preset/extended.json
+ e947d3e1932170da4f4ecb5e456bd62cab761ac0 data/minecraft/tags/worldgen/world_preset/normal.json
+diff -urN versions/1.19.2/generated/.cache/8d0de8c50ea786707a11b52b3f79adb2562a4d47 versions/1.19.1/generated/.cache/8d0de8c50ea786707a11b52b3f79adb2562a4d47
+--- versions/1.19.2/generated/.cache/8d0de8c50ea786707a11b52b3f79adb2562a4d47	2025-07-27 16:51:56.043419913 +0000
++++ versions/1.19.1/generated/.cache/8d0de8c50ea786707a11b52b3f79adb2562a4d47	2025-07-27 16:51:44.670418830 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.044466281	Tags for minecraft:banner_pattern
++// 1.19.1	2025-07-27T16:51:44.670668465	Tags for minecraft:banner_pattern
+ 2fde436967c97bd28b21e6d604d3e3d0909aa5fa data/minecraft/tags/banner_pattern/pattern_item/globe.json
+ fd8784340c4bcf8c4f20feea086ceebd965d20d7 data/minecraft/tags/banner_pattern/pattern_item/skull.json
+ 8a9a603a5ac941a149f07099fb0bcbb6320026c8 data/minecraft/tags/banner_pattern/pattern_item/flower.json
+diff -urN versions/1.19.2/generated/.cache/969a3f07adb98dbd7797a2e691af4bf6816d83f4 versions/1.19.1/generated/.cache/969a3f07adb98dbd7797a2e691af4bf6816d83f4
+--- versions/1.19.2/generated/.cache/969a3f07adb98dbd7797a2e691af4bf6816d83f4	2025-07-27 16:51:56.067419915 +0000
++++ versions/1.19.1/generated/.cache/969a3f07adb98dbd7797a2e691af4bf6816d83f4	2025-07-27 16:51:44.702418833 +0000
+@@ -1,2 +1,2 @@
+-// 1.19.2	2025-07-27T16:51:56.067724933	Tags for minecraft:worldgen/flat_level_generator_preset
++// 1.19.1	2025-07-27T16:51:44.70342762	Tags for minecraft:worldgen/flat_level_generator_preset
+ 84f182be8bbee842e930783287a8505d8ac7db94 data/minecraft/tags/worldgen/flat_level_generator_preset/visible.json
+diff -urN versions/1.19.2/generated/.cache/98793a3c2ffd1ffc9229f9d469b6c805227ef8f4 versions/1.19.1/generated/.cache/98793a3c2ffd1ffc9229f9d469b6c805227ef8f4
+--- versions/1.19.2/generated/.cache/98793a3c2ffd1ffc9229f9d469b6c805227ef8f4	2025-07-27 16:51:56.044419913 +0000
++++ versions/1.19.1/generated/.cache/98793a3c2ffd1ffc9229f9d469b6c805227ef8f4	2025-07-27 16:51:44.670418830 +0000
+@@ -1,2 +1,2 @@
+-// 1.19.2	2025-07-27T16:51:56.044585224	Tags for minecraft:painting_variant
++// 1.19.1	2025-07-27T16:51:44.670905699	Tags for minecraft:painting_variant
+ d8c2ba0abb657e77d46be8bde6f6e19cee1119f2 data/minecraft/tags/painting_variant/placeable.json
+diff -urN versions/1.19.2/generated/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e versions/1.19.1/generated/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
+--- versions/1.19.2/generated/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e	2025-07-27 16:51:56.057419914 +0000
++++ versions/1.19.1/generated/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e	2025-07-27 16:51:44.685418831 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.051539684	Recipes
++// 1.19.1	2025-07-27T16:51:44.679399299	Recipes
+ 1e7c38e5b5df9f9aa4b87a8adcea253a4382f3f9 data/minecraft/advancements/recipes/redstone/oak_pressure_plate.json
+ 5800c1f05a328e7d3dc1d876d398e373af5419e9 data/minecraft/recipes/end_stone_brick_wall_from_end_stone_stonecutting.json
+ bd3cee3ea066881da52fe15d10cdc89fb9a5b8cc data/minecraft/advancements/recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting.json
+diff -urN versions/1.19.2/generated/.cache/a226e8bb9697a4e7e4f90e33c63fe57893a3a861 versions/1.19.1/generated/.cache/a226e8bb9697a4e7e4f90e33c63fe57893a3a861
+--- versions/1.19.2/generated/.cache/a226e8bb9697a4e7e4f90e33c63fe57893a3a861	2025-07-27 16:51:56.066419915 +0000
++++ versions/1.19.1/generated/.cache/a226e8bb9697a4e7e4f90e33c63fe57893a3a861	2025-07-27 16:51:44.702418833 +0000
+@@ -1 +1 @@
+-// 1.19.2	2025-07-27T16:51:56.067101817	NBT to SNBT
++// 1.19.1	2025-07-27T16:51:44.702763588	NBT to SNBT
+diff -urN versions/1.19.2/generated/.cache/a3c2d5280373ac2c7357a832bbcc681ccffcf00e versions/1.19.1/generated/.cache/a3c2d5280373ac2c7357a832bbcc681ccffcf00e
+--- versions/1.19.2/generated/.cache/a3c2d5280373ac2c7357a832bbcc681ccffcf00e	2025-07-27 16:51:56.066419915 +0000
++++ versions/1.19.1/generated/.cache/a3c2d5280373ac2c7357a832bbcc681ccffcf00e	2025-07-27 16:51:44.702418833 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.067471008	Tags for minecraft:point_of_interest_type
++// 1.19.1	2025-07-27T16:51:44.703185798	Tags for minecraft:point_of_interest_type
+ a2bbc38191404160511826ec4c5c2d0447f6ecb7 data/minecraft/tags/point_of_interest_type/acquirable_job_site.json
+ c0592cf2b547fda417c3d55356ee1b912a53b865 data/minecraft/tags/point_of_interest_type/village.json
+ 077cbdf449fccc3020a4159bf29058a7aff232d8 data/minecraft/tags/point_of_interest_type/bee_home.json
+diff -urN versions/1.19.2/generated/.cache/a49b8406bb5d914ea733e85be235978b8920cf0c versions/1.19.1/generated/.cache/a49b8406bb5d914ea733e85be235978b8920cf0c
+--- versions/1.19.2/generated/.cache/a49b8406bb5d914ea733e85be235978b8920cf0c	2025-07-27 16:51:56.047419913 +0000
++++ versions/1.19.1/generated/.cache/a49b8406bb5d914ea733e85be235978b8920cf0c	2025-07-27 16:51:44.674418830 +0000
+@@ -1,2 +1,2 @@
+-// 1.19.2	2025-07-27T16:51:56.048058842	Block List
++// 1.19.1	2025-07-27T16:51:44.675152795	Block List
+ 277138621c388553b6cee142287d89313237ba31 reports/blocks.json
+diff -urN versions/1.19.2/generated/.cache/ac501e46887681565d77a65826b6687e9d106945 versions/1.19.1/generated/.cache/ac501e46887681565d77a65826b6687e9d106945
+--- versions/1.19.2/generated/.cache/ac501e46887681565d77a65826b6687e9d106945	2025-07-27 16:51:56.050419914 +0000
++++ versions/1.19.1/generated/.cache/ac501e46887681565d77a65826b6687e9d106945	2025-07-27 16:51:44.677418830 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.048173076	Worldgen
++// 1.19.1	2025-07-27T16:51:44.67549241	Worldgen
+ b5c6260b9b82ab6ed64e01a992027dc5bcbfee41 reports/minecraft/worldgen/biome/lukewarm_ocean.json
+ b139c8554330f4125bcb667998164a8eecf64c47 reports/minecraft/worldgen/placed_feature/brown_mushroom_nether.json
+ 6b1582c5c55512363f91a16124f9a9cc53eedee4 reports/minecraft/worldgen/structure/village_savanna.json
+diff -urN versions/1.19.2/generated/.cache/ad0bf509b7f6f8ed0ed9b03d6ebc1a8a206230fa versions/1.19.1/generated/.cache/ad0bf509b7f6f8ed0ed9b03d6ebc1a8a206230fa
+--- versions/1.19.2/generated/.cache/ad0bf509b7f6f8ed0ed9b03d6ebc1a8a206230fa	2025-07-27 16:51:56.066419915 +0000
++++ versions/1.19.1/generated/.cache/ad0bf509b7f6f8ed0ed9b03d6ebc1a8a206230fa	2025-07-27 16:51:44.702418833 +0000
+@@ -1,2 +1,2 @@
+-// 1.19.2	2025-07-27T16:51:56.067274009	Command Syntax
++// 1.19.1	2025-07-27T16:51:44.702969012	Command Syntax
+ 0f1966b6c3dc4381f86f336802adc944983e8a7b reports/commands.json
+diff -urN versions/1.19.2/generated/.cache/b0cc9a97f1c367d70dab0c83c41601efdc9d3e6a versions/1.19.1/generated/.cache/b0cc9a97f1c367d70dab0c83c41601efdc9d3e6a
+--- versions/1.19.2/generated/.cache/b0cc9a97f1c367d70dab0c83c41601efdc9d3e6a	2025-07-27 16:51:56.066419915 +0000
++++ versions/1.19.1/generated/.cache/b0cc9a97f1c367d70dab0c83c41601efdc9d3e6a	2025-07-27 16:51:44.702418833 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.05891983	Block State Definitions
++// 1.19.1	2025-07-27T16:51:44.68650913	Block State Definitions
+ 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/minecraft/models/item/husk_spawn_egg.json
+ 1992ec8533ec64e4e699df945406934594b00abc assets/minecraft/models/item/stripped_spruce_log.json
+ de2871e15fca95da4336402874ab2f0bb1ba3d98 assets/minecraft/models/block/stone_brick_wall_side_tall.json
+diff -urN versions/1.19.2/generated/.cache/b278d163d9ef3ef6dcf6ddcb581eb7e9252be185 versions/1.19.1/generated/.cache/b278d163d9ef3ef6dcf6ddcb581eb7e9252be185
+--- versions/1.19.2/generated/.cache/b278d163d9ef3ef6dcf6ddcb581eb7e9252be185	2025-07-27 16:51:56.050419914 +0000
++++ versions/1.19.1/generated/.cache/b278d163d9ef3ef6dcf6ddcb581eb7e9252be185	2025-07-27 16:51:44.678418830 +0000
+@@ -1,3 +1,3 @@
+-// 1.19.2	2025-07-27T16:51:56.051432373	Biome Parameters
++// 1.19.1	2025-07-27T16:51:44.679257834	Biome Parameters
+ 7d0da916ac96573015de7aae6ea12f8735f84747 reports/biome_parameters/minecraft/nether.json
+ 170999f14b4e0837cdaeb062f18896c1e7a53781 reports/biome_parameters/minecraft/overworld.json
+diff -urN versions/1.19.2/generated/.cache/b4ca61e2f7f45a84357a2aa581cbcefc16b6acf1 versions/1.19.1/generated/.cache/b4ca61e2f7f45a84357a2aa581cbcefc16b6acf1
+--- versions/1.19.2/generated/.cache/b4ca61e2f7f45a84357a2aa581cbcefc16b6acf1	2025-07-27 16:51:56.066419915 +0000
++++ versions/1.19.1/generated/.cache/b4ca61e2f7f45a84357a2aa581cbcefc16b6acf1	2025-07-27 16:51:44.702418833 +0000
+@@ -1 +1 @@
+-// 1.19.2	2025-07-27T16:51:56.067563551	SNBT -> NBT
++// 1.19.1	2025-07-27T16:51:44.703273452	SNBT -> NBT
+diff -urN versions/1.19.2/generated/.cache/d7b3aac43b2c3c8ddf2d88d57d32ba6e7a4e9167 versions/1.19.1/generated/.cache/d7b3aac43b2c3c8ddf2d88d57d32ba6e7a4e9167
+--- versions/1.19.2/generated/.cache/d7b3aac43b2c3c8ddf2d88d57d32ba6e7a4e9167	2025-07-27 16:51:56.066419915 +0000
++++ versions/1.19.1/generated/.cache/d7b3aac43b2c3c8ddf2d88d57d32ba6e7a4e9167	2025-07-27 16:51:44.702418833 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.067340874	Tags for minecraft:worldgen/structure
++// 1.19.1	2025-07-27T16:51:44.703036428	Tags for minecraft:worldgen/structure
+ bdbef1e5398bebdc50384225edce07692966829c data/minecraft/tags/worldgen/structure/eye_of_ender_located.json
+ a124e2034270a8639a98494959c2524661377ecc data/minecraft/tags/worldgen/structure/shipwreck.json
+ 4d92943fafdfded03126ec0627466acbb025902d data/minecraft/tags/worldgen/structure/cats_spawn_as_black.json
+diff -urN versions/1.19.2/generated/.cache/dd9e38d2c4a93c84d7c1f0af6a2d322dc0f37abe versions/1.19.1/generated/.cache/dd9e38d2c4a93c84d7c1f0af6a2d322dc0f37abe
+--- versions/1.19.2/generated/.cache/dd9e38d2c4a93c84d7c1f0af6a2d322dc0f37abe	2025-07-27 16:51:56.067419915 +0000
++++ versions/1.19.1/generated/.cache/dd9e38d2c4a93c84d7c1f0af6a2d322dc0f37abe	2025-07-27 16:51:44.702418833 +0000
+@@ -1,2 +1,2 @@
+-// 1.19.2	2025-07-27T16:51:56.067777822	Registry Dump
++// 1.19.1	2025-07-27T16:51:44.703474888	Registry Dump
+ 0932ab92db7dd5140957a7a378b27a6355e3e1e9 reports/registries.json
+diff -urN versions/1.19.2/generated/.cache/e5c5eb35b4ba40351ecb7d9f04c3527f2f5779b0 versions/1.19.1/generated/.cache/e5c5eb35b4ba40351ecb7d9f04c3527f2f5779b0
+--- versions/1.19.2/generated/.cache/e5c5eb35b4ba40351ecb7d9f04c3527f2f5779b0	2025-07-27 16:51:56.050419914 +0000
++++ versions/1.19.1/generated/.cache/e5c5eb35b4ba40351ecb7d9f04c3527f2f5779b0	2025-07-27 16:51:44.678418830 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.050977482	Advancements
++// 1.19.1	2025-07-27T16:51:44.67867326	Advancements
+ 61e094f20c0a1ffded1d2afd56ed73b91f208acb data/minecraft/advancements/story/form_obsidian.json
+ 58a7425ba29da8fa13dac1ffa9ce97ea9f520f6a data/minecraft/advancements/nether/fast_travel.json
+ 05f92e856a7e927bef6cd6df4c6bc274dfb3b592 data/minecraft/advancements/story/enter_the_nether.json
+diff -urN versions/1.19.2/generated/.cache/eec194a88acc4b69ee022ff26153ceb1b8b9139a versions/1.19.1/generated/.cache/eec194a88acc4b69ee022ff26153ceb1b8b9139a
+--- versions/1.19.2/generated/.cache/eec194a88acc4b69ee022ff26153ceb1b8b9139a	2025-07-27 16:51:56.067419915 +0000
++++ versions/1.19.1/generated/.cache/eec194a88acc4b69ee022ff26153ceb1b8b9139a	2025-07-27 16:51:44.702418833 +0000
+@@ -1,3 +1,3 @@
+-// 1.19.2	2025-07-27T16:51:56.067610469	Tags for minecraft:fluid
++// 1.19.1	2025-07-27T16:51:44.70332047	Tags for minecraft:fluid
+ c9ae54a7510073b17edf82f7591e14bdb2c51837 data/minecraft/tags/fluids/water.json
+ e191d5f912e05091b3a0b1df17f4c4181e04d96f data/minecraft/tags/fluids/lava.json
+diff -urN versions/1.19.2/generated/.cache/fcc0d197db45e404a8bc894ca09c0611e5a65cab versions/1.19.1/generated/.cache/fcc0d197db45e404a8bc894ca09c0611e5a65cab
+--- versions/1.19.2/generated/.cache/fcc0d197db45e404a8bc894ca09c0611e5a65cab	2025-07-27 16:51:56.067419915 +0000
++++ versions/1.19.1/generated/.cache/fcc0d197db45e404a8bc894ca09c0611e5a65cab	2025-07-27 16:51:44.702418833 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.067827014	Tags for minecraft:entity_type
++// 1.19.1	2025-07-27T16:51:44.703526104	Tags for minecraft:entity_type
+ 4c073b476785113705dfd3c6b286a337ddbd56b0 data/minecraft/tags/entity_types/beehive_inhabitors.json
+ 8629ab74d7e233ee955826685af6d6e0b912cac4 data/minecraft/tags/entity_types/axolotl_always_hostiles.json
+ e6bb1e32246a74615e8d3425540ddab618245861 data/minecraft/tags/entity_types/skeletons.json
+diff -urN versions/1.19.2/generated/.cache/fcd38ac183435cc0b7a5bbe41d3bc044f9c57297 versions/1.19.1/generated/.cache/fcd38ac183435cc0b7a5bbe41d3bc044f9c57297
+--- versions/1.19.2/generated/.cache/fcd38ac183435cc0b7a5bbe41d3bc044f9c57297	2025-07-27 16:51:56.067419915 +0000
++++ versions/1.19.1/generated/.cache/fcd38ac183435cc0b7a5bbe41d3bc044f9c57297	2025-07-27 16:51:44.702418833 +0000
+@@ -1,4 +1,4 @@
+-// 1.19.2	2025-07-27T16:51:56.067673356	Tags for minecraft:instrument
++// 1.19.1	2025-07-27T16:51:44.70337423	Tags for minecraft:instrument
+ 24a57f6fa9a0522c2179f8ed32fd39747c51c37e data/minecraft/tags/instrument/regular_goat_horns.json
+ 363b5db5feca490b645366d5fcdd8cf46efac13f data/minecraft/tags/instrument/goat_horns.json
+ eaf5ee5f2260dc42044894cb7c2d29f529b253e6 data/minecraft/tags/instrument/screaming_goat_horns.json

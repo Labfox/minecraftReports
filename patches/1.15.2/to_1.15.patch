@@ -1,0 +1,84 @@
+diff -urN versions/1.15.2/generated/.cache/cache versions/1.15/generated/.cache/cache
+--- versions/1.15.2/generated/.cache/cache	2025-07-27 17:04:26.006491353 +0000
++++ versions/1.15/generated/.cache/cache	2025-07-27 17:04:15.519282309 +0000
+@@ -79,7 +79,7 @@
+ c9c272c674a01c1ff9b16569499da871237e554a data/minecraft/recipes/stone_sword.json
+ 3819c6a50fbda173a4634f423c1e4e8ececfaaed data/minecraft/loot_tables/blocks/dispenser.json
+ 7909fae7a6672d1a1edd2d05d5788de8b7e0e0df data/minecraft/advancements/recipes/decorations/orange_stained_glass_pane.json
+-8b2f78e78e4ca07c6408c21be86332ac584d605b reports/commands.json
++61d9d8a6afdc205ffaadc86611988766f3bd4e84 reports/commands.json
+ 7a9b8b3a8c27267d51b2057fef0d97cb66b98af8 data/minecraft/recipes/redstone_from_smelting.json
+ 809f96161edf0c076bafac20842683fdcd20b282 data/minecraft/recipes/oak_slab.json
+ 4d4ad67f2ed249f6228153fc3690f813914cdfd3 data/minecraft/loot_tables/blocks/stripped_oak_log.json
+diff -urN versions/1.15.2/generated/reports/commands.json versions/1.15/generated/reports/commands.json
+--- versions/1.15.2/generated/reports/commands.json	2025-07-27 17:04:25.940369511 +0000
++++ versions/1.15/generated/reports/commands.json	2025-07-27 17:04:15.460923604 +0000
+@@ -3980,32 +3980,10 @@
+           },
+           "executable": true
+         },
+-        "doPatrolSpawning": {
+-          "type": "literal",
+-          "children": {
+-            "value": {
+-              "type": "argument",
+-              "parser": "brigadier:bool",
+-              "executable": true
+-            }
+-          },
+-          "executable": true
+-        },
+         "doTileDrops": {
+           "type": "literal",
+           "children": {
+             "value": {
+-              "type": "argument",
+-              "parser": "brigadier:bool",
+-              "executable": true
+-            }
+-          },
+-          "executable": true
+-        },
+-        "doTraderSpawning": {
+-          "type": "literal",
+-          "children": {
+-            "value": {
+               "type": "argument",
+               "parser": "brigadier:bool",
+               "executable": true
+diff -urN versions/1.15.2/reports/commands.json versions/1.15/reports/commands.json
+--- versions/1.15.2/reports/commands.json	2025-07-27 17:04:26.158103168 +0000
++++ versions/1.15/reports/commands.json	2025-07-27 17:04:15.682730732 +0000
+@@ -3980,32 +3980,10 @@
+           },
+           "executable": true
+         },
+-        "doPatrolSpawning": {
+-          "type": "literal",
+-          "children": {
+-            "value": {
+-              "type": "argument",
+-              "parser": "brigadier:bool",
+-              "executable": true
+-            }
+-          },
+-          "executable": true
+-        },
+         "doTileDrops": {
+           "type": "literal",
+           "children": {
+             "value": {
+-              "type": "argument",
+-              "parser": "brigadier:bool",
+-              "executable": true
+-            }
+-          },
+-          "executable": true
+-        },
+-        "doTraderSpawning": {
+-          "type": "literal",
+-          "children": {
+-            "value": {
+               "type": "argument",
+               "parser": "brigadier:bool",
+               "executable": true
