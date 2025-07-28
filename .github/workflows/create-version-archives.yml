@@ -2,7 +2,7 @@ name: Create version archives on release
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   compress-and-upload:
