@@ -1,0 +1,27 @@
+name: Create version archives on release
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  compress-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Compress subdirectories of versions/
+        run: |
+          mkdir compressed
+          for dir in versions/*/; do
+            name=$(basename "$dir")
+            zip -r "compressed/$name.zip" "$dir"
+          done
+
+      - name: Upload compressed files to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: compressed/*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
