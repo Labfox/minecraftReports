@@ -22,3 +22,4 @@ java -cp server.jar net.minecraft.data.Main --all
 rm server.jar
 rm -r logs
 cp -r generated/* .
+rm -r generated/*

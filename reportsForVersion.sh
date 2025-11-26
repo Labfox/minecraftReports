@@ -24,3 +24,4 @@ rm -r libraries
 rm -r logs
 rm -r versions
 cp -r generated/* .
+rm -r generated/*
