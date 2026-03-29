@@ -1,6 +1,6 @@
 diff -urN versions/1.16.1/assets/minecraft/blockstates/chain.json versions/1.16.3/assets/minecraft/blockstates/chain.json
---- versions/1.16.1/assets/minecraft/blockstates/chain.json	2025-11-23 19:01:15.866765453 +0000
-+++ versions/1.16.3/assets/minecraft/blockstates/chain.json	2025-11-23 19:01:16.932765417 +0000
+--- versions/1.16.1/assets/minecraft/blockstates/chain.json	2026-03-29 12:55:42.031587972 +0000
++++ versions/1.16.3/assets/minecraft/blockstates/chain.json	2026-03-29 12:55:42.427587972 +0000
 @@ -1,7 +1,16 @@
  {
    "variants": {
@@ -21,8 +21,8 @@ diff -urN versions/1.16.1/assets/minecraft/blockstates/chain.json versions/1.16.
  }
 \ No newline at end of file
 diff -urN versions/1.16.1/assets/minecraft/blockstates/redstone_wire.json versions/1.16.3/assets/minecraft/blockstates/redstone_wire.json
---- versions/1.16.1/assets/minecraft/blockstates/redstone_wire.json	2025-11-23 19:01:15.890765453 +0000
-+++ versions/1.16.3/assets/minecraft/blockstates/redstone_wire.json	2025-11-23 19:01:16.957765417 +0000
+--- versions/1.16.1/assets/minecraft/blockstates/redstone_wire.json	2026-03-29 12:55:42.047587972 +0000
++++ versions/1.16.3/assets/minecraft/blockstates/redstone_wire.json	2026-03-29 12:55:42.444587972 +0000
 @@ -4,26 +4,26 @@
        "when": {
          "OR": [
@@ -63,15 +63,15 @@ diff -urN versions/1.16.1/assets/minecraft/blockstates/redstone_wire.json versio
        },
 diff -urN versions/1.16.1/assets/minecraft/models/item/piglin_brute_spawn_egg.json versions/1.16.3/assets/minecraft/models/item/piglin_brute_spawn_egg.json
 --- versions/1.16.1/assets/minecraft/models/item/piglin_brute_spawn_egg.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/assets/minecraft/models/item/piglin_brute_spawn_egg.json	2025-11-23 19:01:17.036765414 +0000
++++ versions/1.16.3/assets/minecraft/models/item/piglin_brute_spawn_egg.json	2026-03-29 12:55:42.544587972 +0000
 @@ -0,0 +1,3 @@
 +{
 +  "parent": "minecraft:item/template_spawn_egg"
 +}
 \ No newline at end of file
 diff -urN versions/1.16.1/data/minecraft/advancements/adventure/kill_a_mob.json versions/1.16.3/data/minecraft/advancements/adventure/kill_a_mob.json
---- versions/1.16.1/data/minecraft/advancements/adventure/kill_a_mob.json	2025-11-23 19:01:15.977562576 +0000
-+++ versions/1.16.3/data/minecraft/advancements/adventure/kill_a_mob.json	2025-11-23 19:01:17.049189367 +0000
+--- versions/1.16.1/data/minecraft/advancements/adventure/kill_a_mob.json	2026-03-29 12:55:42.126845447 +0000
++++ versions/1.16.3/data/minecraft/advancements/adventure/kill_a_mob.json	2026-03-29 12:55:42.556574841 +0000
 @@ -241,6 +241,20 @@
          ]
        }
@@ -102,8 +102,8 @@ diff -urN versions/1.16.1/data/minecraft/advancements/adventure/kill_a_mob.json 
        "minecraft:ravager",
        "minecraft:shulker",
 diff -urN versions/1.16.1/data/minecraft/advancements/adventure/kill_all_mobs.json versions/1.16.3/data/minecraft/advancements/adventure/kill_all_mobs.json
---- versions/1.16.1/data/minecraft/advancements/adventure/kill_all_mobs.json	2025-11-23 19:01:15.977562576 +0000
-+++ versions/1.16.3/data/minecraft/advancements/adventure/kill_all_mobs.json	2025-11-23 19:01:17.049189367 +0000
+--- versions/1.16.1/data/minecraft/advancements/adventure/kill_all_mobs.json	2026-03-29 12:55:42.126845447 +0000
++++ versions/1.16.3/data/minecraft/advancements/adventure/kill_all_mobs.json	2026-03-29 12:55:42.556574841 +0000
 @@ -244,6 +244,20 @@
          ]
        }
@@ -136,8 +136,8 @@ diff -urN versions/1.16.1/data/minecraft/advancements/adventure/kill_all_mobs.js
      ],
      [
 diff -urN versions/1.16.1/data/minecraft/advancements/recipes/decorations/furnace.json versions/1.16.3/data/minecraft/advancements/recipes/decorations/furnace.json
---- versions/1.16.1/data/minecraft/advancements/recipes/decorations/furnace.json	2025-11-23 19:01:15.996765449 +0000
-+++ versions/1.16.3/data/minecraft/advancements/recipes/decorations/furnace.json	2025-11-23 19:01:17.061765413 +0000
+--- versions/1.16.1/data/minecraft/advancements/recipes/decorations/furnace.json	2026-03-29 12:55:42.141587972 +0000
++++ versions/1.16.3/data/minecraft/advancements/recipes/decorations/furnace.json	2026-03-29 12:55:42.571587972 +0000
 @@ -11,7 +11,7 @@
        "conditions": {
          "items": [
@@ -148,8 +148,8 @@ diff -urN versions/1.16.1/data/minecraft/advancements/recipes/decorations/furnac
          ]
        }
 diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/bastion_bridge.json versions/1.16.3/data/minecraft/loot_tables/chests/bastion_bridge.json
---- versions/1.16.1/data/minecraft/loot_tables/chests/bastion_bridge.json	2025-11-23 19:01:16.069148295 +0000
-+++ versions/1.16.3/data/minecraft/loot_tables/chests/bastion_bridge.json	2025-11-23 19:01:17.104425899 +0000
+--- versions/1.16.1/data/minecraft/loot_tables/chests/bastion_bridge.json	2026-03-29 12:55:42.179488877 +0000
++++ versions/1.16.3/data/minecraft/loot_tables/chests/bastion_bridge.json	2026-03-29 12:55:42.611908573 +0000
 @@ -45,8 +45,8 @@
              {
                "function": "minecraft:set_count",
@@ -215,8 +215,8 @@ diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/bastion_bridge.json 
        ]
      },
 diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json versions/1.16.3/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json
---- versions/1.16.1/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json	2025-11-23 19:01:16.069148295 +0000
-+++ versions/1.16.3/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json	2025-11-23 19:01:17.104425899 +0000
+--- versions/1.16.1/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json	2026-03-29 12:55:42.179488877 +0000
++++ versions/1.16.3/data/minecraft/loot_tables/chests/bastion_hoglin_stable.json	2026-03-29 12:55:42.611908573 +0000
 @@ -6,13 +6,13 @@
        "entries": [
          {
@@ -390,8 +390,8 @@ diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/bastion_hoglin_stabl
                  "type": "minecraft:uniform"
                }
 diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/bastion_other.json versions/1.16.3/data/minecraft/loot_tables/chests/bastion_other.json
---- versions/1.16.1/data/minecraft/loot_tables/chests/bastion_other.json	2025-11-23 19:01:16.069148295 +0000
-+++ versions/1.16.3/data/minecraft/loot_tables/chests/bastion_other.json	2025-11-23 19:01:17.104425899 +0000
+--- versions/1.16.1/data/minecraft/loot_tables/chests/bastion_other.json	2026-03-29 12:55:42.179488877 +0000
++++ versions/1.16.3/data/minecraft/loot_tables/chests/bastion_other.json	2026-03-29 12:55:42.611908573 +0000
 @@ -6,13 +6,38 @@
        "entries": [
          {
@@ -675,8 +675,8 @@ diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/bastion_other.json v
        ]
      }
 diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/bastion_treasure.json versions/1.16.3/data/minecraft/loot_tables/chests/bastion_treasure.json
---- versions/1.16.1/data/minecraft/loot_tables/chests/bastion_treasure.json	2025-11-23 19:01:16.069148295 +0000
-+++ versions/1.16.3/data/minecraft/loot_tables/chests/bastion_treasure.json	2025-11-23 19:01:17.104425899 +0000
+--- versions/1.16.1/data/minecraft/loot_tables/chests/bastion_treasure.json	2026-03-29 12:55:42.179488877 +0000
++++ versions/1.16.3/data/minecraft/loot_tables/chests/bastion_treasure.json	2026-03-29 12:55:42.611908573 +0000
 @@ -2,15 +2,11 @@
    "type": "minecraft:chest",
    "pools": [
@@ -970,8 +970,8 @@ diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/bastion_treasure.jso
        ]
      }
 diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/shipwreck_supply.json versions/1.16.3/data/minecraft/loot_tables/chests/shipwreck_supply.json
---- versions/1.16.1/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-11-23 19:01:16.069148295 +0000
-+++ versions/1.16.3/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-11-23 19:01:17.104425899 +0000
+--- versions/1.16.1/data/minecraft/loot_tables/chests/shipwreck_supply.json	2026-03-29 12:55:42.179488877 +0000
++++ versions/1.16.3/data/minecraft/loot_tables/chests/shipwreck_supply.json	2026-03-29 12:55:42.611908573 +0000
 @@ -112,7 +112,7 @@
                    }
                  },
@@ -992,15 +992,15 @@ diff -urN versions/1.16.1/data/minecraft/loot_tables/chests/shipwreck_supply.jso
                      "max": 10.0
 diff -urN versions/1.16.1/data/minecraft/loot_tables/entities/piglin_brute.json versions/1.16.3/data/minecraft/loot_tables/entities/piglin_brute.json
 --- versions/1.16.1/data/minecraft/loot_tables/entities/piglin_brute.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/data/minecraft/loot_tables/entities/piglin_brute.json	2025-11-23 19:01:17.106189016 +0000
++++ versions/1.16.3/data/minecraft/loot_tables/entities/piglin_brute.json	2026-03-29 12:55:42.613587972 +0000
 @@ -0,0 +1,3 @@
 +{
 +  "type": "minecraft:entity"
 +}
 \ No newline at end of file
 diff -urN versions/1.16.1/data/minecraft/loot_tables/gameplay/piglin_bartering.json versions/1.16.3/data/minecraft/loot_tables/gameplay/piglin_bartering.json
---- versions/1.16.1/data/minecraft/loot_tables/gameplay/piglin_bartering.json	2025-11-23 19:01:16.074659692 +0000
-+++ versions/1.16.3/data/minecraft/loot_tables/gameplay/piglin_bartering.json	2025-11-23 19:01:17.108569882 +0000
+--- versions/1.16.1/data/minecraft/loot_tables/gameplay/piglin_bartering.json	2026-03-29 12:55:42.183729950 +0000
++++ versions/1.16.3/data/minecraft/loot_tables/gameplay/piglin_bartering.json	2026-03-29 12:55:42.616142934 +0000
 @@ -32,7 +32,7 @@
          },
          {
@@ -1246,8 +1246,8 @@ diff -urN versions/1.16.1/data/minecraft/loot_tables/gameplay/piglin_bartering.j
        ]
      }
 diff -urN versions/1.16.1/data/minecraft/recipes/brewing_stand.json versions/1.16.3/data/minecraft/recipes/brewing_stand.json
---- versions/1.16.1/data/minecraft/recipes/brewing_stand.json	2025-11-23 19:01:16.076765446 +0000
-+++ versions/1.16.3/data/minecraft/recipes/brewing_stand.json	2025-11-23 19:01:17.114765411 +0000
+--- versions/1.16.1/data/minecraft/recipes/brewing_stand.json	2026-03-29 12:55:42.185587972 +0000
++++ versions/1.16.3/data/minecraft/recipes/brewing_stand.json	2026-03-29 12:55:42.618587972 +0000
 @@ -9,7 +9,7 @@
        "item": "minecraft:blaze_rod"
      },
@@ -1258,8 +1258,8 @@ diff -urN versions/1.16.1/data/minecraft/recipes/brewing_stand.json versions/1.1
    },
    "result": {
 diff -urN versions/1.16.1/data/minecraft/recipes/furnace.json versions/1.16.3/data/minecraft/recipes/furnace.json
---- versions/1.16.1/data/minecraft/recipes/furnace.json	2025-11-23 19:01:16.084765446 +0000
-+++ versions/1.16.3/data/minecraft/recipes/furnace.json	2025-11-23 19:01:17.120765411 +0000
+--- versions/1.16.1/data/minecraft/recipes/furnace.json	2026-03-29 12:55:42.192587972 +0000
++++ versions/1.16.3/data/minecraft/recipes/furnace.json	2026-03-29 12:55:42.624587972 +0000
 @@ -7,7 +7,7 @@
    ],
    "key": {
@@ -1271,7 +1271,7 @@ diff -urN versions/1.16.1/data/minecraft/recipes/furnace.json versions/1.16.3/da
    "result": {
 diff -urN versions/1.16.1/data/minecraft/tags/blocks/base_stone_nether.json versions/1.16.3/data/minecraft/tags/blocks/base_stone_nether.json
 --- versions/1.16.1/data/minecraft/tags/blocks/base_stone_nether.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/data/minecraft/tags/blocks/base_stone_nether.json	2025-11-23 19:01:17.138789602 +0000
++++ versions/1.16.3/data/minecraft/tags/blocks/base_stone_nether.json	2026-03-29 12:55:42.645999000 +0000
 @@ -0,0 +1,8 @@
 +{
 +  "replace": false,
@@ -1284,7 +1284,7 @@ diff -urN versions/1.16.1/data/minecraft/tags/blocks/base_stone_nether.json vers
 \ No newline at end of file
 diff -urN versions/1.16.1/data/minecraft/tags/blocks/base_stone_overworld.json versions/1.16.3/data/minecraft/tags/blocks/base_stone_overworld.json
 --- versions/1.16.1/data/minecraft/tags/blocks/base_stone_overworld.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/data/minecraft/tags/blocks/base_stone_overworld.json	2025-11-23 19:01:17.138789602 +0000
++++ versions/1.16.3/data/minecraft/tags/blocks/base_stone_overworld.json	2026-03-29 12:55:42.645999000 +0000
 @@ -0,0 +1,9 @@
 +{
 +  "replace": false,
@@ -1298,7 +1298,7 @@ diff -urN versions/1.16.1/data/minecraft/tags/blocks/base_stone_overworld.json v
 \ No newline at end of file
 diff -urN versions/1.16.1/data/minecraft/tags/blocks/mushroom_grow_block.json versions/1.16.3/data/minecraft/tags/blocks/mushroom_grow_block.json
 --- versions/1.16.1/data/minecraft/tags/blocks/mushroom_grow_block.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/data/minecraft/tags/blocks/mushroom_grow_block.json	2025-11-23 19:01:17.138789602 +0000
++++ versions/1.16.3/data/minecraft/tags/blocks/mushroom_grow_block.json	2026-03-29 12:55:42.645999000 +0000
 @@ -0,0 +1,9 @@
 +{
 +  "replace": false,
@@ -1311,7 +1311,7 @@ diff -urN versions/1.16.1/data/minecraft/tags/blocks/mushroom_grow_block.json ve
 +}
 \ No newline at end of file
 diff -urN versions/1.16.1/data/minecraft/tags/items/furnace_materials.json versions/1.16.3/data/minecraft/tags/items/furnace_materials.json
---- versions/1.16.1/data/minecraft/tags/items/furnace_materials.json	2025-11-23 19:01:16.119754673 +0000
+--- versions/1.16.1/data/minecraft/tags/items/furnace_materials.json	2026-03-29 12:55:42.216582371 +0000
 +++ versions/1.16.3/data/minecraft/tags/items/furnace_materials.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -1324,7 +1324,7 @@ diff -urN versions/1.16.1/data/minecraft/tags/items/furnace_materials.json versi
 \ No newline at end of file
 diff -urN versions/1.16.1/data/minecraft/tags/items/stone_crafting_materials.json versions/1.16.3/data/minecraft/tags/items/stone_crafting_materials.json
 --- versions/1.16.1/data/minecraft/tags/items/stone_crafting_materials.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/data/minecraft/tags/items/stone_crafting_materials.json	2025-11-23 19:01:17.141259034 +0000
++++ versions/1.16.3/data/minecraft/tags/items/stone_crafting_materials.json	2026-03-29 12:55:42.648954438 +0000
 @@ -0,0 +1,7 @@
 +{
 +  "replace": false,
@@ -1336,7 +1336,7 @@ diff -urN versions/1.16.1/data/minecraft/tags/items/stone_crafting_materials.jso
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/badlands.json versions/1.16.3/reports/biomes/badlands.json
 --- versions/1.16.1/reports/biomes/badlands.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/badlands.json	2025-11-23 19:01:17.349020032 +0000
++++ versions/1.16.3/reports/biomes/badlands.json	2026-03-29 12:55:42.650866745 +0000
 @@ -0,0 +1,1381 @@
 +{
 +  "scale": 0.2,
@@ -2722,7 +2722,7 @@ diff -urN versions/1.16.1/reports/biomes/badlands.json versions/1.16.3/reports/b
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/badlands_plateau.json versions/1.16.3/reports/biomes/badlands_plateau.json
 --- versions/1.16.1/reports/biomes/badlands_plateau.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/badlands_plateau.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/badlands_plateau.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1381 @@
 +{
 +  "scale": 0.025,
@@ -4108,7 +4108,7 @@ diff -urN versions/1.16.1/reports/biomes/badlands_plateau.json versions/1.16.3/r
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/bamboo_jungle.json versions/1.16.3/reports/biomes/bamboo_jungle.json
 --- versions/1.16.1/reports/biomes/bamboo_jungle.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/bamboo_jungle.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/bamboo_jungle.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1724 @@
 +{
 +  "scale": 0.2,
@@ -5837,7 +5837,7 @@ diff -urN versions/1.16.1/reports/biomes/bamboo_jungle.json versions/1.16.3/repo
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/bamboo_jungle_hills.json versions/1.16.3/reports/biomes/bamboo_jungle_hills.json
 --- versions/1.16.1/reports/biomes/bamboo_jungle_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/bamboo_jungle_hills.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/bamboo_jungle_hills.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1724 @@
 +{
 +  "scale": 0.3,
@@ -7566,7 +7566,7 @@ diff -urN versions/1.16.1/reports/biomes/bamboo_jungle_hills.json versions/1.16.
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/basalt_deltas.json versions/1.16.3/reports/biomes/basalt_deltas.json
 --- versions/1.16.1/reports/biomes/basalt_deltas.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/basalt_deltas.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/basalt_deltas.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,887 @@
 +{
 +  "scale": 0.2,
@@ -8458,7 +8458,7 @@ diff -urN versions/1.16.1/reports/biomes/basalt_deltas.json versions/1.16.3/repo
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/beach.json versions/1.16.3/reports/biomes/beach.json
 --- versions/1.16.1/reports/biomes/beach.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/beach.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/beach.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1311 @@
 +{
 +  "scale": 0.025,
@@ -9774,7 +9774,7 @@ diff -urN versions/1.16.1/reports/biomes/beach.json versions/1.16.3/reports/biom
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/birch_forest.json versions/1.16.3/reports/biomes/birch_forest.json
 --- versions/1.16.1/reports/biomes/birch_forest.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/birch_forest.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/birch_forest.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1577 @@
 +{
 +  "scale": 0.2,
@@ -11356,7 +11356,7 @@ diff -urN versions/1.16.1/reports/biomes/birch_forest.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/birch_forest_hills.json versions/1.16.3/reports/biomes/birch_forest_hills.json
 --- versions/1.16.1/reports/biomes/birch_forest_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/birch_forest_hills.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/birch_forest_hills.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1577 @@
 +{
 +  "scale": 0.3,
@@ -12938,7 +12938,7 @@ diff -urN versions/1.16.1/reports/biomes/birch_forest_hills.json versions/1.16.3
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/cold_ocean.json versions/1.16.3/reports/biomes/cold_ocean.json
 --- versions/1.16.1/reports/biomes/cold_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/cold_ocean.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/cold_ocean.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1594 @@
 +{
 +  "scale": 0.1,
@@ -14537,7 +14537,7 @@ diff -urN versions/1.16.1/reports/biomes/cold_ocean.json versions/1.16.3/reports
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/crimson_forest.json versions/1.16.3/reports/biomes/crimson_forest.json
 --- versions/1.16.1/reports/biomes/crimson_forest.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/crimson_forest.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/crimson_forest.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1220 @@
 +{
 +  "scale": 0.2,
@@ -15762,7 +15762,7 @@ diff -urN versions/1.16.1/reports/biomes/crimson_forest.json versions/1.16.3/rep
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/dark_forest.json versions/1.16.3/reports/biomes/dark_forest.json
 --- versions/1.16.1/reports/biomes/dark_forest.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/dark_forest.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/dark_forest.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1785 @@
 +{
 +  "scale": 0.2,
@@ -17552,7 +17552,7 @@ diff -urN versions/1.16.1/reports/biomes/dark_forest.json versions/1.16.3/report
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/dark_forest_hills.json versions/1.16.3/reports/biomes/dark_forest_hills.json
 --- versions/1.16.1/reports/biomes/dark_forest_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/dark_forest_hills.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/dark_forest_hills.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1785 @@
 +{
 +  "scale": 0.4,
@@ -19342,7 +19342,7 @@ diff -urN versions/1.16.1/reports/biomes/dark_forest_hills.json versions/1.16.3/
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/deep_cold_ocean.json versions/1.16.3/reports/biomes/deep_cold_ocean.json
 --- versions/1.16.1/reports/biomes/deep_cold_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/deep_cold_ocean.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/deep_cold_ocean.json	2026-03-29 12:55:42.651015263 +0000
 @@ -0,0 +1,1598 @@
 +{
 +  "scale": 0.1,
@@ -20945,7 +20945,7 @@ diff -urN versions/1.16.1/reports/biomes/deep_cold_ocean.json versions/1.16.3/re
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/deep_frozen_ocean.json versions/1.16.3/reports/biomes/deep_frozen_ocean.json
 --- versions/1.16.1/reports/biomes/deep_frozen_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/deep_frozen_ocean.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/deep_frozen_ocean.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,1587 @@
 +{
 +  "scale": 0.1,
@@ -22537,7 +22537,7 @@ diff -urN versions/1.16.1/reports/biomes/deep_frozen_ocean.json versions/1.16.3/
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/deep_lukewarm_ocean.json versions/1.16.3/reports/biomes/deep_lukewarm_ocean.json
 --- versions/1.16.1/reports/biomes/deep_lukewarm_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/deep_lukewarm_ocean.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/deep_lukewarm_ocean.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,1610 @@
 +{
 +  "scale": 0.1,
@@ -24152,7 +24152,7 @@ diff -urN versions/1.16.1/reports/biomes/deep_lukewarm_ocean.json versions/1.16.
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/deep_ocean.json versions/1.16.3/reports/biomes/deep_ocean.json
 --- versions/1.16.1/reports/biomes/deep_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/deep_ocean.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/deep_ocean.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,1598 @@
 +{
 +  "scale": 0.1,
@@ -25755,7 +25755,7 @@ diff -urN versions/1.16.1/reports/biomes/deep_ocean.json versions/1.16.3/reports
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/deep_warm_ocean.json versions/1.16.3/reports/biomes/deep_warm_ocean.json
 --- versions/1.16.1/reports/biomes/deep_warm_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/deep_warm_ocean.json	2025-11-23 19:01:17.349227351 +0000
++++ versions/1.16.3/reports/biomes/deep_warm_ocean.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,1560 @@
 +{
 +  "scale": 0.1,
@@ -27320,7 +27320,7 @@ diff -urN versions/1.16.1/reports/biomes/deep_warm_ocean.json versions/1.16.3/re
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/desert.json versions/1.16.3/reports/biomes/desert.json
 --- versions/1.16.1/reports/biomes/desert.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/desert.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/desert.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,1967 @@
 +{
 +  "scale": 0.05,
@@ -29292,7 +29292,7 @@ diff -urN versions/1.16.1/reports/biomes/desert.json versions/1.16.3/reports/bio
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/desert_hills.json versions/1.16.3/reports/biomes/desert_hills.json
 --- versions/1.16.1/reports/biomes/desert_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/desert_hills.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/desert_hills.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,1434 @@
 +{
 +  "scale": 0.3,
@@ -30731,7 +30731,7 @@ diff -urN versions/1.16.1/reports/biomes/desert_hills.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/desert_lakes.json versions/1.16.3/reports/biomes/desert_lakes.json
 --- versions/1.16.1/reports/biomes/desert_lakes.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/desert_lakes.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/desert_lakes.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,1430 @@
 +{
 +  "scale": 0.25,
@@ -32166,7 +32166,7 @@ diff -urN versions/1.16.1/reports/biomes/desert_lakes.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/end_barrens.json versions/1.16.3/reports/biomes/end_barrens.json
 --- versions/1.16.1/reports/biomes/end_barrens.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/end_barrens.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/end_barrens.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,54 @@
 +{
 +  "scale": 0.2,
@@ -32225,7 +32225,7 @@ diff -urN versions/1.16.1/reports/biomes/end_barrens.json versions/1.16.3/report
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/end_highlands.json versions/1.16.3/reports/biomes/end_highlands.json
 --- versions/1.16.1/reports/biomes/end_highlands.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/end_highlands.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/end_highlands.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,127 @@
 +{
 +  "scale": 0.2,
@@ -32357,7 +32357,7 @@ diff -urN versions/1.16.1/reports/biomes/end_highlands.json versions/1.16.3/repo
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/end_midlands.json versions/1.16.3/reports/biomes/end_midlands.json
 --- versions/1.16.1/reports/biomes/end_midlands.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/end_midlands.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/end_midlands.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,59 @@
 +{
 +  "scale": 0.2,
@@ -32421,7 +32421,7 @@ diff -urN versions/1.16.1/reports/biomes/end_midlands.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/eroded_badlands.json versions/1.16.3/reports/biomes/eroded_badlands.json
 --- versions/1.16.1/reports/biomes/eroded_badlands.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/eroded_badlands.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/eroded_badlands.json	2026-03-29 12:55:42.651587972 +0000
 @@ -0,0 +1,1381 @@
 +{
 +  "scale": 0.2,
@@ -33807,7 +33807,7 @@ diff -urN versions/1.16.1/reports/biomes/eroded_badlands.json versions/1.16.3/re
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/flower_forest.json versions/1.16.3/reports/biomes/flower_forest.json
 --- versions/1.16.1/reports/biomes/flower_forest.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/flower_forest.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/flower_forest.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1674 @@
 +{
 +  "scale": 0.4,
@@ -35486,7 +35486,7 @@ diff -urN versions/1.16.1/reports/biomes/flower_forest.json versions/1.16.3/repo
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/forest.json versions/1.16.3/reports/biomes/forest.json
 --- versions/1.16.1/reports/biomes/forest.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/forest.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/forest.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1699 @@
 +{
 +  "scale": 0.2,
@@ -37190,7 +37190,7 @@ diff -urN versions/1.16.1/reports/biomes/forest.json versions/1.16.3/reports/bio
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/frozen_ocean.json versions/1.16.3/reports/biomes/frozen_ocean.json
 --- versions/1.16.1/reports/biomes/frozen_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/frozen_ocean.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/frozen_ocean.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1583 @@
 +{
 +  "scale": 0.1,
@@ -38778,7 +38778,7 @@ diff -urN versions/1.16.1/reports/biomes/frozen_ocean.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/frozen_river.json versions/1.16.3/reports/biomes/frozen_river.json
 --- versions/1.16.1/reports/biomes/frozen_river.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/frozen_river.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/frozen_river.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1449 @@
 +{
 +  "scale": 0.0,
@@ -40232,7 +40232,7 @@ diff -urN versions/1.16.1/reports/biomes/frozen_river.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/giant_spruce_taiga.json versions/1.16.3/reports/biomes/giant_spruce_taiga.json
 --- versions/1.16.1/reports/biomes/giant_spruce_taiga.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/giant_spruce_taiga.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/giant_spruce_taiga.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1897 @@
 +{
 +  "scale": 0.2,
@@ -42134,7 +42134,7 @@ diff -urN versions/1.16.1/reports/biomes/giant_spruce_taiga.json versions/1.16.3
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/giant_spruce_taiga_hills.json versions/1.16.3/reports/biomes/giant_spruce_taiga_hills.json
 --- versions/1.16.1/reports/biomes/giant_spruce_taiga_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/giant_spruce_taiga_hills.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/giant_spruce_taiga_hills.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1897 @@
 +{
 +  "scale": 0.2,
@@ -44036,7 +44036,7 @@ diff -urN versions/1.16.1/reports/biomes/giant_spruce_taiga_hills.json versions/
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/giant_tree_taiga.json versions/1.16.3/reports/biomes/giant_tree_taiga.json
 --- versions/1.16.1/reports/biomes/giant_tree_taiga.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/giant_tree_taiga.json	2025-11-23 19:01:17.349765403 +0000
++++ versions/1.16.3/reports/biomes/giant_tree_taiga.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1962 @@
 +{
 +  "scale": 0.2,
@@ -46003,7 +46003,7 @@ diff -urN versions/1.16.1/reports/biomes/giant_tree_taiga.json versions/1.16.3/r
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/giant_tree_taiga_hills.json versions/1.16.3/reports/biomes/giant_tree_taiga_hills.json
 --- versions/1.16.1/reports/biomes/giant_tree_taiga_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/giant_tree_taiga_hills.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/giant_tree_taiga_hills.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1962 @@
 +{
 +  "scale": 0.3,
@@ -47970,7 +47970,7 @@ diff -urN versions/1.16.1/reports/biomes/giant_tree_taiga_hills.json versions/1.
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/gravelly_mountains.json versions/1.16.3/reports/biomes/gravelly_mountains.json
 --- versions/1.16.1/reports/biomes/gravelly_mountains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/gravelly_mountains.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/gravelly_mountains.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1589 @@
 +{
 +  "scale": 0.5,
@@ -49564,7 +49564,7 @@ diff -urN versions/1.16.1/reports/biomes/gravelly_mountains.json versions/1.16.3
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/ice_spikes.json versions/1.16.3/reports/biomes/ice_spikes.json
 --- versions/1.16.1/reports/biomes/ice_spikes.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/ice_spikes.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/ice_spikes.json	2026-03-29 12:55:42.652587972 +0000
 @@ -0,0 +1,1510 @@
 +{
 +  "scale": 0.45000002,
@@ -51079,7 +51079,7 @@ diff -urN versions/1.16.1/reports/biomes/ice_spikes.json versions/1.16.3/reports
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/jungle.json versions/1.16.3/reports/biomes/jungle.json
 --- versions/1.16.1/reports/biomes/jungle.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/jungle.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/jungle.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1738 @@
 +{
 +  "scale": 0.2,
@@ -52822,7 +52822,7 @@ diff -urN versions/1.16.1/reports/biomes/jungle.json versions/1.16.3/reports/bio
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/jungle_edge.json versions/1.16.3/reports/biomes/jungle_edge.json
 --- versions/1.16.1/reports/biomes/jungle_edge.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/jungle_edge.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/jungle_edge.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1625 @@
 +{
 +  "scale": 0.2,
@@ -54452,7 +54452,7 @@ diff -urN versions/1.16.1/reports/biomes/jungle_edge.json versions/1.16.3/report
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/jungle_hills.json versions/1.16.3/reports/biomes/jungle_hills.json
 --- versions/1.16.1/reports/biomes/jungle_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/jungle_hills.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/jungle_hills.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1738 @@
 +{
 +  "scale": 0.3,
@@ -56195,7 +56195,7 @@ diff -urN versions/1.16.1/reports/biomes/jungle_hills.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/lukewarm_ocean.json versions/1.16.3/reports/biomes/lukewarm_ocean.json
 --- versions/1.16.1/reports/biomes/lukewarm_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/lukewarm_ocean.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/lukewarm_ocean.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1565 @@
 +{
 +  "scale": 0.1,
@@ -57765,7 +57765,7 @@ diff -urN versions/1.16.1/reports/biomes/lukewarm_ocean.json versions/1.16.3/rep
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/modified_badlands_plateau.json versions/1.16.3/reports/biomes/modified_badlands_plateau.json
 --- versions/1.16.1/reports/biomes/modified_badlands_plateau.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/modified_badlands_plateau.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/modified_badlands_plateau.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1381 @@
 +{
 +  "scale": 0.3,
@@ -59151,7 +59151,7 @@ diff -urN versions/1.16.1/reports/biomes/modified_badlands_plateau.json versions
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/modified_gravelly_mountains.json versions/1.16.3/reports/biomes/modified_gravelly_mountains.json
 --- versions/1.16.1/reports/biomes/modified_gravelly_mountains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/modified_gravelly_mountains.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/modified_gravelly_mountains.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1589 @@
 +{
 +  "scale": 0.5,
@@ -60745,7 +60745,7 @@ diff -urN versions/1.16.1/reports/biomes/modified_gravelly_mountains.json versio
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/modified_jungle.json versions/1.16.3/reports/biomes/modified_jungle.json
 --- versions/1.16.1/reports/biomes/modified_jungle.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/modified_jungle.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/modified_jungle.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1693 @@
 +{
 +  "scale": 0.4,
@@ -62443,7 +62443,7 @@ diff -urN versions/1.16.1/reports/biomes/modified_jungle.json versions/1.16.3/re
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/modified_jungle_edge.json versions/1.16.3/reports/biomes/modified_jungle_edge.json
 --- versions/1.16.1/reports/biomes/modified_jungle_edge.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/modified_jungle_edge.json	2025-11-23 19:01:17.350765403 +0000
++++ versions/1.16.3/reports/biomes/modified_jungle_edge.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1625 @@
 +{
 +  "scale": 0.4,
@@ -64073,7 +64073,7 @@ diff -urN versions/1.16.1/reports/biomes/modified_jungle_edge.json versions/1.16
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/modified_wooded_badlands_plateau.json versions/1.16.3/reports/biomes/modified_wooded_badlands_plateau.json
 --- versions/1.16.1/reports/biomes/modified_wooded_badlands_plateau.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/modified_wooded_badlands_plateau.json	2025-11-23 19:01:17.351765403 +0000
++++ versions/1.16.3/reports/biomes/modified_wooded_badlands_plateau.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1458 @@
 +{
 +  "scale": 0.3,
@@ -65536,7 +65536,7 @@ diff -urN versions/1.16.1/reports/biomes/modified_wooded_badlands_plateau.json v
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/mountain_edge.json versions/1.16.3/reports/biomes/mountain_edge.json
 --- versions/1.16.1/reports/biomes/mountain_edge.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/mountain_edge.json	2025-11-23 19:01:17.351765403 +0000
++++ versions/1.16.3/reports/biomes/mountain_edge.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1589 @@
 +{
 +  "scale": 0.3,
@@ -67130,7 +67130,7 @@ diff -urN versions/1.16.1/reports/biomes/mountain_edge.json versions/1.16.3/repo
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/mountains.json versions/1.16.3/reports/biomes/mountains.json
 --- versions/1.16.1/reports/biomes/mountains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/mountains.json	2025-11-23 19:01:17.351765403 +0000
++++ versions/1.16.3/reports/biomes/mountains.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1589 @@
 +{
 +  "scale": 0.5,
@@ -68724,7 +68724,7 @@ diff -urN versions/1.16.1/reports/biomes/mountains.json versions/1.16.3/reports/
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/mushroom_field_shore.json versions/1.16.3/reports/biomes/mushroom_field_shore.json
 --- versions/1.16.1/reports/biomes/mushroom_field_shore.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/mushroom_field_shore.json	2025-11-23 19:01:17.351765403 +0000
++++ versions/1.16.3/reports/biomes/mushroom_field_shore.json	2026-03-29 12:55:42.653587972 +0000
 @@ -0,0 +1,1339 @@
 +{
 +  "scale": 0.025,
@@ -70068,7 +70068,7 @@ diff -urN versions/1.16.1/reports/biomes/mushroom_field_shore.json versions/1.16
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/mushroom_fields.json versions/1.16.3/reports/biomes/mushroom_fields.json
 --- versions/1.16.1/reports/biomes/mushroom_fields.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/mushroom_fields.json	2025-11-23 19:01:17.351765403 +0000
++++ versions/1.16.3/reports/biomes/mushroom_fields.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1339 @@
 +{
 +  "scale": 0.3,
@@ -71412,7 +71412,7 @@ diff -urN versions/1.16.1/reports/biomes/mushroom_fields.json versions/1.16.3/re
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/nether_wastes.json versions/1.16.3/reports/biomes/nether_wastes.json
 --- versions/1.16.1/reports/biomes/nether_wastes.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/nether_wastes.json	2025-11-23 19:01:17.351765403 +0000
++++ versions/1.16.3/reports/biomes/nether_wastes.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1250 @@
 +{
 +  "scale": 0.2,
@@ -72667,7 +72667,7 @@ diff -urN versions/1.16.1/reports/biomes/nether_wastes.json versions/1.16.3/repo
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/ocean.json versions/1.16.3/reports/biomes/ocean.json
 --- versions/1.16.1/reports/biomes/ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/ocean.json	2025-11-23 19:01:17.351765403 +0000
++++ versions/1.16.3/reports/biomes/ocean.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1594 @@
 +{
 +  "scale": 0.1,
@@ -74266,7 +74266,7 @@ diff -urN versions/1.16.1/reports/biomes/ocean.json versions/1.16.3/reports/biom
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/plains.json versions/1.16.3/reports/biomes/plains.json
 --- versions/1.16.1/reports/biomes/plains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/plains.json	2025-11-23 19:01:17.351765403 +0000
++++ versions/1.16.3/reports/biomes/plains.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,2779 @@
 +{
 +  "scale": 0.05,
@@ -77050,7 +77050,7 @@ diff -urN versions/1.16.1/reports/biomes/plains.json versions/1.16.3/reports/bio
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/river.json versions/1.16.3/reports/biomes/river.json
 --- versions/1.16.1/reports/biomes/river.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/river.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/river.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1484 @@
 +{
 +  "scale": 0.0,
@@ -78539,7 +78539,7 @@ diff -urN versions/1.16.1/reports/biomes/river.json versions/1.16.3/reports/biom
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/savanna.json versions/1.16.3/reports/biomes/savanna.json
 --- versions/1.16.1/reports/biomes/savanna.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/savanna.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/savanna.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,2538 @@
 +{
 +  "scale": 0.05,
@@ -81082,7 +81082,7 @@ diff -urN versions/1.16.1/reports/biomes/savanna.json versions/1.16.3/reports/bi
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/savanna_plateau.json versions/1.16.3/reports/biomes/savanna_plateau.json
 --- versions/1.16.1/reports/biomes/savanna_plateau.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/savanna_plateau.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/savanna_plateau.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1549 @@
 +{
 +  "scale": 0.025,
@@ -82636,7 +82636,7 @@ diff -urN versions/1.16.1/reports/biomes/savanna_plateau.json versions/1.16.3/re
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/shattered_savanna.json versions/1.16.3/reports/biomes/shattered_savanna.json
 --- versions/1.16.1/reports/biomes/shattered_savanna.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/shattered_savanna.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/shattered_savanna.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1479 @@
 +{
 +  "scale": 1.225,
@@ -84120,7 +84120,7 @@ diff -urN versions/1.16.1/reports/biomes/shattered_savanna.json versions/1.16.3/
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/shattered_savanna_plateau.json versions/1.16.3/reports/biomes/shattered_savanna_plateau.json
 --- versions/1.16.1/reports/biomes/shattered_savanna_plateau.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/shattered_savanna_plateau.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/shattered_savanna_plateau.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1479 @@
 +{
 +  "scale": 1.2125001,
@@ -85604,7 +85604,7 @@ diff -urN versions/1.16.1/reports/biomes/shattered_savanna_plateau.json versions
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/small_end_islands.json versions/1.16.3/reports/biomes/small_end_islands.json
 --- versions/1.16.1/reports/biomes/small_end_islands.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/small_end_islands.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/small_end_islands.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,70 @@
 +{
 +  "scale": 0.2,
@@ -85679,7 +85679,7 @@ diff -urN versions/1.16.1/reports/biomes/small_end_islands.json versions/1.16.3/
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/snowy_beach.json versions/1.16.3/reports/biomes/snowy_beach.json
 --- versions/1.16.1/reports/biomes/snowy_beach.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/snowy_beach.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/snowy_beach.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1304 @@
 +{
 +  "scale": 0.025,
@@ -86988,7 +86988,7 @@ diff -urN versions/1.16.1/reports/biomes/snowy_beach.json versions/1.16.3/report
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/snowy_mountains.json versions/1.16.3/reports/biomes/snowy_mountains.json
 --- versions/1.16.1/reports/biomes/snowy_mountains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/snowy_mountains.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/snowy_mountains.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1405 @@
 +{
 +  "scale": 0.3,
@@ -88398,7 +88398,7 @@ diff -urN versions/1.16.1/reports/biomes/snowy_mountains.json versions/1.16.3/re
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/snowy_taiga.json versions/1.16.3/reports/biomes/snowy_taiga.json
 --- versions/1.16.1/reports/biomes/snowy_taiga.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/snowy_taiga.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/snowy_taiga.json	2026-03-29 12:55:42.654587972 +0000
 @@ -0,0 +1,1732 @@
 +{
 +  "scale": 0.2,
@@ -90135,7 +90135,7 @@ diff -urN versions/1.16.1/reports/biomes/snowy_taiga.json versions/1.16.3/report
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/snowy_taiga_hills.json versions/1.16.3/reports/biomes/snowy_taiga_hills.json
 --- versions/1.16.1/reports/biomes/snowy_taiga_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/snowy_taiga_hills.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/snowy_taiga_hills.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1728 @@
 +{
 +  "scale": 0.3,
@@ -91868,7 +91868,7 @@ diff -urN versions/1.16.1/reports/biomes/snowy_taiga_hills.json versions/1.16.3/
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/snowy_taiga_mountains.json versions/1.16.3/reports/biomes/snowy_taiga_mountains.json
 --- versions/1.16.1/reports/biomes/snowy_taiga_mountains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/snowy_taiga_mountains.json	2025-11-23 19:01:17.352765403 +0000
++++ versions/1.16.3/reports/biomes/snowy_taiga_mountains.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1728 @@
 +{
 +  "scale": 0.4,
@@ -93601,7 +93601,7 @@ diff -urN versions/1.16.1/reports/biomes/snowy_taiga_mountains.json versions/1.1
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/snowy_tundra.json versions/1.16.3/reports/biomes/snowy_tundra.json
 --- versions/1.16.1/reports/biomes/snowy_tundra.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/snowy_tundra.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/snowy_tundra.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1510 @@
 +{
 +  "scale": 0.05,
@@ -95116,7 +95116,7 @@ diff -urN versions/1.16.1/reports/biomes/snowy_tundra.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/soul_sand_valley.json versions/1.16.3/reports/biomes/soul_sand_valley.json
 --- versions/1.16.1/reports/biomes/soul_sand_valley.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/soul_sand_valley.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/soul_sand_valley.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1187 @@
 +{
 +  "scale": 0.2,
@@ -96308,7 +96308,7 @@ diff -urN versions/1.16.1/reports/biomes/soul_sand_valley.json versions/1.16.3/r
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/stone_shore.json versions/1.16.3/reports/biomes/stone_shore.json
 --- versions/1.16.1/reports/biomes/stone_shore.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/stone_shore.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/stone_shore.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1296 @@
 +{
 +  "scale": 0.8,
@@ -97609,7 +97609,7 @@ diff -urN versions/1.16.1/reports/biomes/stone_shore.json versions/1.16.3/report
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/sunflower_plains.json versions/1.16.3/reports/biomes/sunflower_plains.json
 --- versions/1.16.1/reports/biomes/sunflower_plains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/sunflower_plains.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/sunflower_plains.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1611 @@
 +{
 +  "scale": 0.05,
@@ -99225,7 +99225,7 @@ diff -urN versions/1.16.1/reports/biomes/sunflower_plains.json versions/1.16.3/r
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/swamp.json versions/1.16.3/reports/biomes/swamp.json
 --- versions/1.16.1/reports/biomes/swamp.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/swamp.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/swamp.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1576 @@
 +{
 +  "scale": 0.1,
@@ -100806,7 +100806,7 @@ diff -urN versions/1.16.1/reports/biomes/swamp.json versions/1.16.3/reports/biom
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/swamp_hills.json versions/1.16.3/reports/biomes/swamp_hills.json
 --- versions/1.16.1/reports/biomes/swamp_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/swamp_hills.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/swamp_hills.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1537 @@
 +{
 +  "scale": 0.3,
@@ -102348,7 +102348,7 @@ diff -urN versions/1.16.1/reports/biomes/swamp_hills.json versions/1.16.3/report
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/taiga.json versions/1.16.3/reports/biomes/taiga.json
 --- versions/1.16.1/reports/biomes/taiga.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/taiga.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/taiga.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,2234 @@
 +{
 +  "scale": 0.2,
@@ -104587,7 +104587,7 @@ diff -urN versions/1.16.1/reports/biomes/taiga.json versions/1.16.3/reports/biom
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/taiga_hills.json versions/1.16.3/reports/biomes/taiga_hills.json
 --- versions/1.16.1/reports/biomes/taiga_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/taiga_hills.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/taiga_hills.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1717 @@
 +{
 +  "scale": 0.3,
@@ -106309,7 +106309,7 @@ diff -urN versions/1.16.1/reports/biomes/taiga_hills.json versions/1.16.3/report
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/taiga_mountains.json versions/1.16.3/reports/biomes/taiga_mountains.json
 --- versions/1.16.1/reports/biomes/taiga_mountains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/taiga_mountains.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/taiga_mountains.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1717 @@
 +{
 +  "scale": 0.4,
@@ -108031,7 +108031,7 @@ diff -urN versions/1.16.1/reports/biomes/taiga_mountains.json versions/1.16.3/re
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/tall_birch_forest.json versions/1.16.3/reports/biomes/tall_birch_forest.json
 --- versions/1.16.1/reports/biomes/tall_birch_forest.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/tall_birch_forest.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/tall_birch_forest.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1638 @@
 +{
 +  "scale": 0.4,
@@ -109674,7 +109674,7 @@ diff -urN versions/1.16.1/reports/biomes/tall_birch_forest.json versions/1.16.3/
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/tall_birch_hills.json versions/1.16.3/reports/biomes/tall_birch_hills.json
 --- versions/1.16.1/reports/biomes/tall_birch_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/tall_birch_hills.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/tall_birch_hills.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,1638 @@
 +{
 +  "scale": 0.5,
@@ -111317,7 +111317,7 @@ diff -urN versions/1.16.1/reports/biomes/tall_birch_hills.json versions/1.16.3/r
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/the_end.json versions/1.16.3/reports/biomes/the_end.json
 --- versions/1.16.1/reports/biomes/the_end.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/the_end.json	2025-11-23 19:01:17.353765403 +0000
++++ versions/1.16.3/reports/biomes/the_end.json	2026-03-29 12:55:42.655587972 +0000
 @@ -0,0 +1,68 @@
 +{
 +  "scale": 0.2,
@@ -111390,7 +111390,7 @@ diff -urN versions/1.16.1/reports/biomes/the_end.json versions/1.16.3/reports/bi
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/the_void.json versions/1.16.3/reports/biomes/the_void.json
 --- versions/1.16.1/reports/biomes/the_void.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/the_void.json	2025-11-23 19:01:17.354765403 +0000
++++ versions/1.16.3/reports/biomes/the_void.json	2026-03-29 12:55:42.656587972 +0000
 @@ -0,0 +1,63 @@
 +{
 +  "scale": 0.2,
@@ -111458,7 +111458,7 @@ diff -urN versions/1.16.1/reports/biomes/the_void.json versions/1.16.3/reports/b
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/warm_ocean.json versions/1.16.3/reports/biomes/warm_ocean.json
 --- versions/1.16.1/reports/biomes/warm_ocean.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/warm_ocean.json	2025-11-23 19:01:17.354765403 +0000
++++ versions/1.16.3/reports/biomes/warm_ocean.json	2026-03-29 12:55:42.656587972 +0000
 @@ -0,0 +1,1600 @@
 +{
 +  "scale": 0.1,
@@ -113063,7 +113063,7 @@ diff -urN versions/1.16.1/reports/biomes/warm_ocean.json versions/1.16.3/reports
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/warped_forest.json versions/1.16.3/reports/biomes/warped_forest.json
 --- versions/1.16.1/reports/biomes/warped_forest.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/warped_forest.json	2025-11-23 19:01:17.354765403 +0000
++++ versions/1.16.3/reports/biomes/warped_forest.json	2026-03-29 12:55:42.656587972 +0000
 @@ -0,0 +1,1279 @@
 +{
 +  "scale": 0.2,
@@ -114347,7 +114347,7 @@ diff -urN versions/1.16.1/reports/biomes/warped_forest.json versions/1.16.3/repo
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/wooded_badlands_plateau.json versions/1.16.3/reports/biomes/wooded_badlands_plateau.json
 --- versions/1.16.1/reports/biomes/wooded_badlands_plateau.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/wooded_badlands_plateau.json	2025-11-23 19:01:17.354765403 +0000
++++ versions/1.16.3/reports/biomes/wooded_badlands_plateau.json	2026-03-29 12:55:42.656587972 +0000
 @@ -0,0 +1,1458 @@
 +{
 +  "scale": 0.025,
@@ -115810,7 +115810,7 @@ diff -urN versions/1.16.1/reports/biomes/wooded_badlands_plateau.json versions/1
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/wooded_hills.json versions/1.16.3/reports/biomes/wooded_hills.json
 --- versions/1.16.1/reports/biomes/wooded_hills.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/wooded_hills.json	2025-11-23 19:01:17.354765403 +0000
++++ versions/1.16.3/reports/biomes/wooded_hills.json	2026-03-29 12:55:42.656587972 +0000
 @@ -0,0 +1,1699 @@
 +{
 +  "scale": 0.3,
@@ -117514,7 +117514,7 @@ diff -urN versions/1.16.1/reports/biomes/wooded_hills.json versions/1.16.3/repor
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/biomes/wooded_mountains.json versions/1.16.3/reports/biomes/wooded_mountains.json
 --- versions/1.16.1/reports/biomes/wooded_mountains.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.16.3/reports/biomes/wooded_mountains.json	2025-11-23 19:01:17.354765403 +0000
++++ versions/1.16.3/reports/biomes/wooded_mountains.json	2026-03-29 12:55:42.656587972 +0000
 @@ -0,0 +1,1589 @@
 +{
 +  "scale": 0.5,
@@ -119107,8 +119107,8 @@ diff -urN versions/1.16.1/reports/biomes/wooded_mountains.json versions/1.16.3/r
 +}
 \ No newline at end of file
 diff -urN versions/1.16.1/reports/blocks.json versions/1.16.3/reports/blocks.json
---- versions/1.16.1/reports/blocks.json	2025-11-23 19:01:16.531765431 +0000
-+++ versions/1.16.3/reports/blocks.json	2025-11-23 19:01:17.361765403 +0000
+--- versions/1.16.1/reports/blocks.json	2026-03-29 12:55:42.221587972 +0000
++++ versions/1.16.3/reports/blocks.json	2026-03-29 12:55:42.659587972 +0000
 @@ -45386,6 +45386,11 @@
    },
    "minecraft:chain": {
@@ -227991,8 +227991,8 @@ diff -urN versions/1.16.1/reports/blocks.json versions/1.16.3/reports/blocks.jso
        }
      ]
 diff -urN versions/1.16.1/reports/commands.json versions/1.16.3/reports/commands.json
---- versions/1.16.1/reports/commands.json	2025-11-23 19:01:16.532765431 +0000
-+++ versions/1.16.3/reports/commands.json	2025-11-23 19:01:17.362765403 +0000
+--- versions/1.16.1/reports/commands.json	2026-03-29 12:55:42.221587972 +0000
++++ versions/1.16.3/reports/commands.json	2026-03-29 12:55:42.659587972 +0000
 @@ -6438,6 +6438,13 @@
          "pos": {
            "type": "argument",
@@ -228022,8 +228022,8 @@ diff -urN versions/1.16.1/reports/commands.json versions/1.16.3/reports/commands
              }
            },
 diff -urN versions/1.16.1/reports/registries.json versions/1.16.3/reports/registries.json
---- versions/1.16.1/reports/registries.json	2025-11-23 19:01:16.533765431 +0000
-+++ versions/1.16.3/reports/registries.json	2025-11-23 19:01:17.362765403 +0000
+--- versions/1.16.1/reports/registries.json	2026-03-29 12:55:42.221587972 +0000
++++ versions/1.16.3/reports/registries.json	2026-03-29 12:55:42.660587972 +0000
 @@ -1763,1199 +1763,1220 @@
        "minecraft:entity.parrot.imitate.piglin": {
          "protocol_id": 586

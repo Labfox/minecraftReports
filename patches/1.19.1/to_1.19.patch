@@ -1,6 +1,6 @@
 diff -urN versions/1.19.1/reports/minecraft/chat_type/chat.json versions/1.19/reports/minecraft/chat_type/chat.json
---- versions/1.19.1/reports/minecraft/chat_type/chat.json	2025-11-23 19:01:22.177914962 +0000
-+++ versions/1.19/reports/minecraft/chat_type/chat.json	2025-11-23 19:01:25.134195253 +0000
+--- versions/1.19.1/reports/minecraft/chat_type/chat.json	2026-03-29 12:49:44.312134193 +0000
++++ versions/1.19/reports/minecraft/chat_type/chat.json	2026-03-29 12:49:45.689084836 +0000
 @@ -1,16 +1,23 @@
  {
    "chat": {
@@ -37,8 +37,8 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/chat.json versions/1.19/re
  }
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/emote_command.json versions/1.19/reports/minecraft/chat_type/emote_command.json
---- versions/1.19.1/reports/minecraft/chat_type/emote_command.json	2025-11-23 19:01:22.178041059 +0000
-+++ versions/1.19/reports/minecraft/chat_type/emote_command.json	2025-11-23 19:01:25.134295982 +0000
+--- versions/1.19.1/reports/minecraft/chat_type/emote_command.json	2026-03-29 12:49:44.312197371 +0000
++++ versions/1.19/reports/minecraft/chat_type/emote_command.json	2026-03-29 12:49:45.689178482 +0000
 @@ -1,16 +1,23 @@
  {
    "chat": {
@@ -76,7 +76,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/emote_command.json version
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/game_info.json versions/1.19/reports/minecraft/chat_type/game_info.json
 --- versions/1.19.1/reports/minecraft/chat_type/game_info.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.19/reports/minecraft/chat_type/game_info.json	2025-11-23 19:01:25.134295982 +0000
++++ versions/1.19/reports/minecraft/chat_type/game_info.json	2026-03-29 12:49:45.689178482 +0000
 @@ -0,0 +1,3 @@
 +{
 +  "overlay": {}
@@ -84,7 +84,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/game_info.json versions/1.
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/msg_command.json versions/1.19/reports/minecraft/chat_type/msg_command.json
 --- versions/1.19.1/reports/minecraft/chat_type/msg_command.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.19/reports/minecraft/chat_type/msg_command.json	2025-11-23 19:01:25.134295982 +0000
++++ versions/1.19/reports/minecraft/chat_type/msg_command.json	2026-03-29 12:49:45.689178482 +0000
 @@ -0,0 +1,26 @@
 +{
 +  "chat": {
@@ -114,7 +114,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/msg_command.json versions/
 +}
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/msg_command_incoming.json versions/1.19/reports/minecraft/chat_type/msg_command_incoming.json
---- versions/1.19.1/reports/minecraft/chat_type/msg_command_incoming.json	2025-11-23 19:01:22.178041059 +0000
+--- versions/1.19.1/reports/minecraft/chat_type/msg_command_incoming.json	2026-03-29 12:49:44.312197371 +0000
 +++ versions/1.19/reports/minecraft/chat_type/msg_command_incoming.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,20 +0,0 @@
 -{
@@ -139,7 +139,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/msg_command_incoming.json 
 -}
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/msg_command_outgoing.json versions/1.19/reports/minecraft/chat_type/msg_command_outgoing.json
---- versions/1.19.1/reports/minecraft/chat_type/msg_command_outgoing.json	2025-11-23 19:01:22.178041059 +0000
+--- versions/1.19.1/reports/minecraft/chat_type/msg_command_outgoing.json	2026-03-29 12:49:44.312197371 +0000
 +++ versions/1.19/reports/minecraft/chat_type/msg_command_outgoing.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,20 +0,0 @@
 -{
@@ -164,8 +164,8 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/msg_command_outgoing.json 
 -}
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/say_command.json versions/1.19/reports/minecraft/chat_type/say_command.json
---- versions/1.19.1/reports/minecraft/chat_type/say_command.json	2025-11-23 19:01:22.178041059 +0000
-+++ versions/1.19/reports/minecraft/chat_type/say_command.json	2025-11-23 19:01:25.134295982 +0000
+--- versions/1.19.1/reports/minecraft/chat_type/say_command.json	2026-03-29 12:49:44.312197371 +0000
++++ versions/1.19/reports/minecraft/chat_type/say_command.json	2026-03-29 12:49:45.689178482 +0000
 @@ -1,16 +1,23 @@
  {
    "chat": {
@@ -203,7 +203,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/say_command.json versions/
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/system.json versions/1.19/reports/minecraft/chat_type/system.json
 --- versions/1.19.1/reports/minecraft/chat_type/system.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.19/reports/minecraft/chat_type/system.json	2025-11-23 19:01:25.134295982 +0000
++++ versions/1.19/reports/minecraft/chat_type/system.json	2026-03-29 12:49:45.689178482 +0000
 @@ -0,0 +1,6 @@
 +{
 +  "chat": {},
@@ -214,7 +214,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/system.json versions/1.19/
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/team_msg_command.json versions/1.19/reports/minecraft/chat_type/team_msg_command.json
 --- versions/1.19.1/reports/minecraft/chat_type/team_msg_command.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.19/reports/minecraft/chat_type/team_msg_command.json	2025-11-23 19:01:25.134295982 +0000
++++ versions/1.19/reports/minecraft/chat_type/team_msg_command.json	2026-03-29 12:49:45.689178482 +0000
 @@ -0,0 +1,24 @@
 +{
 +  "chat": {
@@ -242,7 +242,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/team_msg_command.json vers
 +}
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/team_msg_command_incoming.json versions/1.19/reports/minecraft/chat_type/team_msg_command_incoming.json
---- versions/1.19.1/reports/minecraft/chat_type/team_msg_command_incoming.json	2025-11-23 19:01:22.178041059 +0000
+--- versions/1.19.1/reports/minecraft/chat_type/team_msg_command_incoming.json	2026-03-29 12:49:44.312197371 +0000
 +++ versions/1.19/reports/minecraft/chat_type/team_msg_command_incoming.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,17 +0,0 @@
 -{
@@ -264,7 +264,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/team_msg_command_incoming.
 -}
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/team_msg_command_outgoing.json versions/1.19/reports/minecraft/chat_type/team_msg_command_outgoing.json
---- versions/1.19.1/reports/minecraft/chat_type/team_msg_command_outgoing.json	2025-11-23 19:01:22.178041059 +0000
+--- versions/1.19.1/reports/minecraft/chat_type/team_msg_command_outgoing.json	2026-03-29 12:49:44.312197371 +0000
 +++ versions/1.19/reports/minecraft/chat_type/team_msg_command_outgoing.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,17 +0,0 @@
 -{
@@ -287,7 +287,7 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/team_msg_command_outgoing.
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/minecraft/chat_type/tellraw_command.json versions/1.19/reports/minecraft/chat_type/tellraw_command.json
 --- versions/1.19.1/reports/minecraft/chat_type/tellraw_command.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.19/reports/minecraft/chat_type/tellraw_command.json	2025-11-23 19:01:25.134295982 +0000
++++ versions/1.19/reports/minecraft/chat_type/tellraw_command.json	2026-03-29 12:49:45.689178482 +0000
 @@ -0,0 +1,6 @@
 +{
 +  "chat": {},
@@ -297,8 +297,8 @@ diff -urN versions/1.19.1/reports/minecraft/chat_type/tellraw_command.json versi
 +}
 \ No newline at end of file
 diff -urN versions/1.19.1/reports/registries.json versions/1.19/reports/registries.json
---- versions/1.19.1/reports/registries.json	2025-11-23 19:01:22.212765239 +0000
-+++ versions/1.19/reports/registries.json	2025-11-23 19:01:25.169765139 +0000
+--- versions/1.19.1/reports/registries.json	2026-03-29 12:49:44.347588144 +0000
++++ versions/1.19/reports/registries.json	2026-03-29 12:49:45.729682004 +0000
 @@ -4302,53 +4302,47 @@
        "minecraft:item_interact_start": {
          "protocol_id": 29

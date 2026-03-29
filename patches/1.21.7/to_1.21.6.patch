@@ -1,6 +1,6 @@
 diff -urN versions/1.21.7/data/minecraft/datapacks/minecart_improvements/pack.mcmeta versions/1.21.6/data/minecraft/datapacks/minecart_improvements/pack.mcmeta
---- versions/1.21.7/data/minecraft/datapacks/minecart_improvements/pack.mcmeta	2025-11-23 19:01:34.021317384 +0000
-+++ versions/1.21.6/data/minecraft/datapacks/minecart_improvements/pack.mcmeta	2025-11-23 19:01:33.493099725 +0000
+--- versions/1.21.7/data/minecraft/datapacks/minecart_improvements/pack.mcmeta	2026-03-29 12:55:49.007108053 +0000
++++ versions/1.21.6/data/minecraft/datapacks/minecart_improvements/pack.mcmeta	2026-03-29 12:55:48.789438580 +0000
 @@ -8,6 +8,6 @@
      "description": {
        "translate": "dataPack.minecart_improvements.description"
@@ -11,8 +11,8 @@ diff -urN versions/1.21.7/data/minecraft/datapacks/minecart_improvements/pack.mc
  }
 \ No newline at end of file
 diff -urN versions/1.21.7/data/minecraft/datapacks/redstone_experiments/pack.mcmeta versions/1.21.6/data/minecraft/datapacks/redstone_experiments/pack.mcmeta
---- versions/1.21.7/data/minecraft/datapacks/redstone_experiments/pack.mcmeta	2025-11-23 19:01:34.021317384 +0000
-+++ versions/1.21.6/data/minecraft/datapacks/redstone_experiments/pack.mcmeta	2025-11-23 19:01:33.493099725 +0000
+--- versions/1.21.7/data/minecraft/datapacks/redstone_experiments/pack.mcmeta	2026-03-29 12:55:49.007108053 +0000
++++ versions/1.21.6/data/minecraft/datapacks/redstone_experiments/pack.mcmeta	2026-03-29 12:55:48.789438580 +0000
 @@ -8,6 +8,6 @@
      "description": {
        "translate": "dataPack.redstone_experiments.description"
@@ -23,8 +23,8 @@ diff -urN versions/1.21.7/data/minecraft/datapacks/redstone_experiments/pack.mcm
  }
 \ No newline at end of file
 diff -urN versions/1.21.7/data/minecraft/datapacks/trade_rebalance/pack.mcmeta versions/1.21.6/data/minecraft/datapacks/trade_rebalance/pack.mcmeta
---- versions/1.21.7/data/minecraft/datapacks/trade_rebalance/pack.mcmeta	2025-11-23 19:01:34.022724563 +0000
-+++ versions/1.21.6/data/minecraft/datapacks/trade_rebalance/pack.mcmeta	2025-11-23 19:01:33.494878782 +0000
+--- versions/1.21.7/data/minecraft/datapacks/trade_rebalance/pack.mcmeta	2026-03-29 12:55:49.008749804 +0000
++++ versions/1.21.6/data/minecraft/datapacks/trade_rebalance/pack.mcmeta	2026-03-29 12:55:48.791076453 +0000
 @@ -8,6 +8,6 @@
      "description": {
        "translate": "dataPack.trade_rebalance.description"
@@ -35,7 +35,7 @@ diff -urN versions/1.21.7/data/minecraft/datapacks/trade_rebalance/pack.mcmeta v
  }
 \ No newline at end of file
 diff -urN versions/1.21.7/data/minecraft/jukebox_song/lava_chicken.json versions/1.21.6/data/minecraft/jukebox_song/lava_chicken.json
---- versions/1.21.7/data/minecraft/jukebox_song/lava_chicken.json	2025-11-23 19:01:34.025485382 +0000
+--- versions/1.21.7/data/minecraft/jukebox_song/lava_chicken.json	2026-03-29 12:55:49.011441990 +0000
 +++ versions/1.21.6/data/minecraft/jukebox_song/lava_chicken.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,8 +0,0 @@
 -{
@@ -48,8 +48,8 @@ diff -urN versions/1.21.7/data/minecraft/jukebox_song/lava_chicken.json versions
 -}
 \ No newline at end of file
 diff -urN versions/1.21.7/data/minecraft/loot_table/entities/zombie.json versions/1.21.6/data/minecraft/loot_table/entities/zombie.json
---- versions/1.21.7/data/minecraft/loot_table/entities/zombie.json	2025-11-23 19:01:34.067996947 +0000
-+++ versions/1.21.6/data/minecraft/loot_table/entities/zombie.json	2025-11-23 19:01:33.533105881 +0000
+--- versions/1.21.7/data/minecraft/loot_table/entities/zombie.json	2026-03-29 12:55:49.052619643 +0000
++++ versions/1.21.6/data/minecraft/loot_table/entities/zombie.json	2026-03-29 12:55:48.833587969 +0000
 @@ -101,33 +101,6 @@
          }
        ],
@@ -85,7 +85,7 @@ diff -urN versions/1.21.7/data/minecraft/loot_table/entities/zombie.json version
    ],
    "random_sequence": "minecraft:entities/zombie"
 diff -urN versions/1.21.7/data/minecraft/painting_variant/dennis.json versions/1.21.6/data/minecraft/painting_variant/dennis.json
---- versions/1.21.7/data/minecraft/painting_variant/dennis.json	2025-11-23 19:01:34.072469816 +0000
+--- versions/1.21.7/data/minecraft/painting_variant/dennis.json	2026-03-29 12:55:49.056012069 +0000
 +++ versions/1.21.6/data/minecraft/painting_variant/dennis.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,13 +0,0 @@
 -{
@@ -103,8 +103,8 @@ diff -urN versions/1.21.7/data/minecraft/painting_variant/dennis.json versions/1
 -}
 \ No newline at end of file
 diff -urN versions/1.21.7/data/minecraft/tags/painting_variant/placeable.json versions/1.21.6/data/minecraft/tags/painting_variant/placeable.json
---- versions/1.21.7/data/minecraft/tags/painting_variant/placeable.json	2025-11-23 19:01:34.142764836 +0000
-+++ versions/1.21.6/data/minecraft/tags/painting_variant/placeable.json	2025-11-23 19:01:33.614764853 +0000
+--- versions/1.21.7/data/minecraft/tags/painting_variant/placeable.json	2026-03-29 12:55:49.117587969 +0000
++++ versions/1.21.6/data/minecraft/tags/painting_variant/placeable.json	2026-03-29 12:55:48.899587969 +0000
 @@ -45,7 +45,6 @@
      "minecraft:passage",
      "minecraft:pond",
@@ -116,8 +116,8 @@ diff -urN versions/1.21.7/data/minecraft/tags/painting_variant/placeable.json ve
  }
 \ No newline at end of file
 diff -urN versions/1.21.7/reports/items.json versions/1.21.6/reports/items.json
---- versions/1.21.7/reports/items.json	2025-11-23 19:01:34.423764826 +0000
-+++ versions/1.21.6/reports/items.json	2025-11-23 19:01:33.964764842 +0000
+--- versions/1.21.7/reports/items.json	2026-03-29 12:55:49.163587969 +0000
++++ versions/1.21.6/reports/items.json	2026-03-29 12:55:48.950587969 +0000
 @@ -14675,23 +14675,6 @@
        "minecraft:tooltip_display": {}
      }
@@ -143,8 +143,8 @@ diff -urN versions/1.21.7/reports/items.json versions/1.21.6/reports/items.json
      "components": {
        "minecraft:attribute_modifiers": [],
 diff -urN versions/1.21.7/reports/registries.json versions/1.21.6/reports/registries.json
---- versions/1.21.7/reports/registries.json	2025-11-23 19:01:34.423764826 +0000
-+++ versions/1.21.6/reports/registries.json	2025-11-23 19:01:33.965764842 +0000
+--- versions/1.21.7/reports/registries.json	2026-03-29 12:55:49.163587969 +0000
++++ versions/1.21.6/reports/registries.json	2026-03-29 12:55:48.950587969 +0000
 @@ -6550,7 +6550,7 @@
          "protocol_id": 88
        },

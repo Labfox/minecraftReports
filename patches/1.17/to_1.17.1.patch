@@ -1,6 +1,6 @@
 diff -urN versions/1.17/data/minecraft/loot_tables/entities/drowned.json versions/1.17.1/data/minecraft/loot_tables/entities/drowned.json
---- versions/1.17/data/minecraft/loot_tables/entities/drowned.json	2025-11-23 19:01:19.220772805 +0000
-+++ versions/1.17.1/data/minecraft/loot_tables/entities/drowned.json	2025-11-23 19:01:18.746006099 +0000
+--- versions/1.17/data/minecraft/loot_tables/entities/drowned.json	2026-03-29 12:55:43.670752224 +0000
++++ versions/1.17.1/data/minecraft/loot_tables/entities/drowned.json	2026-03-29 12:55:43.432519867 +0000
 @@ -45,8 +45,8 @@
          },
          {
@@ -13,8 +13,8 @@ diff -urN versions/1.17/data/minecraft/loot_tables/entities/drowned.json version
        ]
      }
 diff -urN versions/1.17/data/minecraft/recipes/lapis_lazuli_from_blasting_deepslate_lapis_ore.json versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_blasting_deepslate_lapis_ore.json
---- versions/1.17/data/minecraft/recipes/lapis_lazuli_from_blasting_deepslate_lapis_ore.json	2025-11-23 19:01:19.240765339 +0000
-+++ versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_blasting_deepslate_lapis_ore.json	2025-11-23 19:01:18.763765356 +0000
+--- versions/1.17/data/minecraft/recipes/lapis_lazuli_from_blasting_deepslate_lapis_ore.json	2026-03-29 12:55:43.688587971 +0000
++++ versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_blasting_deepslate_lapis_ore.json	2026-03-29 12:55:43.451587972 +0000
 @@ -1,6 +1,6 @@
  {
    "type": "minecraft:blasting",
@@ -24,8 +24,8 @@ diff -urN versions/1.17/data/minecraft/recipes/lapis_lazuli_from_blasting_deepsl
      "item": "minecraft:deepslate_lapis_ore"
    },
 diff -urN versions/1.17/data/minecraft/recipes/lapis_lazuli_from_blasting_lapis_ore.json versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_blasting_lapis_ore.json
---- versions/1.17/data/minecraft/recipes/lapis_lazuli_from_blasting_lapis_ore.json	2025-11-23 19:01:19.241765339 +0000
-+++ versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_blasting_lapis_ore.json	2025-11-23 19:01:18.763765356 +0000
+--- versions/1.17/data/minecraft/recipes/lapis_lazuli_from_blasting_lapis_ore.json	2026-03-29 12:55:43.688587971 +0000
++++ versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_blasting_lapis_ore.json	2026-03-29 12:55:43.451587972 +0000
 @@ -1,6 +1,6 @@
  {
    "type": "minecraft:blasting",
@@ -35,8 +35,8 @@ diff -urN versions/1.17/data/minecraft/recipes/lapis_lazuli_from_blasting_lapis_
      "item": "minecraft:lapis_ore"
    },
 diff -urN versions/1.17/data/minecraft/recipes/lapis_lazuli_from_smelting_deepslate_lapis_ore.json versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_smelting_deepslate_lapis_ore.json
---- versions/1.17/data/minecraft/recipes/lapis_lazuli_from_smelting_deepslate_lapis_ore.json	2025-11-23 19:01:19.241765339 +0000
-+++ versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_smelting_deepslate_lapis_ore.json	2025-11-23 19:01:18.763765356 +0000
+--- versions/1.17/data/minecraft/recipes/lapis_lazuli_from_smelting_deepslate_lapis_ore.json	2026-03-29 12:55:43.688587971 +0000
++++ versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_smelting_deepslate_lapis_ore.json	2026-03-29 12:55:43.452587972 +0000
 @@ -1,6 +1,6 @@
  {
    "type": "minecraft:smelting",
@@ -46,8 +46,8 @@ diff -urN versions/1.17/data/minecraft/recipes/lapis_lazuli_from_smelting_deepsl
      "item": "minecraft:deepslate_lapis_ore"
    },
 diff -urN versions/1.17/data/minecraft/recipes/lapis_lazuli_from_smelting_lapis_ore.json versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_smelting_lapis_ore.json
---- versions/1.17/data/minecraft/recipes/lapis_lazuli_from_smelting_lapis_ore.json	2025-11-23 19:01:19.241765339 +0000
-+++ versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_smelting_lapis_ore.json	2025-11-23 19:01:18.763765356 +0000
+--- versions/1.17/data/minecraft/recipes/lapis_lazuli_from_smelting_lapis_ore.json	2026-03-29 12:55:43.688587971 +0000
++++ versions/1.17.1/data/minecraft/recipes/lapis_lazuli_from_smelting_lapis_ore.json	2026-03-29 12:55:43.452587972 +0000
 @@ -1,6 +1,6 @@
  {
    "type": "minecraft:smelting",
@@ -57,8 +57,8 @@ diff -urN versions/1.17/data/minecraft/recipes/lapis_lazuli_from_smelting_lapis_
      "item": "minecraft:lapis_ore"
    },
 diff -urN versions/1.17/data/minecraft/tags/blocks/lava_pool_stone_replaceables.json versions/1.17.1/data/minecraft/tags/blocks/lava_pool_stone_replaceables.json
---- versions/1.17/data/minecraft/tags/blocks/lava_pool_stone_replaceables.json	2025-11-23 19:01:19.267765339 +0000
-+++ versions/1.17.1/data/minecraft/tags/blocks/lava_pool_stone_replaceables.json	2025-11-23 19:01:18.782152025 +0000
+--- versions/1.17/data/minecraft/tags/blocks/lava_pool_stone_replaceables.json	2026-03-29 12:55:43.709587971 +0000
++++ versions/1.17.1/data/minecraft/tags/blocks/lava_pool_stone_replaceables.json	2026-03-29 12:55:43.472587972 +0000
 @@ -2,6 +2,7 @@
    "replace": false,
    "values": [
@@ -70,8 +70,8 @@ diff -urN versions/1.17/data/minecraft/tags/blocks/lava_pool_stone_replaceables.
  }
 \ No newline at end of file
 diff -urN versions/1.17/reports/biomes/badlands.json versions/1.17.1/reports/biomes/badlands.json
---- versions/1.17/reports/biomes/badlands.json	2025-11-23 19:01:19.518831326 +0000
-+++ versions/1.17.1/reports/biomes/badlands.json	2025-11-23 19:01:19.035533469 +0000
+--- versions/1.17/reports/biomes/badlands.json	2026-03-29 12:55:43.715534249 +0000
++++ versions/1.17.1/reports/biomes/badlands.json	2026-03-29 12:55:43.477971435 +0000
 @@ -1182,7 +1182,7 @@
                        "above_bottom": 0
                      },
@@ -82,8 +82,8 @@ diff -urN versions/1.17/reports/biomes/badlands.json versions/1.17.1/reports/bio
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/badlands_plateau.json versions/1.17.1/reports/biomes/badlands_plateau.json
---- versions/1.17/reports/biomes/badlands_plateau.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/badlands_plateau.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/badlands_plateau.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/badlands_plateau.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1182,7 +1182,7 @@
                        "above_bottom": 0
                      },
@@ -94,8 +94,8 @@ diff -urN versions/1.17/reports/biomes/badlands_plateau.json versions/1.17.1/rep
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/bamboo_jungle.json versions/1.17.1/reports/biomes/bamboo_jungle.json
---- versions/1.17/reports/biomes/bamboo_jungle.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/bamboo_jungle.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/bamboo_jungle.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/bamboo_jungle.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -106,8 +106,8 @@ diff -urN versions/1.17/reports/biomes/bamboo_jungle.json versions/1.17.1/report
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/bamboo_jungle_hills.json versions/1.17.1/reports/biomes/bamboo_jungle_hills.json
---- versions/1.17/reports/biomes/bamboo_jungle_hills.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/bamboo_jungle_hills.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/bamboo_jungle_hills.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/bamboo_jungle_hills.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -118,8 +118,8 @@ diff -urN versions/1.17/reports/biomes/bamboo_jungle_hills.json versions/1.17.1/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/beach.json versions/1.17.1/reports/biomes/beach.json
---- versions/1.17/reports/biomes/beach.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/beach.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/beach.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/beach.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1180,7 +1180,7 @@
                        "above_bottom": 0
                      },
@@ -130,8 +130,8 @@ diff -urN versions/1.17/reports/biomes/beach.json versions/1.17.1/reports/biomes
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/birch_forest.json versions/1.17.1/reports/biomes/birch_forest.json
---- versions/1.17/reports/biomes/birch_forest.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/birch_forest.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/birch_forest.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/birch_forest.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -142,8 +142,8 @@ diff -urN versions/1.17/reports/biomes/birch_forest.json versions/1.17.1/reports
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/birch_forest_hills.json versions/1.17.1/reports/biomes/birch_forest_hills.json
---- versions/1.17/reports/biomes/birch_forest_hills.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/birch_forest_hills.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/birch_forest_hills.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/birch_forest_hills.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -154,8 +154,8 @@ diff -urN versions/1.17/reports/biomes/birch_forest_hills.json versions/1.17.1/r
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/cold_ocean.json versions/1.17.1/reports/biomes/cold_ocean.json
---- versions/1.17/reports/biomes/cold_ocean.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/cold_ocean.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/cold_ocean.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/cold_ocean.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1312,7 +1312,7 @@
                        "above_bottom": 0
                      },
@@ -166,8 +166,8 @@ diff -urN versions/1.17/reports/biomes/cold_ocean.json versions/1.17.1/reports/b
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/dark_forest.json versions/1.17.1/reports/biomes/dark_forest.json
---- versions/1.17/reports/biomes/dark_forest.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/dark_forest.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/dark_forest.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/dark_forest.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1184,7 +1184,7 @@
                        "above_bottom": 0
                      },
@@ -178,8 +178,8 @@ diff -urN versions/1.17/reports/biomes/dark_forest.json versions/1.17.1/reports/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/dark_forest_hills.json versions/1.17.1/reports/biomes/dark_forest_hills.json
---- versions/1.17/reports/biomes/dark_forest_hills.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/dark_forest_hills.json	2025-11-23 19:01:19.035793556 +0000
+--- versions/1.17/reports/biomes/dark_forest_hills.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/dark_forest_hills.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1184,7 +1184,7 @@
                        "above_bottom": 0
                      },
@@ -190,8 +190,8 @@ diff -urN versions/1.17/reports/biomes/dark_forest_hills.json versions/1.17.1/re
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/deep_cold_ocean.json versions/1.17.1/reports/biomes/deep_cold_ocean.json
---- versions/1.17/reports/biomes/deep_cold_ocean.json	2025-11-23 19:01:19.519025289 +0000
-+++ versions/1.17.1/reports/biomes/deep_cold_ocean.json	2025-11-23 19:01:19.036765346 +0000
+--- versions/1.17/reports/biomes/deep_cold_ocean.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/deep_cold_ocean.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1312,7 +1312,7 @@
                        "above_bottom": 0
                      },
@@ -202,8 +202,8 @@ diff -urN versions/1.17/reports/biomes/deep_cold_ocean.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/deep_frozen_ocean.json versions/1.17.1/reports/biomes/deep_frozen_ocean.json
---- versions/1.17/reports/biomes/deep_frozen_ocean.json	2025-11-23 19:01:19.519765330 +0000
-+++ versions/1.17.1/reports/biomes/deep_frozen_ocean.json	2025-11-23 19:01:19.036765346 +0000
+--- versions/1.17/reports/biomes/deep_frozen_ocean.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/deep_frozen_ocean.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1418,7 +1418,7 @@
                        "above_bottom": 0
                      },
@@ -214,8 +214,8 @@ diff -urN versions/1.17/reports/biomes/deep_frozen_ocean.json versions/1.17.1/re
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/deep_lukewarm_ocean.json versions/1.17.1/reports/biomes/deep_lukewarm_ocean.json
---- versions/1.17/reports/biomes/deep_lukewarm_ocean.json	2025-11-23 19:01:19.519765330 +0000
-+++ versions/1.17.1/reports/biomes/deep_lukewarm_ocean.json	2025-11-23 19:01:19.036765346 +0000
+--- versions/1.17/reports/biomes/deep_lukewarm_ocean.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/deep_lukewarm_ocean.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1312,7 +1312,7 @@
                        "above_bottom": 0
                      },
@@ -226,8 +226,8 @@ diff -urN versions/1.17/reports/biomes/deep_lukewarm_ocean.json versions/1.17.1/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/deep_ocean.json versions/1.17.1/reports/biomes/deep_ocean.json
---- versions/1.17/reports/biomes/deep_ocean.json	2025-11-23 19:01:19.519765330 +0000
-+++ versions/1.17.1/reports/biomes/deep_ocean.json	2025-11-23 19:01:19.036765346 +0000
+--- versions/1.17/reports/biomes/deep_ocean.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/deep_ocean.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1312,7 +1312,7 @@
                        "above_bottom": 0
                      },
@@ -238,8 +238,8 @@ diff -urN versions/1.17/reports/biomes/deep_ocean.json versions/1.17.1/reports/b
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/deep_warm_ocean.json versions/1.17.1/reports/biomes/deep_warm_ocean.json
---- versions/1.17/reports/biomes/deep_warm_ocean.json	2025-11-23 19:01:19.519765330 +0000
-+++ versions/1.17.1/reports/biomes/deep_warm_ocean.json	2025-11-23 19:01:19.036765346 +0000
+--- versions/1.17/reports/biomes/deep_warm_ocean.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/deep_warm_ocean.json	2026-03-29 12:55:43.478076341 +0000
 @@ -1309,7 +1309,7 @@
                        "above_bottom": 0
                      },
@@ -250,8 +250,8 @@ diff -urN versions/1.17/reports/biomes/deep_warm_ocean.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/desert.json versions/1.17.1/reports/biomes/desert.json
---- versions/1.17/reports/biomes/desert.json	2025-11-23 19:01:19.519765330 +0000
-+++ versions/1.17.1/reports/biomes/desert.json	2025-11-23 19:01:19.036765346 +0000
+--- versions/1.17/reports/biomes/desert.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/desert.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1227,7 +1227,7 @@
                        "above_bottom": 0
                      },
@@ -262,8 +262,8 @@ diff -urN versions/1.17/reports/biomes/desert.json versions/1.17.1/reports/biome
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/desert_hills.json versions/1.17.1/reports/biomes/desert_hills.json
---- versions/1.17/reports/biomes/desert_hills.json	2025-11-23 19:01:19.520765330 +0000
-+++ versions/1.17.1/reports/biomes/desert_hills.json	2025-11-23 19:01:19.037765346 +0000
+--- versions/1.17/reports/biomes/desert_hills.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/desert_hills.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1166,7 +1166,7 @@
                        "above_bottom": 0
                      },
@@ -274,8 +274,8 @@ diff -urN versions/1.17/reports/biomes/desert_hills.json versions/1.17.1/reports
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/desert_lakes.json versions/1.17.1/reports/biomes/desert_lakes.json
---- versions/1.17/reports/biomes/desert_lakes.json	2025-11-23 19:01:19.520765330 +0000
-+++ versions/1.17.1/reports/biomes/desert_lakes.json	2025-11-23 19:01:19.037765346 +0000
+--- versions/1.17/reports/biomes/desert_lakes.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/desert_lakes.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1166,7 +1166,7 @@
                        "above_bottom": 0
                      },
@@ -286,8 +286,8 @@ diff -urN versions/1.17/reports/biomes/desert_lakes.json versions/1.17.1/reports
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/dripstone_caves.json versions/1.17.1/reports/biomes/dripstone_caves.json
---- versions/1.17/reports/biomes/dripstone_caves.json	2025-11-23 19:01:19.520765330 +0000
-+++ versions/1.17.1/reports/biomes/dripstone_caves.json	2025-11-23 19:01:19.037765346 +0000
+--- versions/1.17/reports/biomes/dripstone_caves.json	2026-03-29 12:55:43.715652901 +0000
++++ versions/1.17.1/reports/biomes/dripstone_caves.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1272,7 +1272,7 @@
                        "above_bottom": 0
                      },
@@ -298,8 +298,8 @@ diff -urN versions/1.17/reports/biomes/dripstone_caves.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/eroded_badlands.json versions/1.17.1/reports/biomes/eroded_badlands.json
---- versions/1.17/reports/biomes/eroded_badlands.json	2025-11-23 19:01:19.520765330 +0000
-+++ versions/1.17.1/reports/biomes/eroded_badlands.json	2025-11-23 19:01:19.037765346 +0000
+--- versions/1.17/reports/biomes/eroded_badlands.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/eroded_badlands.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1182,7 +1182,7 @@
                        "above_bottom": 0
                      },
@@ -310,8 +310,8 @@ diff -urN versions/1.17/reports/biomes/eroded_badlands.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/flower_forest.json versions/1.17.1/reports/biomes/flower_forest.json
---- versions/1.17/reports/biomes/flower_forest.json	2025-11-23 19:01:19.520765330 +0000
-+++ versions/1.17.1/reports/biomes/flower_forest.json	2025-11-23 19:01:19.037765346 +0000
+--- versions/1.17/reports/biomes/flower_forest.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/flower_forest.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -322,8 +322,8 @@ diff -urN versions/1.17/reports/biomes/flower_forest.json versions/1.17.1/report
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/forest.json versions/1.17.1/reports/biomes/forest.json
---- versions/1.17/reports/biomes/forest.json	2025-11-23 19:01:19.521765330 +0000
-+++ versions/1.17.1/reports/biomes/forest.json	2025-11-23 19:01:19.038765346 +0000
+--- versions/1.17/reports/biomes/forest.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/forest.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -334,8 +334,8 @@ diff -urN versions/1.17/reports/biomes/forest.json versions/1.17.1/reports/biome
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/frozen_ocean.json versions/1.17.1/reports/biomes/frozen_ocean.json
---- versions/1.17/reports/biomes/frozen_ocean.json	2025-11-23 19:01:19.521765330 +0000
-+++ versions/1.17.1/reports/biomes/frozen_ocean.json	2025-11-23 19:01:19.038765346 +0000
+--- versions/1.17/reports/biomes/frozen_ocean.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/frozen_ocean.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1418,7 +1418,7 @@
                        "above_bottom": 0
                      },
@@ -346,8 +346,8 @@ diff -urN versions/1.17/reports/biomes/frozen_ocean.json versions/1.17.1/reports
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/frozen_river.json versions/1.17.1/reports/biomes/frozen_river.json
---- versions/1.17/reports/biomes/frozen_river.json	2025-11-23 19:01:19.521765330 +0000
-+++ versions/1.17.1/reports/biomes/frozen_river.json	2025-11-23 19:01:19.038765346 +0000
+--- versions/1.17/reports/biomes/frozen_river.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/frozen_river.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -358,8 +358,8 @@ diff -urN versions/1.17/reports/biomes/frozen_river.json versions/1.17.1/reports
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/giant_spruce_taiga.json versions/1.17.1/reports/biomes/giant_spruce_taiga.json
---- versions/1.17/reports/biomes/giant_spruce_taiga.json	2025-11-23 19:01:19.521765330 +0000
-+++ versions/1.17.1/reports/biomes/giant_spruce_taiga.json	2025-11-23 19:01:19.038765346 +0000
+--- versions/1.17/reports/biomes/giant_spruce_taiga.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/giant_spruce_taiga.json	2026-03-29 12:55:43.478587972 +0000
 @@ -1228,7 +1228,7 @@
                        "above_bottom": 0
                      },
@@ -370,8 +370,8 @@ diff -urN versions/1.17/reports/biomes/giant_spruce_taiga.json versions/1.17.1/r
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/giant_spruce_taiga_hills.json versions/1.17.1/reports/biomes/giant_spruce_taiga_hills.json
---- versions/1.17/reports/biomes/giant_spruce_taiga_hills.json	2025-11-23 19:01:19.521765330 +0000
-+++ versions/1.17.1/reports/biomes/giant_spruce_taiga_hills.json	2025-11-23 19:01:19.038765346 +0000
+--- versions/1.17/reports/biomes/giant_spruce_taiga_hills.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/giant_spruce_taiga_hills.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1228,7 +1228,7 @@
                        "above_bottom": 0
                      },
@@ -382,8 +382,8 @@ diff -urN versions/1.17/reports/biomes/giant_spruce_taiga_hills.json versions/1.
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/giant_tree_taiga.json versions/1.17.1/reports/biomes/giant_tree_taiga.json
---- versions/1.17/reports/biomes/giant_tree_taiga.json	2025-11-23 19:01:19.521765330 +0000
-+++ versions/1.17.1/reports/biomes/giant_tree_taiga.json	2025-11-23 19:01:19.039765346 +0000
+--- versions/1.17/reports/biomes/giant_tree_taiga.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/giant_tree_taiga.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1228,7 +1228,7 @@
                        "above_bottom": 0
                      },
@@ -394,8 +394,8 @@ diff -urN versions/1.17/reports/biomes/giant_tree_taiga.json versions/1.17.1/rep
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/giant_tree_taiga_hills.json versions/1.17.1/reports/biomes/giant_tree_taiga_hills.json
---- versions/1.17/reports/biomes/giant_tree_taiga_hills.json	2025-11-23 19:01:19.522765330 +0000
-+++ versions/1.17.1/reports/biomes/giant_tree_taiga_hills.json	2025-11-23 19:01:19.039765346 +0000
+--- versions/1.17/reports/biomes/giant_tree_taiga_hills.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/giant_tree_taiga_hills.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1228,7 +1228,7 @@
                        "above_bottom": 0
                      },
@@ -406,8 +406,8 @@ diff -urN versions/1.17/reports/biomes/giant_tree_taiga_hills.json versions/1.17
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/gravelly_mountains.json versions/1.17.1/reports/biomes/gravelly_mountains.json
---- versions/1.17/reports/biomes/gravelly_mountains.json	2025-11-23 19:01:19.522765330 +0000
-+++ versions/1.17.1/reports/biomes/gravelly_mountains.json	2025-11-23 19:01:19.039765346 +0000
+--- versions/1.17/reports/biomes/gravelly_mountains.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/gravelly_mountains.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -429,8 +429,8 @@ diff -urN versions/1.17/reports/biomes/gravelly_mountains.json versions/1.17.1/r
                }
              },
 diff -urN versions/1.17/reports/biomes/ice_spikes.json versions/1.17.1/reports/biomes/ice_spikes.json
---- versions/1.17/reports/biomes/ice_spikes.json	2025-11-23 19:01:19.522765330 +0000
-+++ versions/1.17.1/reports/biomes/ice_spikes.json	2025-11-23 19:01:19.039765346 +0000
+--- versions/1.17/reports/biomes/ice_spikes.json	2026-03-29 12:55:43.716587971 +0000
++++ versions/1.17.1/reports/biomes/ice_spikes.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1295,7 +1295,7 @@
                        "above_bottom": 0
                      },
@@ -441,8 +441,8 @@ diff -urN versions/1.17/reports/biomes/ice_spikes.json versions/1.17.1/reports/b
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/jungle.json versions/1.17.1/reports/biomes/jungle.json
---- versions/1.17/reports/biomes/jungle.json	2025-11-23 19:01:19.522765330 +0000
-+++ versions/1.17.1/reports/biomes/jungle.json	2025-11-23 19:01:19.039765346 +0000
+--- versions/1.17/reports/biomes/jungle.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/jungle.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -453,8 +453,8 @@ diff -urN versions/1.17/reports/biomes/jungle.json versions/1.17.1/reports/biome
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/jungle_edge.json versions/1.17.1/reports/biomes/jungle_edge.json
---- versions/1.17/reports/biomes/jungle_edge.json	2025-11-23 19:01:19.522765330 +0000
-+++ versions/1.17.1/reports/biomes/jungle_edge.json	2025-11-23 19:01:19.040765346 +0000
+--- versions/1.17/reports/biomes/jungle_edge.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/jungle_edge.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -465,8 +465,8 @@ diff -urN versions/1.17/reports/biomes/jungle_edge.json versions/1.17.1/reports/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/jungle_hills.json versions/1.17.1/reports/biomes/jungle_hills.json
---- versions/1.17/reports/biomes/jungle_hills.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/jungle_hills.json	2025-11-23 19:01:19.040765346 +0000
+--- versions/1.17/reports/biomes/jungle_hills.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/jungle_hills.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -477,8 +477,8 @@ diff -urN versions/1.17/reports/biomes/jungle_hills.json versions/1.17.1/reports
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/lukewarm_ocean.json versions/1.17.1/reports/biomes/lukewarm_ocean.json
---- versions/1.17/reports/biomes/lukewarm_ocean.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/lukewarm_ocean.json	2025-11-23 19:01:19.040765346 +0000
+--- versions/1.17/reports/biomes/lukewarm_ocean.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/lukewarm_ocean.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1312,7 +1312,7 @@
                        "above_bottom": 0
                      },
@@ -489,8 +489,8 @@ diff -urN versions/1.17/reports/biomes/lukewarm_ocean.json versions/1.17.1/repor
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/lush_caves.json versions/1.17.1/reports/biomes/lush_caves.json
---- versions/1.17/reports/biomes/lush_caves.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/lush_caves.json	2025-11-23 19:01:19.040765346 +0000
+--- versions/1.17/reports/biomes/lush_caves.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/lush_caves.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1177,7 +1177,7 @@
                        "above_bottom": 0
                      },
@@ -510,8 +510,8 @@ diff -urN versions/1.17/reports/biomes/lush_caves.json versions/1.17.1/reports/b
                            "hanging_root_radius": 3,
                            "hanging_roots_vertical_span": 2,
 diff -urN versions/1.17/reports/biomes/modified_badlands_plateau.json versions/1.17.1/reports/biomes/modified_badlands_plateau.json
---- versions/1.17/reports/biomes/modified_badlands_plateau.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/modified_badlands_plateau.json	2025-11-23 19:01:19.040765346 +0000
+--- versions/1.17/reports/biomes/modified_badlands_plateau.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/modified_badlands_plateau.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1182,7 +1182,7 @@
                        "above_bottom": 0
                      },
@@ -522,8 +522,8 @@ diff -urN versions/1.17/reports/biomes/modified_badlands_plateau.json versions/1
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/modified_gravelly_mountains.json versions/1.17.1/reports/biomes/modified_gravelly_mountains.json
---- versions/1.17/reports/biomes/modified_gravelly_mountains.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/modified_gravelly_mountains.json	2025-11-23 19:01:19.041765346 +0000
+--- versions/1.17/reports/biomes/modified_gravelly_mountains.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/modified_gravelly_mountains.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -545,8 +545,8 @@ diff -urN versions/1.17/reports/biomes/modified_gravelly_mountains.json versions
                }
              },
 diff -urN versions/1.17/reports/biomes/modified_jungle.json versions/1.17.1/reports/biomes/modified_jungle.json
---- versions/1.17/reports/biomes/modified_jungle.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/modified_jungle.json	2025-11-23 19:01:19.041765346 +0000
+--- versions/1.17/reports/biomes/modified_jungle.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/modified_jungle.json	2026-03-29 12:55:43.479587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -557,8 +557,8 @@ diff -urN versions/1.17/reports/biomes/modified_jungle.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/modified_jungle_edge.json versions/1.17.1/reports/biomes/modified_jungle_edge.json
---- versions/1.17/reports/biomes/modified_jungle_edge.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/modified_jungle_edge.json	2025-11-23 19:01:19.041765346 +0000
+--- versions/1.17/reports/biomes/modified_jungle_edge.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/modified_jungle_edge.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -569,8 +569,8 @@ diff -urN versions/1.17/reports/biomes/modified_jungle_edge.json versions/1.17.1
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/modified_wooded_badlands_plateau.json versions/1.17.1/reports/biomes/modified_wooded_badlands_plateau.json
---- versions/1.17/reports/biomes/modified_wooded_badlands_plateau.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/modified_wooded_badlands_plateau.json	2025-11-23 19:01:19.041765346 +0000
+--- versions/1.17/reports/biomes/modified_wooded_badlands_plateau.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/modified_wooded_badlands_plateau.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1182,7 +1182,7 @@
                        "above_bottom": 0
                      },
@@ -581,8 +581,8 @@ diff -urN versions/1.17/reports/biomes/modified_wooded_badlands_plateau.json ver
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/mountain_edge.json versions/1.17.1/reports/biomes/mountain_edge.json
---- versions/1.17/reports/biomes/mountain_edge.json	2025-11-23 19:01:19.523765330 +0000
-+++ versions/1.17.1/reports/biomes/mountain_edge.json	2025-11-23 19:01:19.041765346 +0000
+--- versions/1.17/reports/biomes/mountain_edge.json	2026-03-29 12:55:43.717587971 +0000
++++ versions/1.17.1/reports/biomes/mountain_edge.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -604,8 +604,8 @@ diff -urN versions/1.17/reports/biomes/mountain_edge.json versions/1.17.1/report
                }
              },
 diff -urN versions/1.17/reports/biomes/mountains.json versions/1.17.1/reports/biomes/mountains.json
---- versions/1.17/reports/biomes/mountains.json	2025-11-23 19:01:19.524765330 +0000
-+++ versions/1.17.1/reports/biomes/mountains.json	2025-11-23 19:01:19.041765346 +0000
+--- versions/1.17/reports/biomes/mountains.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/mountains.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -627,8 +627,8 @@ diff -urN versions/1.17/reports/biomes/mountains.json versions/1.17.1/reports/bi
                }
              },
 diff -urN versions/1.17/reports/biomes/mushroom_field_shore.json versions/1.17.1/reports/biomes/mushroom_field_shore.json
---- versions/1.17/reports/biomes/mushroom_field_shore.json	2025-11-23 19:01:19.524765330 +0000
-+++ versions/1.17.1/reports/biomes/mushroom_field_shore.json	2025-11-23 19:01:19.042765346 +0000
+--- versions/1.17/reports/biomes/mushroom_field_shore.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/mushroom_field_shore.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -639,8 +639,8 @@ diff -urN versions/1.17/reports/biomes/mushroom_field_shore.json versions/1.17.1
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/mushroom_fields.json versions/1.17.1/reports/biomes/mushroom_fields.json
---- versions/1.17/reports/biomes/mushroom_fields.json	2025-11-23 19:01:19.524765330 +0000
-+++ versions/1.17.1/reports/biomes/mushroom_fields.json	2025-11-23 19:01:19.042765346 +0000
+--- versions/1.17/reports/biomes/mushroom_fields.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/mushroom_fields.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -651,8 +651,8 @@ diff -urN versions/1.17/reports/biomes/mushroom_fields.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/ocean.json versions/1.17.1/reports/biomes/ocean.json
---- versions/1.17/reports/biomes/ocean.json	2025-11-23 19:01:19.524765330 +0000
-+++ versions/1.17.1/reports/biomes/ocean.json	2025-11-23 19:01:19.042765346 +0000
+--- versions/1.17/reports/biomes/ocean.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/ocean.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1312,7 +1312,7 @@
                        "above_bottom": 0
                      },
@@ -663,8 +663,8 @@ diff -urN versions/1.17/reports/biomes/ocean.json versions/1.17.1/reports/biomes
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/plains.json versions/1.17.1/reports/biomes/plains.json
---- versions/1.17/reports/biomes/plains.json	2025-11-23 19:01:19.524765330 +0000
-+++ versions/1.17.1/reports/biomes/plains.json	2025-11-23 19:01:19.042765346 +0000
+--- versions/1.17/reports/biomes/plains.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/plains.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -675,8 +675,8 @@ diff -urN versions/1.17/reports/biomes/plains.json versions/1.17.1/reports/biome
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/river.json versions/1.17.1/reports/biomes/river.json
---- versions/1.17/reports/biomes/river.json	2025-11-23 19:01:19.524765330 +0000
-+++ versions/1.17.1/reports/biomes/river.json	2025-11-23 19:01:19.043765346 +0000
+--- versions/1.17/reports/biomes/river.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/river.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -687,8 +687,8 @@ diff -urN versions/1.17/reports/biomes/river.json versions/1.17.1/reports/biomes
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/savanna.json versions/1.17.1/reports/biomes/savanna.json
---- versions/1.17/reports/biomes/savanna.json	2025-11-23 19:01:19.524765330 +0000
-+++ versions/1.17.1/reports/biomes/savanna.json	2025-11-23 19:01:19.043765346 +0000
+--- versions/1.17/reports/biomes/savanna.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/savanna.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -699,8 +699,8 @@ diff -urN versions/1.17/reports/biomes/savanna.json versions/1.17.1/reports/biom
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/savanna_plateau.json versions/1.17.1/reports/biomes/savanna_plateau.json
---- versions/1.17/reports/biomes/savanna_plateau.json	2025-11-23 19:01:19.525765330 +0000
-+++ versions/1.17.1/reports/biomes/savanna_plateau.json	2025-11-23 19:01:19.043765346 +0000
+--- versions/1.17/reports/biomes/savanna_plateau.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/savanna_plateau.json	2026-03-29 12:55:43.480587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -711,8 +711,8 @@ diff -urN versions/1.17/reports/biomes/savanna_plateau.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/shattered_savanna.json versions/1.17.1/reports/biomes/shattered_savanna.json
---- versions/1.17/reports/biomes/shattered_savanna.json	2025-11-23 19:01:19.525765330 +0000
-+++ versions/1.17.1/reports/biomes/shattered_savanna.json	2025-11-23 19:01:19.043765346 +0000
+--- versions/1.17/reports/biomes/shattered_savanna.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/shattered_savanna.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -723,8 +723,8 @@ diff -urN versions/1.17/reports/biomes/shattered_savanna.json versions/1.17.1/re
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/shattered_savanna_plateau.json versions/1.17.1/reports/biomes/shattered_savanna_plateau.json
---- versions/1.17/reports/biomes/shattered_savanna_plateau.json	2025-11-23 19:01:19.525765330 +0000
-+++ versions/1.17.1/reports/biomes/shattered_savanna_plateau.json	2025-11-23 19:01:19.043765346 +0000
+--- versions/1.17/reports/biomes/shattered_savanna_plateau.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/shattered_savanna_plateau.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -735,8 +735,8 @@ diff -urN versions/1.17/reports/biomes/shattered_savanna_plateau.json versions/1
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/snowy_beach.json versions/1.17.1/reports/biomes/snowy_beach.json
---- versions/1.17/reports/biomes/snowy_beach.json	2025-11-23 19:01:19.525765330 +0000
-+++ versions/1.17.1/reports/biomes/snowy_beach.json	2025-11-23 19:01:19.043765346 +0000
+--- versions/1.17/reports/biomes/snowy_beach.json	2026-03-29 12:55:43.718587971 +0000
++++ versions/1.17.1/reports/biomes/snowy_beach.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1180,7 +1180,7 @@
                        "above_bottom": 0
                      },
@@ -747,8 +747,8 @@ diff -urN versions/1.17/reports/biomes/snowy_beach.json versions/1.17.1/reports/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/snowy_mountains.json versions/1.17.1/reports/biomes/snowy_mountains.json
---- versions/1.17/reports/biomes/snowy_mountains.json	2025-11-23 19:01:19.525765330 +0000
-+++ versions/1.17.1/reports/biomes/snowy_mountains.json	2025-11-23 19:01:19.044765346 +0000
+--- versions/1.17/reports/biomes/snowy_mountains.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/snowy_mountains.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -759,8 +759,8 @@ diff -urN versions/1.17/reports/biomes/snowy_mountains.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/snowy_taiga.json versions/1.17.1/reports/biomes/snowy_taiga.json
---- versions/1.17/reports/biomes/snowy_taiga.json	2025-11-23 19:01:19.525765330 +0000
-+++ versions/1.17.1/reports/biomes/snowy_taiga.json	2025-11-23 19:01:19.044765346 +0000
+--- versions/1.17/reports/biomes/snowy_taiga.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/snowy_taiga.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -771,8 +771,8 @@ diff -urN versions/1.17/reports/biomes/snowy_taiga.json versions/1.17.1/reports/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/snowy_taiga_hills.json versions/1.17.1/reports/biomes/snowy_taiga_hills.json
---- versions/1.17/reports/biomes/snowy_taiga_hills.json	2025-11-23 19:01:19.525765330 +0000
-+++ versions/1.17.1/reports/biomes/snowy_taiga_hills.json	2025-11-23 19:01:19.044765346 +0000
+--- versions/1.17/reports/biomes/snowy_taiga_hills.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/snowy_taiga_hills.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -783,8 +783,8 @@ diff -urN versions/1.17/reports/biomes/snowy_taiga_hills.json versions/1.17.1/re
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/snowy_taiga_mountains.json versions/1.17.1/reports/biomes/snowy_taiga_mountains.json
---- versions/1.17/reports/biomes/snowy_taiga_mountains.json	2025-11-23 19:01:19.526765330 +0000
-+++ versions/1.17.1/reports/biomes/snowy_taiga_mountains.json	2025-11-23 19:01:19.044765346 +0000
+--- versions/1.17/reports/biomes/snowy_taiga_mountains.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/snowy_taiga_mountains.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -795,8 +795,8 @@ diff -urN versions/1.17/reports/biomes/snowy_taiga_mountains.json versions/1.17.
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/snowy_tundra.json versions/1.17.1/reports/biomes/snowy_tundra.json
---- versions/1.17/reports/biomes/snowy_tundra.json	2025-11-23 19:01:19.526765330 +0000
-+++ versions/1.17.1/reports/biomes/snowy_tundra.json	2025-11-23 19:01:19.044765346 +0000
+--- versions/1.17/reports/biomes/snowy_tundra.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/snowy_tundra.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -807,8 +807,8 @@ diff -urN versions/1.17/reports/biomes/snowy_tundra.json versions/1.17.1/reports
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/stone_shore.json versions/1.17.1/reports/biomes/stone_shore.json
---- versions/1.17/reports/biomes/stone_shore.json	2025-11-23 19:01:19.526765330 +0000
-+++ versions/1.17.1/reports/biomes/stone_shore.json	2025-11-23 19:01:19.044765346 +0000
+--- versions/1.17/reports/biomes/stone_shore.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/stone_shore.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1180,7 +1180,7 @@
                        "above_bottom": 0
                      },
@@ -819,8 +819,8 @@ diff -urN versions/1.17/reports/biomes/stone_shore.json versions/1.17.1/reports/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/sunflower_plains.json versions/1.17.1/reports/biomes/sunflower_plains.json
---- versions/1.17/reports/biomes/sunflower_plains.json	2025-11-23 19:01:19.526765330 +0000
-+++ versions/1.17.1/reports/biomes/sunflower_plains.json	2025-11-23 19:01:19.045765346 +0000
+--- versions/1.17/reports/biomes/sunflower_plains.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/sunflower_plains.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -831,8 +831,8 @@ diff -urN versions/1.17/reports/biomes/sunflower_plains.json versions/1.17.1/rep
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/swamp.json versions/1.17.1/reports/biomes/swamp.json
---- versions/1.17/reports/biomes/swamp.json	2025-11-23 19:01:19.526765330 +0000
-+++ versions/1.17.1/reports/biomes/swamp.json	2025-11-23 19:01:19.045765346 +0000
+--- versions/1.17/reports/biomes/swamp.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/swamp.json	2026-03-29 12:55:43.481587972 +0000
 @@ -1246,7 +1246,7 @@
                        "above_bottom": 0
                      },
@@ -843,8 +843,8 @@ diff -urN versions/1.17/reports/biomes/swamp.json versions/1.17.1/reports/biomes
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/swamp_hills.json versions/1.17.1/reports/biomes/swamp_hills.json
---- versions/1.17/reports/biomes/swamp_hills.json	2025-11-23 19:01:19.526765330 +0000
-+++ versions/1.17.1/reports/biomes/swamp_hills.json	2025-11-23 19:01:19.045765346 +0000
+--- versions/1.17/reports/biomes/swamp_hills.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/swamp_hills.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1246,7 +1246,7 @@
                        "above_bottom": 0
                      },
@@ -855,8 +855,8 @@ diff -urN versions/1.17/reports/biomes/swamp_hills.json versions/1.17.1/reports/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/taiga.json versions/1.17.1/reports/biomes/taiga.json
---- versions/1.17/reports/biomes/taiga.json	2025-11-23 19:01:19.527765330 +0000
-+++ versions/1.17.1/reports/biomes/taiga.json	2025-11-23 19:01:19.047215550 +0000
+--- versions/1.17/reports/biomes/taiga.json	2026-03-29 12:55:43.719587971 +0000
++++ versions/1.17.1/reports/biomes/taiga.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -867,8 +867,8 @@ diff -urN versions/1.17/reports/biomes/taiga.json versions/1.17.1/reports/biomes
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/taiga_hills.json versions/1.17.1/reports/biomes/taiga_hills.json
---- versions/1.17/reports/biomes/taiga_hills.json	2025-11-23 19:01:19.527765330 +0000
-+++ versions/1.17.1/reports/biomes/taiga_hills.json	2025-11-23 19:01:19.047215550 +0000
+--- versions/1.17/reports/biomes/taiga_hills.json	2026-03-29 12:55:43.720587971 +0000
++++ versions/1.17.1/reports/biomes/taiga_hills.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -879,8 +879,8 @@ diff -urN versions/1.17/reports/biomes/taiga_hills.json versions/1.17.1/reports/
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/taiga_mountains.json versions/1.17.1/reports/biomes/taiga_mountains.json
---- versions/1.17/reports/biomes/taiga_mountains.json	2025-11-23 19:01:19.527765330 +0000
-+++ versions/1.17.1/reports/biomes/taiga_mountains.json	2025-11-23 19:01:19.047215550 +0000
+--- versions/1.17/reports/biomes/taiga_mountains.json	2026-03-29 12:55:43.720587971 +0000
++++ versions/1.17.1/reports/biomes/taiga_mountains.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -891,8 +891,8 @@ diff -urN versions/1.17/reports/biomes/taiga_mountains.json versions/1.17.1/repo
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/tall_birch_forest.json versions/1.17.1/reports/biomes/tall_birch_forest.json
---- versions/1.17/reports/biomes/tall_birch_forest.json	2025-11-23 19:01:19.527765330 +0000
-+++ versions/1.17.1/reports/biomes/tall_birch_forest.json	2025-11-23 19:01:19.047215550 +0000
+--- versions/1.17/reports/biomes/tall_birch_forest.json	2026-03-29 12:55:43.720587971 +0000
++++ versions/1.17.1/reports/biomes/tall_birch_forest.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -903,8 +903,8 @@ diff -urN versions/1.17/reports/biomes/tall_birch_forest.json versions/1.17.1/re
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/tall_birch_hills.json versions/1.17.1/reports/biomes/tall_birch_hills.json
---- versions/1.17/reports/biomes/tall_birch_hills.json	2025-11-23 19:01:19.527765330 +0000
-+++ versions/1.17.1/reports/biomes/tall_birch_hills.json	2025-11-23 19:01:19.047215550 +0000
+--- versions/1.17/reports/biomes/tall_birch_hills.json	2026-03-29 12:55:43.720587971 +0000
++++ versions/1.17.1/reports/biomes/tall_birch_hills.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -915,8 +915,8 @@ diff -urN versions/1.17/reports/biomes/tall_birch_hills.json versions/1.17.1/rep
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/warm_ocean.json versions/1.17.1/reports/biomes/warm_ocean.json
---- versions/1.17/reports/biomes/warm_ocean.json	2025-11-23 19:01:19.527765330 +0000
-+++ versions/1.17.1/reports/biomes/warm_ocean.json	2025-11-23 19:01:19.047765346 +0000
+--- versions/1.17/reports/biomes/warm_ocean.json	2026-03-29 12:55:43.720587971 +0000
++++ versions/1.17.1/reports/biomes/warm_ocean.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1309,7 +1309,7 @@
                        "above_bottom": 0
                      },
@@ -927,8 +927,8 @@ diff -urN versions/1.17/reports/biomes/warm_ocean.json versions/1.17.1/reports/b
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/wooded_badlands_plateau.json versions/1.17.1/reports/biomes/wooded_badlands_plateau.json
---- versions/1.17/reports/biomes/wooded_badlands_plateau.json	2025-11-23 19:01:19.527765330 +0000
-+++ versions/1.17.1/reports/biomes/wooded_badlands_plateau.json	2025-11-23 19:01:19.047765346 +0000
+--- versions/1.17/reports/biomes/wooded_badlands_plateau.json	2026-03-29 12:55:43.720587971 +0000
++++ versions/1.17.1/reports/biomes/wooded_badlands_plateau.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1182,7 +1182,7 @@
                        "above_bottom": 0
                      },
@@ -939,8 +939,8 @@ diff -urN versions/1.17/reports/biomes/wooded_badlands_plateau.json versions/1.1
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/wooded_hills.json versions/1.17.1/reports/biomes/wooded_hills.json
---- versions/1.17/reports/biomes/wooded_hills.json	2025-11-23 19:01:19.528765330 +0000
-+++ versions/1.17.1/reports/biomes/wooded_hills.json	2025-11-23 19:01:19.047765346 +0000
+--- versions/1.17/reports/biomes/wooded_hills.json	2026-03-29 12:55:43.720587971 +0000
++++ versions/1.17.1/reports/biomes/wooded_hills.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },
@@ -951,8 +951,8 @@ diff -urN versions/1.17/reports/biomes/wooded_hills.json versions/1.17.1/reports
                      "type": "minecraft:uniform"
                    }
 diff -urN versions/1.17/reports/biomes/wooded_mountains.json versions/1.17.1/reports/biomes/wooded_mountains.json
---- versions/1.17/reports/biomes/wooded_mountains.json	2025-11-23 19:01:19.528765330 +0000
-+++ versions/1.17.1/reports/biomes/wooded_mountains.json	2025-11-23 19:01:19.048765346 +0000
+--- versions/1.17/reports/biomes/wooded_mountains.json	2026-03-29 12:55:43.720587971 +0000
++++ versions/1.17.1/reports/biomes/wooded_mountains.json	2026-03-29 12:55:43.482587972 +0000
 @@ -1183,7 +1183,7 @@
                        "above_bottom": 0
                      },

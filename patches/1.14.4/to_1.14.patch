@@ -1,6 +1,6 @@
 diff -urN versions/1.14.4/data/minecraft/advancements/nether/all_effects.json versions/1.14/data/minecraft/advancements/nether/all_effects.json
---- versions/1.14.4/data/minecraft/advancements/nether/all_effects.json	2025-11-23 19:01:14.992764231 +0000
-+++ versions/1.14/data/minecraft/advancements/nether/all_effects.json	2025-11-23 19:01:15.138106887 +0000
+--- versions/1.14.4/data/minecraft/advancements/nether/all_effects.json	2026-03-29 12:55:41.623000098 +0000
++++ versions/1.14/data/minecraft/advancements/nether/all_effects.json	2026-03-29 12:55:41.702405908 +0000
 @@ -23,31 +23,32 @@
        "trigger": "minecraft:effects_changed",
        "conditions": {
@@ -52,8 +52,8 @@ diff -urN versions/1.14.4/data/minecraft/advancements/nether/all_effects.json ve
          }
        }
 diff -urN versions/1.14.4/data/minecraft/advancements/nether/all_potions.json versions/1.14/data/minecraft/advancements/nether/all_potions.json
---- versions/1.14.4/data/minecraft/advancements/nether/all_potions.json	2025-11-23 19:01:14.993113406 +0000
-+++ versions/1.14/data/minecraft/advancements/nether/all_potions.json	2025-11-23 19:01:15.138363328 +0000
+--- versions/1.14.4/data/minecraft/advancements/nether/all_potions.json	2026-03-29 12:55:41.623316530 +0000
++++ versions/1.14/data/minecraft/advancements/nether/all_potions.json	2026-03-29 12:55:41.702717851 +0000
 @@ -23,18 +23,18 @@
        "trigger": "minecraft:effects_changed",
        "conditions": {
@@ -81,8 +81,8 @@ diff -urN versions/1.14.4/data/minecraft/advancements/nether/all_potions.json ve
          }
        }
 diff -urN versions/1.14.4/data/minecraft/loot_tables/chests/shipwreck_supply.json versions/1.14/data/minecraft/loot_tables/chests/shipwreck_supply.json
---- versions/1.14.4/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-11-23 19:01:15.033248955 +0000
-+++ versions/1.14/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-11-23 19:01:15.174765477 +0000
+--- versions/1.14.4/data/minecraft/loot_tables/chests/shipwreck_supply.json	2026-03-29 12:55:41.668000592 +0000
++++ versions/1.14/data/minecraft/loot_tables/chests/shipwreck_supply.json	2026-03-29 12:55:41.747545502 +0000
 @@ -91,17 +91,17 @@
                "function": "minecraft:set_stew_effect",
                "effects": [
@@ -140,7 +140,7 @@ diff -urN versions/1.14.4/data/minecraft/loot_tables/chests/shipwreck_supply.jso
                  }
                ]
 diff -urN versions/1.14.4/data/minecraft/recipes/repair_item.json versions/1.14/data/minecraft/recipes/repair_item.json
---- versions/1.14.4/data/minecraft/recipes/repair_item.json	2025-11-23 19:01:15.051765481 +0000
+--- versions/1.14.4/data/minecraft/recipes/repair_item.json	2026-03-29 12:55:41.691587972 +0000
 +++ versions/1.14/data/minecraft/recipes/repair_item.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,3 +0,0 @@
 -{
@@ -148,8 +148,8 @@ diff -urN versions/1.14.4/data/minecraft/recipes/repair_item.json versions/1.14/
 -}
 \ No newline at end of file
 diff -urN versions/1.14.4/data/minecraft/tags/blocks/slabs.json versions/1.14/data/minecraft/tags/blocks/slabs.json
---- versions/1.14.4/data/minecraft/tags/blocks/slabs.json	2025-11-23 19:01:15.056150208 +0000
-+++ versions/1.14/data/minecraft/tags/blocks/slabs.json	2025-11-23 19:01:15.201106019 +0000
+--- versions/1.14.4/data/minecraft/tags/blocks/slabs.json	2026-03-29 12:55:41.696814459 +0000
++++ versions/1.14/data/minecraft/tags/blocks/slabs.json	2026-03-29 12:55:41.778708202 +0000
 @@ -33,8 +33,6 @@
      "minecraft:andesite_slab",
      "minecraft:red_nether_brick_slab",
@@ -162,8 +162,8 @@ diff -urN versions/1.14.4/data/minecraft/tags/blocks/slabs.json versions/1.14/da
  }
 \ No newline at end of file
 diff -urN versions/1.14.4/data/minecraft/tags/items/slabs.json versions/1.14/data/minecraft/tags/items/slabs.json
---- versions/1.14.4/data/minecraft/tags/items/slabs.json	2025-11-23 19:01:15.057405022 +0000
-+++ versions/1.14/data/minecraft/tags/items/slabs.json	2025-11-23 19:01:15.202730966 +0000
+--- versions/1.14.4/data/minecraft/tags/items/slabs.json	2026-03-29 12:55:41.698496014 +0000
++++ versions/1.14/data/minecraft/tags/items/slabs.json	2026-03-29 12:55:41.780427027 +0000
 @@ -33,8 +33,6 @@
      "minecraft:andesite_slab",
      "minecraft:red_nether_brick_slab",
@@ -176,8 +176,8 @@ diff -urN versions/1.14.4/data/minecraft/tags/items/slabs.json versions/1.14/dat
  }
 \ No newline at end of file
 diff -urN versions/1.14.4/reports/commands.json versions/1.14/reports/commands.json
---- versions/1.14.4/reports/commands.json	2025-11-23 19:01:15.135765478 +0000
-+++ versions/1.14/reports/commands.json	2025-11-23 19:01:15.302765473 +0000
+--- versions/1.14.4/reports/commands.json	2026-03-29 12:55:41.699587972 +0000
++++ versions/1.14/reports/commands.json	2026-03-29 12:55:41.782587972 +0000
 @@ -1366,10 +1366,6 @@
      "debug": {
        "type": "literal",
@@ -208,8 +208,8 @@ diff -urN versions/1.14.4/reports/commands.json versions/1.14/reports/commands.j
                "parser": "brigadier:bool",
                "executable": true
 diff -urN versions/1.14.4/reports/registries.json versions/1.14/reports/registries.json
---- versions/1.14.4/reports/registries.json	2025-11-23 19:01:15.135765478 +0000
-+++ versions/1.14/reports/registries.json	2025-11-23 19:01:15.302765473 +0000
+--- versions/1.14.4/reports/registries.json	2026-03-29 12:55:41.700587972 +0000
++++ versions/1.14/reports/registries.json	2026-03-29 12:55:41.782587972 +0000
 @@ -9533,23 +9533,20 @@
        "minecraft:crafting_special_suspiciousstew": {
          "protocol_id": 13

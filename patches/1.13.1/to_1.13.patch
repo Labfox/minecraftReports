@@ -1,6 +1,6 @@
 diff -urN versions/1.13.1/data/minecraft/advancements/end/root.json versions/1.13/data/minecraft/advancements/end/root.json
---- versions/1.13.1/data/minecraft/advancements/end/root.json	2025-11-23 19:01:14.228316578 +0000
-+++ versions/1.13/data/minecraft/advancements/end/root.json	2025-11-23 19:01:14.403928126 +0000
+--- versions/1.13.1/data/minecraft/advancements/end/root.json	2026-03-29 12:55:41.283021213 +0000
++++ versions/1.13/data/minecraft/advancements/end/root.json	2026-03-29 12:49:40.498826594 +0000
 @@ -19,7 +19,7 @@
      "entered_end": {
        "trigger": "minecraft:changed_dimension",
@@ -11,8 +11,8 @@ diff -urN versions/1.13.1/data/minecraft/advancements/end/root.json versions/1.1
      }
    },
 diff -urN versions/1.13.1/data/minecraft/advancements/nether/all_effects.json versions/1.13/data/minecraft/advancements/nether/all_effects.json
---- versions/1.13.1/data/minecraft/advancements/nether/all_effects.json	2025-11-23 19:01:14.228691932 +0000
-+++ versions/1.13/data/minecraft/advancements/nether/all_effects.json	2025-11-23 19:01:14.404174799 +0000
+--- versions/1.13.1/data/minecraft/advancements/nether/all_effects.json	2026-03-29 12:55:41.283398840 +0000
++++ versions/1.13/data/minecraft/advancements/nether/all_effects.json	2026-03-29 12:49:40.499132046 +0000
 @@ -23,29 +23,29 @@
        "trigger": "minecraft:effects_changed",
        "conditions": {
@@ -61,8 +61,8 @@ diff -urN versions/1.13.1/data/minecraft/advancements/nether/all_effects.json ve
        }
      }
 diff -urN versions/1.13.1/data/minecraft/advancements/nether/all_potions.json versions/1.13/data/minecraft/advancements/nether/all_potions.json
---- versions/1.13.1/data/minecraft/advancements/nether/all_potions.json	2025-11-23 19:01:14.229066284 +0000
-+++ versions/1.13/data/minecraft/advancements/nether/all_potions.json	2025-11-23 19:01:14.404674386 +0000
+--- versions/1.13.1/data/minecraft/advancements/nether/all_potions.json	2026-03-29 12:55:41.283748574 +0000
++++ versions/1.13/data/minecraft/advancements/nether/all_potions.json	2026-03-29 12:49:40.499439180 +0000
 @@ -23,19 +23,19 @@
        "trigger": "minecraft:effects_changed",
        "conditions": {
@@ -93,8 +93,8 @@ diff -urN versions/1.13.1/data/minecraft/advancements/nether/all_potions.json ve
        }
      }
 diff -urN versions/1.13.1/data/minecraft/advancements/nether/root.json versions/1.13/data/minecraft/advancements/nether/root.json
---- versions/1.13.1/data/minecraft/advancements/nether/root.json	2025-11-23 19:01:14.229066284 +0000
-+++ versions/1.13/data/minecraft/advancements/nether/root.json	2025-11-23 19:01:14.404674386 +0000
+--- versions/1.13.1/data/minecraft/advancements/nether/root.json	2026-03-29 12:55:41.283748574 +0000
++++ versions/1.13/data/minecraft/advancements/nether/root.json	2026-03-29 12:49:40.499439180 +0000
 @@ -19,7 +19,7 @@
      "entered_nether": {
        "trigger": "minecraft:changed_dimension",
@@ -105,8 +105,8 @@ diff -urN versions/1.13.1/data/minecraft/advancements/nether/root.json versions/
      }
    },
 diff -urN versions/1.13.1/data/minecraft/advancements/nether/uneasy_alliance.json versions/1.13/data/minecraft/advancements/nether/uneasy_alliance.json
---- versions/1.13.1/data/minecraft/advancements/nether/uneasy_alliance.json	2025-11-23 19:01:14.229066284 +0000
-+++ versions/1.13/data/minecraft/advancements/nether/uneasy_alliance.json	2025-11-23 19:01:14.404674386 +0000
+--- versions/1.13.1/data/minecraft/advancements/nether/uneasy_alliance.json	2026-03-29 12:55:41.283748574 +0000
++++ versions/1.13/data/minecraft/advancements/nether/uneasy_alliance.json	2026-03-29 12:49:40.499439180 +0000
 @@ -25,7 +25,7 @@
          "entity": {
            "type": "minecraft:ghast",
@@ -117,8 +117,8 @@ diff -urN versions/1.13.1/data/minecraft/advancements/nether/uneasy_alliance.jso
          }
        }
 diff -urN versions/1.13.1/data/minecraft/advancements/story/enter_the_end.json versions/1.13/data/minecraft/advancements/story/enter_the_end.json
---- versions/1.13.1/data/minecraft/advancements/story/enter_the_end.json	2025-11-23 19:01:14.248789948 +0000
-+++ versions/1.13/data/minecraft/advancements/story/enter_the_end.json	2025-11-23 19:01:14.418218539 +0000
+--- versions/1.13.1/data/minecraft/advancements/story/enter_the_end.json	2026-03-29 12:55:41.301779992 +0000
++++ versions/1.13/data/minecraft/advancements/story/enter_the_end.json	2026-03-29 12:49:40.516208618 +0000
 @@ -19,7 +19,7 @@
      "entered_end": {
        "trigger": "minecraft:changed_dimension",
@@ -129,8 +129,8 @@ diff -urN versions/1.13.1/data/minecraft/advancements/story/enter_the_end.json v
      }
    },
 diff -urN versions/1.13.1/data/minecraft/advancements/story/enter_the_nether.json versions/1.13/data/minecraft/advancements/story/enter_the_nether.json
---- versions/1.13.1/data/minecraft/advancements/story/enter_the_nether.json	2025-11-23 19:01:14.248789948 +0000
-+++ versions/1.13/data/minecraft/advancements/story/enter_the_nether.json	2025-11-23 19:01:14.418218539 +0000
+--- versions/1.13.1/data/minecraft/advancements/story/enter_the_nether.json	2026-03-29 12:55:41.301779992 +0000
++++ versions/1.13/data/minecraft/advancements/story/enter_the_nether.json	2026-03-29 12:49:40.516208618 +0000
 @@ -19,7 +19,7 @@
      "entered_nether": {
        "trigger": "minecraft:changed_dimension",
@@ -141,8 +141,8 @@ diff -urN versions/1.13.1/data/minecraft/advancements/story/enter_the_nether.jso
      }
    },
 diff -urN versions/1.13.1/data/minecraft/recipes/purpur_slab.json versions/1.13/data/minecraft/recipes/purpur_slab.json
---- versions/1.13.1/data/minecraft/recipes/purpur_slab.json	2025-11-23 19:01:14.266765508 +0000
-+++ versions/1.13/data/minecraft/recipes/purpur_slab.json	2025-11-23 19:01:14.428765502 +0000
+--- versions/1.13.1/data/minecraft/recipes/purpur_slab.json	2026-03-29 12:55:41.315587973 +0000
++++ versions/1.13/data/minecraft/recipes/purpur_slab.json	2026-03-29 12:49:40.528588145 +0000
 @@ -4,14 +4,9 @@
      "###"
    ],
@@ -162,8 +162,8 @@ diff -urN versions/1.13.1/data/minecraft/recipes/purpur_slab.json versions/1.13/
    "result": {
      "item": "minecraft:purpur_slab",
 diff -urN versions/1.13.1/data/minecraft/recipes/purpur_stairs.json versions/1.13/data/minecraft/recipes/purpur_stairs.json
---- versions/1.13.1/data/minecraft/recipes/purpur_stairs.json	2025-11-23 19:01:14.266765508 +0000
-+++ versions/1.13/data/minecraft/recipes/purpur_stairs.json	2025-11-23 19:01:14.428765502 +0000
+--- versions/1.13.1/data/minecraft/recipes/purpur_stairs.json	2026-03-29 12:55:41.315587973 +0000
++++ versions/1.13/data/minecraft/recipes/purpur_stairs.json	2026-03-29 12:49:40.528588145 +0000
 @@ -6,14 +6,9 @@
      "###"
    ],
@@ -183,7 +183,7 @@ diff -urN versions/1.13.1/data/minecraft/recipes/purpur_stairs.json versions/1.1
    "result": {
      "item": "minecraft:purpur_stairs",
 diff -urN versions/1.13.1/data/minecraft/tags/blocks/coral_plants.json versions/1.13/data/minecraft/tags/blocks/coral_plants.json
---- versions/1.13.1/data/minecraft/tags/blocks/coral_plants.json	2025-11-23 19:01:14.273153294 +0000
+--- versions/1.13.1/data/minecraft/tags/blocks/coral_plants.json	2026-03-29 12:55:41.320708317 +0000
 +++ versions/1.13/data/minecraft/tags/blocks/coral_plants.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,10 +0,0 @@
 -{
@@ -198,8 +198,8 @@ diff -urN versions/1.13.1/data/minecraft/tags/blocks/coral_plants.json versions/
 -}
 \ No newline at end of file
 diff -urN versions/1.13.1/data/minecraft/tags/blocks/corals.json versions/1.13/data/minecraft/tags/blocks/corals.json
---- versions/1.13.1/data/minecraft/tags/blocks/corals.json	2025-11-23 19:01:14.273153294 +0000
-+++ versions/1.13/data/minecraft/tags/blocks/corals.json	2025-11-23 19:01:14.433955225 +0000
+--- versions/1.13.1/data/minecraft/tags/blocks/corals.json	2026-03-29 12:55:41.320708317 +0000
++++ versions/1.13/data/minecraft/tags/blocks/corals.json	2026-03-29 12:49:40.534053437 +0000
 @@ -1,7 +1,11 @@
  {
    "replace": false,
@@ -214,7 +214,7 @@ diff -urN versions/1.13.1/data/minecraft/tags/blocks/corals.json versions/1.13/d
      "minecraft:brain_coral_fan",
      "minecraft:bubble_coral_fan",
 diff -urN versions/1.13.1/data/minecraft/tags/blocks/underwater_bonemeals.json versions/1.13/data/minecraft/tags/blocks/underwater_bonemeals.json
---- versions/1.13.1/data/minecraft/tags/blocks/underwater_bonemeals.json	2025-11-23 19:01:14.273153294 +0000
+--- versions/1.13.1/data/minecraft/tags/blocks/underwater_bonemeals.json	2026-03-29 12:55:41.320708317 +0000
 +++ versions/1.13/data/minecraft/tags/blocks/underwater_bonemeals.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,8 +0,0 @@
 -{
@@ -227,8 +227,8 @@ diff -urN versions/1.13.1/data/minecraft/tags/blocks/underwater_bonemeals.json v
 -}
 \ No newline at end of file
 diff -urN versions/1.13.1/reports/blocks.json versions/1.13/reports/blocks.json
---- versions/1.13.1/reports/blocks.json	2025-11-23 19:01:14.328765505 +0000
-+++ versions/1.13/reports/blocks.json	2025-11-23 19:01:14.474765501 +0000
+--- versions/1.13.1/reports/blocks.json	2026-03-29 12:55:41.327587973 +0000
++++ versions/1.13/reports/blocks.json	2026-03-29 12:49:40.536588145 +0000
 @@ -9688,24 +9688,9 @@
      ]
    },
@@ -65416,8 +65416,8 @@ diff -urN versions/1.13.1/reports/blocks.json versions/1.13/reports/blocks.json
      ]
    }
 diff -urN versions/1.13.1/reports/commands.json versions/1.13/reports/commands.json
---- versions/1.13.1/reports/commands.json	2025-11-23 19:01:14.328765505 +0000
-+++ versions/1.13/reports/commands.json	2025-11-23 19:01:14.474765501 +0000
+--- versions/1.13.1/reports/commands.json	2026-03-29 12:55:41.328587973 +0000
++++ versions/1.13/reports/commands.json	2026-03-29 12:49:40.536588145 +0000
 @@ -40,7 +40,7 @@
                            "type": "argument",
                            "parser": "brigadier:string",
@@ -65550,8 +65550,8 @@ diff -urN versions/1.13.1/reports/commands.json versions/1.13/reports/commands.j
                "children": {
                  "time": {
 diff -urN versions/1.13.1/reports/items.json versions/1.13/reports/items.json
---- versions/1.13.1/reports/items.json	2025-11-23 19:01:14.329765505 +0000
-+++ versions/1.13/reports/items.json	2025-11-23 19:01:14.474765501 +0000
+--- versions/1.13.1/reports/items.json	2026-03-29 12:55:41.328587973 +0000
++++ versions/1.13/reports/items.json	2026-03-29 12:49:40.537588145 +0000
 @@ -1328,1045 +1328,1030 @@
    "minecraft:horn_coral": {
      "protocol_id": 442

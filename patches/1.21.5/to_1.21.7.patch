@@ -1,6 +1,6 @@
 diff -urN versions/1.21.5/data/minecraft/advancement/adventure/heart_transplanter.json versions/1.21.7/data/minecraft/advancement/adventure/heart_transplanter.json
 --- versions/1.21.5/data/minecraft/advancement/adventure/heart_transplanter.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/adventure/heart_transplanter.json	2025-11-23 19:01:33.967568422 +0000
++++ versions/1.21.7/data/minecraft/advancement/adventure/heart_transplanter.json	2026-03-29 12:55:48.952388199 +0000
 @@ -0,0 +1,305 @@
 +{
 +  "parent": "minecraft:adventure/root",
@@ -310,7 +310,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/adventure/heart_transplante
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/husbandry/place_dried_ghast_in_water.json versions/1.21.7/data/minecraft/advancement/husbandry/place_dried_ghast_in_water.json
 --- versions/1.21.5/data/minecraft/advancement/husbandry/place_dried_ghast_in_water.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/husbandry/place_dried_ghast_in_water.json	2025-11-23 19:01:33.969863437 +0000
++++ versions/1.21.7/data/minecraft/advancement/husbandry/place_dried_ghast_in_water.json	2026-03-29 12:55:48.954153581 +0000
 @@ -0,0 +1,37 @@
 +{
 +  "parent": "minecraft:husbandry/root",
@@ -351,8 +351,8 @@ diff -urN versions/1.21.5/data/minecraft/advancement/husbandry/place_dried_ghast
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/husbandry/remove_wolf_armor.json versions/1.21.7/data/minecraft/advancement/husbandry/remove_wolf_armor.json
---- versions/1.21.5/data/minecraft/advancement/husbandry/remove_wolf_armor.json	2025-11-23 19:01:32.959038476 +0000
-+++ versions/1.21.7/data/minecraft/advancement/husbandry/remove_wolf_armor.json	2025-11-23 19:01:33.969863437 +0000
+--- versions/1.21.5/data/minecraft/advancement/husbandry/remove_wolf_armor.json	2026-03-29 12:55:48.527597613 +0000
++++ versions/1.21.7/data/minecraft/advancement/husbandry/remove_wolf_armor.json	2026-03-29 12:55:48.954153581 +0000
 @@ -13,10 +13,10 @@
            }
          ],
@@ -368,7 +368,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/husbandry/remove_wolf_armor
    "display": {
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dried_ghast.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dried_ghast.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dried_ghast.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dried_ghast.json	2025-11-23 19:01:33.976764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dried_ghast.json	2026-03-29 12:55:48.959587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -404,7 +404,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dri
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_black_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_black_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_black_bed.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_black_bed.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_black_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -441,7 +441,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_black_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_black_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_black_carpet.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_black_carpet.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_black_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -478,7 +478,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_blue_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_blue_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_blue_bed.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_blue_bed.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_blue_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -515,7 +515,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_blue_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_blue_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_blue_carpet.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_blue_carpet.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_blue_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -552,7 +552,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_brown_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_brown_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_brown_bed.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_brown_bed.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_brown_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -589,7 +589,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_brown_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_brown_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_brown_carpet.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_brown_carpet.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_brown_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -626,7 +626,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_cyan_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_cyan_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_cyan_bed.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_cyan_bed.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_cyan_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -663,7 +663,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_cyan_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_cyan_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_cyan_carpet.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_cyan_carpet.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_cyan_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -700,7 +700,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_gray_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_gray_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_gray_bed.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_gray_bed.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_gray_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -737,7 +737,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_gray_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_gray_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_gray_carpet.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_gray_carpet.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_gray_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -774,7 +774,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_green_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_green_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_green_bed.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_green_bed.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_green_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -811,7 +811,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_green_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_green_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_green_carpet.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_green_carpet.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_green_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -848,7 +848,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_bed.json	2025-11-23 19:01:32.963764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_bed.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -885,7 +885,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_carpet.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_light_blue_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -922,7 +922,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_bed.json	2026-03-29 12:55:48.533587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -959,7 +959,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_light_gray_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -996,7 +996,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_lime_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_lime_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_lime_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_lime_bed.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_lime_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1033,7 +1033,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_lime_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_lime_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_lime_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_lime_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_lime_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1070,7 +1070,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_magenta_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_magenta_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_magenta_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_magenta_bed.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_magenta_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1107,7 +1107,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_magenta_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_magenta_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_magenta_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_magenta_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_magenta_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1144,7 +1144,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_orange_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_orange_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_orange_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_orange_bed.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_orange_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1181,7 +1181,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_orange_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_orange_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_orange_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_orange_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_orange_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1218,7 +1218,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_pink_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_pink_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_pink_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_pink_bed.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_pink_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1255,7 +1255,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_pink_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_pink_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_pink_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_pink_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_pink_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1292,7 +1292,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_purple_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_purple_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_purple_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_purple_bed.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_purple_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1329,7 +1329,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_purple_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_purple_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_purple_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_purple_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_purple_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1366,7 +1366,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_red_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_red_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_red_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_red_bed.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_red_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1403,7 +1403,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_red_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_red_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_red_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_red_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_red_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1440,7 +1440,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_white_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_white_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_white_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_white_bed.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_white_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1477,7 +1477,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_white_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_white_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_white_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_white_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_white_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1514,7 +1514,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_yellow_bed.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_yellow_bed.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_yellow_bed.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_yellow_bed.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_yellow_bed.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1551,7 +1551,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_yellow_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_yellow_carpet.json
---- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_yellow_carpet.json	2025-11-23 19:01:32.964764875 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye_yellow_carpet.json	2026-03-29 12:55:48.534587969 +0000
 +++ versions/1.21.7/data/minecraft/advancement/recipes/building_blocks/dye_yellow_carpet.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,32 +0,0 @@
 -{
@@ -1589,7 +1589,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/building_blocks/dye
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/black_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/black_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/black_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/black_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/black_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1626,7 +1626,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/black_harnes
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/blue_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/blue_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/blue_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/blue_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/blue_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1663,7 +1663,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/blue_harness
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/brown_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/brown_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/brown_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/brown_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/brown_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1700,7 +1700,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/brown_harnes
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/cyan_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/cyan_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/cyan_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/cyan_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/cyan_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1737,7 +1737,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/cyan_harness
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_black_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_black_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_black_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_black_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_black_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1774,7 +1774,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_black_ha
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_blue_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_blue_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_blue_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_blue_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_blue_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1811,7 +1811,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_blue_har
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_brown_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_brown_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_brown_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_brown_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_brown_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1848,7 +1848,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_brown_ha
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_cyan_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_cyan_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_cyan_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_cyan_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_cyan_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1885,7 +1885,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_cyan_har
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_gray_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_gray_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_gray_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_gray_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_gray_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1922,7 +1922,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_gray_har
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_green_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_green_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_green_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_green_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_green_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1959,7 +1959,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_green_ha
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_light_blue_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_light_blue_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_light_blue_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_light_blue_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_light_blue_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -1996,7 +1996,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_light_bl
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_light_gray_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_light_gray_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_light_gray_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_light_gray_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_light_gray_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2033,7 +2033,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_light_gr
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_lime_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_lime_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_lime_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_lime_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_lime_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2070,7 +2070,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_lime_har
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_magenta_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_magenta_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_magenta_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_magenta_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_magenta_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2107,7 +2107,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_magenta_
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_orange_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_orange_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_orange_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_orange_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_orange_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2144,7 +2144,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_orange_h
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_pink_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_pink_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_pink_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_pink_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_pink_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2181,7 +2181,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_pink_har
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_purple_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_purple_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_purple_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_purple_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_purple_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2218,7 +2218,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_purple_h
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_red_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_red_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_red_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_red_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_red_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2255,7 +2255,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_red_harn
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_white_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_white_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_white_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_white_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_white_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2292,7 +2292,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_white_ha
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_yellow_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_yellow_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_yellow_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_yellow_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/dye_yellow_harness.json	2026-03-29 12:55:48.975385135 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2329,7 +2329,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/dye_yellow_h
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/gray_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/gray_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/gray_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/gray_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/gray_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2366,7 +2366,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/gray_harness
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/green_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/green_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/green_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/green_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/green_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2403,7 +2403,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/green_harnes
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/light_blue_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/light_blue_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/light_blue_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/light_blue_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/light_blue_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2440,7 +2440,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/light_blue_h
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/light_gray_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/light_gray_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/light_gray_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/light_gray_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/light_gray_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2477,7 +2477,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/light_gray_h
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/lime_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/lime_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/lime_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/lime_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/lime_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2514,7 +2514,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/lime_harness
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/magenta_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/magenta_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/magenta_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/magenta_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/magenta_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2551,7 +2551,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/magenta_harn
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/orange_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/orange_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/orange_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/orange_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/orange_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2588,7 +2588,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/orange_harne
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/pink_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/pink_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/pink_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/pink_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/pink_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2625,7 +2625,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/pink_harness
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/purple_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/purple_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/purple_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/purple_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/purple_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2662,7 +2662,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/purple_harne
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/red_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/red_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/red_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/red_harness.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/red_harness.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2699,7 +2699,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/red_harness.
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/saddle.json versions/1.21.7/data/minecraft/advancement/recipes/combat/saddle.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/saddle.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/saddle.json	2025-11-23 19:01:33.993989137 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/saddle.json	2026-03-29 12:55:48.975587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2736,7 +2736,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/saddle.json 
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/white_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/white_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/white_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/white_harness.json	2025-11-23 19:01:33.994764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/white_harness.json	2026-03-29 12:55:48.976587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2773,7 +2773,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/white_harnes
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/yellow_harness.json versions/1.21.7/data/minecraft/advancement/recipes/combat/yellow_harness.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/combat/yellow_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/combat/yellow_harness.json	2025-11-23 19:01:33.994764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/combat/yellow_harness.json	2026-03-29 12:55:48.976587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2810,7 +2810,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/combat/yellow_harne
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_black_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_black_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_black_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_black_bed.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_black_bed.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2847,7 +2847,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_bla
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_black_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_black_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_black_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_black_carpet.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_black_carpet.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2884,7 +2884,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_bla
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_blue_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_blue_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_blue_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_blue_bed.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_blue_bed.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2921,7 +2921,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_blu
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_blue_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_blue_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_blue_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_blue_carpet.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_blue_carpet.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2958,7 +2958,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_blu
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_brown_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_brown_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_brown_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_brown_bed.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_brown_bed.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -2995,7 +2995,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_bro
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_brown_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_brown_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_brown_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_brown_carpet.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_brown_carpet.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3032,7 +3032,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_bro
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_cyan_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_cyan_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_cyan_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_cyan_bed.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_cyan_bed.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3069,7 +3069,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_cya
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_cyan_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_cyan_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_cyan_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_cyan_carpet.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_cyan_carpet.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3106,7 +3106,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_cya
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_gray_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_gray_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_gray_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_gray_bed.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_gray_bed.json	2026-03-29 12:55:48.978587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3143,7 +3143,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_gra
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_gray_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_gray_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_gray_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_gray_carpet.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_gray_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3180,7 +3180,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_gra
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_green_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_green_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_green_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_green_bed.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_green_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3217,7 +3217,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_gre
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_green_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_green_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_green_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_green_carpet.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_green_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3254,7 +3254,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_gre
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_light_blue_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_blue_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_light_blue_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_blue_bed.json	2025-11-23 19:01:33.996764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_blue_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3291,7 +3291,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lig
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_light_blue_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_blue_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_light_blue_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_blue_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_blue_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3328,7 +3328,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lig
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_light_gray_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_gray_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_light_gray_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_gray_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_gray_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3365,7 +3365,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lig
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_light_gray_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_gray_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_light_gray_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_gray_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_light_gray_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3402,7 +3402,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lig
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lime_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_lime_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lime_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_lime_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_lime_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3439,7 +3439,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lim
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lime_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_lime_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lime_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_lime_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_lime_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3476,7 +3476,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_lim
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_magenta_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_magenta_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_magenta_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_magenta_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_magenta_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3513,7 +3513,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_mag
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_magenta_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_magenta_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_magenta_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_magenta_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_magenta_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3550,7 +3550,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_mag
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_orange_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_orange_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_orange_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_orange_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_orange_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3587,7 +3587,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_ora
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_orange_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_orange_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_orange_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_orange_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_orange_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3624,7 +3624,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_ora
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_pink_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_pink_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_pink_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_pink_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_pink_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3661,7 +3661,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_pin
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_pink_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_pink_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_pink_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_pink_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_pink_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3698,7 +3698,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_pin
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_purple_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_purple_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_purple_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_purple_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_purple_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3735,7 +3735,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_pur
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_purple_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_purple_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_purple_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_purple_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_purple_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3772,7 +3772,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_pur
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_red_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_red_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_red_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_red_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_red_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3809,7 +3809,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_red
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_red_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_red_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_red_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_red_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_red_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3846,7 +3846,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_red
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_white_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_white_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_white_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_white_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_white_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3883,7 +3883,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_whi
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_white_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_white_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_white_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_white_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_white_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3920,7 +3920,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_whi
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_yellow_bed.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_yellow_bed.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_yellow_bed.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_yellow_bed.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_yellow_bed.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3957,7 +3957,7 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_yel
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_yellow_carpet.json versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_yellow_carpet.json
 --- versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_yellow_carpet.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_yellow_carpet.json	2025-11-23 19:01:33.997764841 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/decorations/dye_yellow_carpet.json	2026-03-29 12:55:48.979587969 +0000
 @@ -0,0 +1,32 @@
 +{
 +  "parent": "minecraft:recipes/root",
@@ -3993,8 +3993,8 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/decorations/dye_yel
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/advancement/recipes/tools/lead.json versions/1.21.7/data/minecraft/advancement/recipes/tools/lead.json
---- versions/1.21.5/data/minecraft/advancement/recipes/tools/lead.json	2025-11-23 19:01:33.007502485 +0000
-+++ versions/1.21.7/data/minecraft/advancement/recipes/tools/lead.json	2025-11-23 19:01:34.015520221 +0000
+--- versions/1.21.5/data/minecraft/advancement/recipes/tools/lead.json	2026-03-29 12:55:48.573437387 +0000
++++ versions/1.21.7/data/minecraft/advancement/recipes/tools/lead.json	2026-03-29 12:55:49.000058938 +0000
 @@ -1,11 +1,11 @@
  {
    "parent": "minecraft:recipes/root",
@@ -4019,8 +4019,8 @@ diff -urN versions/1.21.5/data/minecraft/advancement/recipes/tools/lead.json ver
    ],
    "rewards": {
 diff -urN versions/1.21.5/data/minecraft/datapacks/minecart_improvements/pack.mcmeta versions/1.21.7/data/minecraft/datapacks/minecart_improvements/pack.mcmeta
---- versions/1.21.5/data/minecraft/datapacks/minecart_improvements/pack.mcmeta	2025-11-23 19:01:33.014866377 +0000
-+++ versions/1.21.7/data/minecraft/datapacks/minecart_improvements/pack.mcmeta	2025-11-23 19:01:34.021317384 +0000
+--- versions/1.21.5/data/minecraft/datapacks/minecart_improvements/pack.mcmeta	2026-03-29 12:55:48.579863427 +0000
++++ versions/1.21.7/data/minecraft/datapacks/minecart_improvements/pack.mcmeta	2026-03-29 12:55:49.007108053 +0000
 @@ -8,6 +8,6 @@
      "description": {
        "translate": "dataPack.minecart_improvements.description"
@@ -4031,8 +4031,8 @@ diff -urN versions/1.21.5/data/minecraft/datapacks/minecart_improvements/pack.mc
  }
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/datapacks/redstone_experiments/pack.mcmeta versions/1.21.7/data/minecraft/datapacks/redstone_experiments/pack.mcmeta
---- versions/1.21.5/data/minecraft/datapacks/redstone_experiments/pack.mcmeta	2025-11-23 19:01:33.014866377 +0000
-+++ versions/1.21.7/data/minecraft/datapacks/redstone_experiments/pack.mcmeta	2025-11-23 19:01:34.021317384 +0000
+--- versions/1.21.5/data/minecraft/datapacks/redstone_experiments/pack.mcmeta	2026-03-29 12:55:48.579863427 +0000
++++ versions/1.21.7/data/minecraft/datapacks/redstone_experiments/pack.mcmeta	2026-03-29 12:55:49.007108053 +0000
 @@ -8,6 +8,6 @@
      "description": {
        "translate": "dataPack.redstone_experiments.description"
@@ -4043,8 +4043,8 @@ diff -urN versions/1.21.5/data/minecraft/datapacks/redstone_experiments/pack.mcm
  }
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/datapacks/trade_rebalance/pack.mcmeta versions/1.21.7/data/minecraft/datapacks/trade_rebalance/pack.mcmeta
---- versions/1.21.5/data/minecraft/datapacks/trade_rebalance/pack.mcmeta	2025-11-23 19:01:33.016870055 +0000
-+++ versions/1.21.7/data/minecraft/datapacks/trade_rebalance/pack.mcmeta	2025-11-23 19:01:34.022724563 +0000
+--- versions/1.21.5/data/minecraft/datapacks/trade_rebalance/pack.mcmeta	2026-03-29 12:55:48.581503595 +0000
++++ versions/1.21.7/data/minecraft/datapacks/trade_rebalance/pack.mcmeta	2026-03-29 12:55:49.008749804 +0000
 @@ -8,6 +8,6 @@
      "description": {
        "translate": "dataPack.trade_rebalance.description"
@@ -4056,7 +4056,7 @@ diff -urN versions/1.21.5/data/minecraft/datapacks/trade_rebalance/pack.mcmeta v
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/dialog/custom_options.json versions/1.21.7/data/minecraft/dialog/custom_options.json
 --- versions/1.21.5/data/minecraft/dialog/custom_options.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/dialog/custom_options.json	2025-11-23 19:01:34.022724563 +0000
++++ versions/1.21.7/data/minecraft/dialog/custom_options.json	2026-03-29 12:55:49.008749804 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:dialog_list",
@@ -4079,7 +4079,7 @@ diff -urN versions/1.21.5/data/minecraft/dialog/custom_options.json versions/1.2
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/dialog/quick_actions.json versions/1.21.7/data/minecraft/dialog/quick_actions.json
 --- versions/1.21.5/data/minecraft/dialog/quick_actions.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/dialog/quick_actions.json	2025-11-23 19:01:34.023503494 +0000
++++ versions/1.21.7/data/minecraft/dialog/quick_actions.json	2026-03-29 12:55:49.009211197 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:dialog_list",
@@ -4102,7 +4102,7 @@ diff -urN versions/1.21.5/data/minecraft/dialog/quick_actions.json versions/1.21
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/dialog/server_links.json versions/1.21.7/data/minecraft/dialog/server_links.json
 --- versions/1.21.5/data/minecraft/dialog/server_links.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/dialog/server_links.json	2025-11-23 19:01:34.023503494 +0000
++++ versions/1.21.7/data/minecraft/dialog/server_links.json	2026-03-29 12:55:49.009211197 +0000
 @@ -0,0 +1,17 @@
 +{
 +  "type": "minecraft:server_links",
@@ -4123,8 +4123,8 @@ diff -urN versions/1.21.5/data/minecraft/dialog/server_links.json versions/1.21.
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/dimension_type/overworld.json versions/1.21.7/data/minecraft/dimension_type/overworld.json
---- versions/1.21.5/data/minecraft/dimension_type/overworld.json	2025-11-23 19:01:33.016870055 +0000
-+++ versions/1.21.7/data/minecraft/dimension_type/overworld.json	2025-11-23 19:01:34.023503494 +0000
+--- versions/1.21.5/data/minecraft/dimension_type/overworld.json	2026-03-29 12:55:48.581503595 +0000
++++ versions/1.21.7/data/minecraft/dimension_type/overworld.json	2026-03-29 12:55:49.009211197 +0000
 @@ -1,6 +1,7 @@
  {
    "ambient_light": 0.0,
@@ -4134,8 +4134,8 @@ diff -urN versions/1.21.5/data/minecraft/dimension_type/overworld.json versions/
    "effects": "minecraft:overworld",
    "has_ceiling": false,
 diff -urN versions/1.21.5/data/minecraft/dimension_type/overworld_caves.json versions/1.21.7/data/minecraft/dimension_type/overworld_caves.json
---- versions/1.21.5/data/minecraft/dimension_type/overworld_caves.json	2025-11-23 19:01:33.017417622 +0000
-+++ versions/1.21.7/data/minecraft/dimension_type/overworld_caves.json	2025-11-23 19:01:34.023625062 +0000
+--- versions/1.21.5/data/minecraft/dimension_type/overworld_caves.json	2026-03-29 12:55:48.581979986 +0000
++++ versions/1.21.7/data/minecraft/dimension_type/overworld_caves.json	2026-03-29 12:55:49.009344687 +0000
 @@ -1,6 +1,7 @@
  {
    "ambient_light": 0.0,
@@ -4146,7 +4146,7 @@ diff -urN versions/1.21.5/data/minecraft/dimension_type/overworld_caves.json ver
    "has_ceiling": true,
 diff -urN versions/1.21.5/data/minecraft/jukebox_song/lava_chicken.json versions/1.21.7/data/minecraft/jukebox_song/lava_chicken.json
 --- versions/1.21.5/data/minecraft/jukebox_song/lava_chicken.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/jukebox_song/lava_chicken.json	2025-11-23 19:01:34.025485382 +0000
++++ versions/1.21.7/data/minecraft/jukebox_song/lava_chicken.json	2026-03-29 12:55:49.011441990 +0000
 @@ -0,0 +1,8 @@
 +{
 +  "comparator_output": 9,
@@ -4159,7 +4159,7 @@ diff -urN versions/1.21.5/data/minecraft/jukebox_song/lava_chicken.json versions
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/jukebox_song/tears.json versions/1.21.7/data/minecraft/jukebox_song/tears.json
 --- versions/1.21.5/data/minecraft/jukebox_song/tears.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/jukebox_song/tears.json	2025-11-23 19:01:34.025485382 +0000
++++ versions/1.21.7/data/minecraft/jukebox_song/tears.json	2026-03-29 12:55:49.011441990 +0000
 @@ -0,0 +1,8 @@
 +{
 +  "comparator_output": 10,
@@ -4172,7 +4172,7 @@ diff -urN versions/1.21.5/data/minecraft/jukebox_song/tears.json versions/1.21.7
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/loot_table/blocks/dried_ghast.json versions/1.21.7/data/minecraft/loot_table/blocks/dried_ghast.json
 --- versions/1.21.5/data/minecraft/loot_table/blocks/dried_ghast.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/blocks/dried_ghast.json	2025-11-23 19:01:34.034764839 +0000
++++ versions/1.21.7/data/minecraft/loot_table/blocks/dried_ghast.json	2026-03-29 12:55:49.024587969 +0000
 @@ -0,0 +1,21 @@
 +{
 +  "type": "minecraft:block",
@@ -4197,8 +4197,8 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/blocks/dried_ghast.json vers
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/loot_table/chests/ancient_city.json versions/1.21.7/data/minecraft/loot_table/chests/ancient_city.json
---- versions/1.21.5/data/minecraft/loot_table/chests/ancient_city.json	2025-11-23 19:01:33.065571280 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/chests/ancient_city.json	2025-11-23 19:01:34.063717049 +0000
+--- versions/1.21.5/data/minecraft/loot_table/chests/ancient_city.json	2026-03-29 12:55:48.620928309 +0000
++++ versions/1.21.7/data/minecraft/loot_table/chests/ancient_city.json	2026-03-29 12:55:49.048959216 +0000
 @@ -115,11 +115,15 @@
            "functions": [
              {
@@ -4218,8 +4218,8 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/chests/ancient_city.json ver
          },
          {
 diff -urN versions/1.21.5/data/minecraft/loot_table/chests/desert_pyramid.json versions/1.21.7/data/minecraft/loot_table/chests/desert_pyramid.json
---- versions/1.21.5/data/minecraft/loot_table/chests/desert_pyramid.json	2025-11-23 19:01:33.065571280 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/chests/desert_pyramid.json	2025-11-23 19:01:34.063717049 +0000
+--- versions/1.21.5/data/minecraft/loot_table/chests/desert_pyramid.json	2026-03-29 12:55:48.620928309 +0000
++++ versions/1.21.7/data/minecraft/loot_table/chests/desert_pyramid.json	2026-03-29 12:55:49.048959216 +0000
 @@ -118,7 +118,18 @@
          },
          {
@@ -4241,8 +4241,8 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/chests/desert_pyramid.json v
          },
          {
 diff -urN versions/1.21.5/data/minecraft/loot_table/chests/jungle_temple.json versions/1.21.7/data/minecraft/loot_table/chests/jungle_temple.json
---- versions/1.21.5/data/minecraft/loot_table/chests/jungle_temple.json	2025-11-23 19:01:33.065571280 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/chests/jungle_temple.json	2025-11-23 19:01:34.063717049 +0000
+--- versions/1.21.5/data/minecraft/loot_table/chests/jungle_temple.json	2026-03-29 12:55:48.620928309 +0000
++++ versions/1.21.7/data/minecraft/loot_table/chests/jungle_temple.json	2026-03-29 12:55:49.048959216 +0000
 @@ -118,7 +118,18 @@
          },
          {
@@ -4264,8 +4264,8 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/chests/jungle_temple.json ve
          },
          {
 diff -urN versions/1.21.5/data/minecraft/loot_table/chests/simple_dungeon.json versions/1.21.7/data/minecraft/loot_table/chests/simple_dungeon.json
---- versions/1.21.5/data/minecraft/loot_table/chests/simple_dungeon.json	2025-11-23 19:01:33.065571280 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/chests/simple_dungeon.json	2025-11-23 19:01:34.063717049 +0000
+--- versions/1.21.5/data/minecraft/loot_table/chests/simple_dungeon.json	2026-03-29 12:55:48.620928309 +0000
++++ versions/1.21.7/data/minecraft/loot_table/chests/simple_dungeon.json	2026-03-29 12:55:49.048959216 +0000
 @@ -6,7 +6,18 @@
        "entries": [
          {
@@ -4287,8 +4287,8 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/chests/simple_dungeon.json v
          },
          {
 diff -urN versions/1.21.5/data/minecraft/loot_table/chests/stronghold_corridor.json versions/1.21.7/data/minecraft/loot_table/chests/stronghold_corridor.json
---- versions/1.21.5/data/minecraft/loot_table/chests/stronghold_corridor.json	2025-11-23 19:01:33.065764872 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/chests/stronghold_corridor.json	2025-11-23 19:01:34.063717049 +0000
+--- versions/1.21.5/data/minecraft/loot_table/chests/stronghold_corridor.json	2026-03-29 12:55:48.620928309 +0000
++++ versions/1.21.7/data/minecraft/loot_table/chests/stronghold_corridor.json	2026-03-29 12:55:49.048959216 +0000
 @@ -141,7 +141,18 @@
          },
          {
@@ -4310,8 +4310,8 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/chests/stronghold_corridor.j
          {
            "type": "minecraft:item",
 diff -urN versions/1.21.5/data/minecraft/loot_table/entities/ghast.json versions/1.21.7/data/minecraft/loot_table/entities/ghast.json
---- versions/1.21.5/data/minecraft/loot_table/entities/ghast.json	2025-11-23 19:01:33.068777603 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/entities/ghast.json	2025-11-23 19:01:34.066067868 +0000
+--- versions/1.21.5/data/minecraft/loot_table/entities/ghast.json	2026-03-29 12:55:48.622942587 +0000
++++ versions/1.21.7/data/minecraft/loot_table/entities/ghast.json	2026-03-29 12:55:49.050947846 +0000
 @@ -60,6 +60,42 @@
          }
        ],
@@ -4357,7 +4357,7 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/entities/ghast.json versions
    "random_sequence": "minecraft:entities/ghast"
 diff -urN versions/1.21.5/data/minecraft/loot_table/entities/happy_ghast.json versions/1.21.7/data/minecraft/loot_table/entities/happy_ghast.json
 --- versions/1.21.5/data/minecraft/loot_table/entities/happy_ghast.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/entities/happy_ghast.json	2025-11-23 19:01:34.066067868 +0000
++++ versions/1.21.7/data/minecraft/loot_table/entities/happy_ghast.json	2026-03-29 12:55:49.050947846 +0000
 @@ -0,0 +1,4 @@
 +{
 +  "type": "minecraft:entity",
@@ -4365,8 +4365,8 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/entities/happy_ghast.json ve
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/loot_table/entities/zombie.json versions/1.21.7/data/minecraft/loot_table/entities/zombie.json
---- versions/1.21.5/data/minecraft/loot_table/entities/zombie.json	2025-11-23 19:01:33.071764872 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/entities/zombie.json	2025-11-23 19:01:34.067996947 +0000
+--- versions/1.21.5/data/minecraft/loot_table/entities/zombie.json	2026-03-29 12:55:48.624616538 +0000
++++ versions/1.21.7/data/minecraft/loot_table/entities/zombie.json	2026-03-29 12:55:49.052619643 +0000
 @@ -101,6 +101,33 @@
          }
        ],
@@ -4402,8 +4402,8 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/entities/zombie.json version
    ],
    "random_sequence": "minecraft:entities/zombie"
 diff -urN versions/1.21.5/data/minecraft/loot_table/gameplay/piglin_bartering.json versions/1.21.7/data/minecraft/loot_table/gameplay/piglin_bartering.json
---- versions/1.21.5/data/minecraft/loot_table/gameplay/piglin_bartering.json	2025-11-23 19:01:33.073517955 +0000
-+++ versions/1.21.7/data/minecraft/loot_table/gameplay/piglin_bartering.json	2025-11-23 19:01:34.070562949 +0000
+--- versions/1.21.5/data/minecraft/loot_table/gameplay/piglin_bartering.json	2026-03-29 12:55:48.626433998 +0000
++++ versions/1.21.7/data/minecraft/loot_table/gameplay/piglin_bartering.json	2026-03-29 12:55:49.054362633 +0000
 @@ -96,6 +96,18 @@
            "functions": [
              {
@@ -4425,7 +4425,7 @@ diff -urN versions/1.21.5/data/minecraft/loot_table/gameplay/piglin_bartering.js
                  "max": 9.0,
 diff -urN versions/1.21.5/data/minecraft/painting_variant/dennis.json versions/1.21.7/data/minecraft/painting_variant/dennis.json
 --- versions/1.21.5/data/minecraft/painting_variant/dennis.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/painting_variant/dennis.json	2025-11-23 19:01:34.072469816 +0000
++++ versions/1.21.7/data/minecraft/painting_variant/dennis.json	2026-03-29 12:55:49.056012069 +0000
 @@ -0,0 +1,13 @@
 +{
 +  "asset_id": "minecraft:dennis",
@@ -4443,7 +4443,7 @@ diff -urN versions/1.21.5/data/minecraft/painting_variant/dennis.json versions/1
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/black_harness.json versions/1.21.7/data/minecraft/recipe/black_harness.json
 --- versions/1.21.5/data/minecraft/recipe/black_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/black_harness.json	2025-11-23 19:01:34.075764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/black_harness.json	2026-03-29 12:55:49.058587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -4466,7 +4466,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/black_harness.json versions/1.21
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/blue_harness.json versions/1.21.7/data/minecraft/recipe/blue_harness.json
 --- versions/1.21.5/data/minecraft/recipe/blue_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/blue_harness.json	2025-11-23 19:01:34.076764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/blue_harness.json	2026-03-29 12:55:49.059587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -4489,7 +4489,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/blue_harness.json versions/1.21.
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/brown_harness.json versions/1.21.7/data/minecraft/recipe/brown_harness.json
 --- versions/1.21.5/data/minecraft/recipe/brown_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/brown_harness.json	2025-11-23 19:01:34.077764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/brown_harness.json	2026-03-29 12:55:49.060587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -4512,7 +4512,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/brown_harness.json versions/1.21
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/cyan_harness.json versions/1.21.7/data/minecraft/recipe/cyan_harness.json
 --- versions/1.21.5/data/minecraft/recipe/cyan_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/cyan_harness.json	2025-11-23 19:01:34.083764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/cyan_harness.json	2026-03-29 12:55:49.066587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -4535,7 +4535,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/cyan_harness.json versions/1.21.
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dried_ghast.json versions/1.21.7/data/minecraft/recipe/dried_ghast.json
 --- versions/1.21.5/data/minecraft/recipe/dried_ghast.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dried_ghast.json	2025-11-23 19:01:34.085764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/dried_ghast.json	2026-03-29 12:55:49.069587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -4557,8 +4557,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dried_ghast.json versions/1.21.7
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_black_bed.json versions/1.21.7/data/minecraft/recipe/dye_black_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_black_bed.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_black_bed.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_black_bed.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_black_bed.json	2026-03-29 12:55:49.069587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4570,8 +4570,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_black_bed.json versions/1.21
      "minecraft:black_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_black_carpet.json versions/1.21.7/data/minecraft/recipe/dye_black_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_black_carpet.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_black_carpet.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_black_carpet.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_black_carpet.json	2026-03-29 12:55:49.069587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4584,7 +4584,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_black_carpet.json versions/1
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_black_harness.json versions/1.21.7/data/minecraft/recipe/dye_black_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_black_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_black_harness.json	2025-11-23 19:01:34.086764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_black_harness.json	2026-03-29 12:55:49.069587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -4617,8 +4617,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_black_harness.json versions/
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_blue_bed.json versions/1.21.7/data/minecraft/recipe/dye_blue_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_blue_bed.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_blue_bed.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_blue_bed.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_blue_bed.json	2026-03-29 12:55:49.069587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4630,8 +4630,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_blue_bed.json versions/1.21.
      "minecraft:blue_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_blue_carpet.json versions/1.21.7/data/minecraft/recipe/dye_blue_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_blue_carpet.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_blue_carpet.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_blue_carpet.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_blue_carpet.json	2026-03-29 12:55:49.069587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4644,7 +4644,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_blue_carpet.json versions/1.
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_blue_harness.json versions/1.21.7/data/minecraft/recipe/dye_blue_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_blue_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_blue_harness.json	2025-11-23 19:01:34.086764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_blue_harness.json	2026-03-29 12:55:49.069587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -4677,8 +4677,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_blue_harness.json versions/1
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_brown_bed.json versions/1.21.7/data/minecraft/recipe/dye_brown_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_brown_bed.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_brown_bed.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_brown_bed.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_brown_bed.json	2026-03-29 12:55:49.069587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4690,8 +4690,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_brown_bed.json versions/1.21
      "minecraft:brown_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_brown_carpet.json versions/1.21.7/data/minecraft/recipe/dye_brown_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_brown_carpet.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_brown_carpet.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_brown_carpet.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_brown_carpet.json	2026-03-29 12:55:49.069587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4704,7 +4704,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_brown_carpet.json versions/1
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_brown_harness.json versions/1.21.7/data/minecraft/recipe/dye_brown_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_brown_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_brown_harness.json	2025-11-23 19:01:34.086764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_brown_harness.json	2026-03-29 12:55:49.069587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -4737,8 +4737,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_brown_harness.json versions/
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_cyan_bed.json versions/1.21.7/data/minecraft/recipe/dye_cyan_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_cyan_bed.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_cyan_bed.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_cyan_bed.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_cyan_bed.json	2026-03-29 12:55:49.069587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4750,8 +4750,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_cyan_bed.json versions/1.21.
      "minecraft:cyan_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_cyan_carpet.json versions/1.21.7/data/minecraft/recipe/dye_cyan_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_cyan_carpet.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_cyan_carpet.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_cyan_carpet.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_cyan_carpet.json	2026-03-29 12:55:49.069587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4764,7 +4764,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_cyan_carpet.json versions/1.
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_cyan_harness.json versions/1.21.7/data/minecraft/recipe/dye_cyan_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_cyan_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_cyan_harness.json	2025-11-23 19:01:34.086764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_cyan_harness.json	2026-03-29 12:55:49.070587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -4797,8 +4797,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_cyan_harness.json versions/1
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_gray_bed.json versions/1.21.7/data/minecraft/recipe/dye_gray_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_gray_bed.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_gray_bed.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_gray_bed.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_gray_bed.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4810,8 +4810,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_gray_bed.json versions/1.21.
      "minecraft:gray_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_gray_carpet.json versions/1.21.7/data/minecraft/recipe/dye_gray_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_gray_carpet.json	2025-11-23 19:01:33.132764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_gray_carpet.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_gray_carpet.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_gray_carpet.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4824,7 +4824,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_gray_carpet.json versions/1.
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_gray_harness.json versions/1.21.7/data/minecraft/recipe/dye_gray_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_gray_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_gray_harness.json	2025-11-23 19:01:34.086764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_gray_harness.json	2026-03-29 12:55:49.070587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -4857,8 +4857,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_gray_harness.json versions/1
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_green_bed.json versions/1.21.7/data/minecraft/recipe/dye_green_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_green_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_green_bed.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_green_bed.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_green_bed.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4870,8 +4870,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_green_bed.json versions/1.21
      "minecraft:green_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_green_carpet.json versions/1.21.7/data/minecraft/recipe/dye_green_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_green_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_green_carpet.json	2025-11-23 19:01:34.086764838 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_green_carpet.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_green_carpet.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4884,7 +4884,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_green_carpet.json versions/1
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_green_harness.json versions/1.21.7/data/minecraft/recipe/dye_green_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_green_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_green_harness.json	2025-11-23 19:01:34.086764838 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_green_harness.json	2026-03-29 12:55:49.070587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -4917,8 +4917,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_green_harness.json versions/
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_blue_bed.json versions/1.21.7/data/minecraft/recipe/dye_light_blue_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_light_blue_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_light_blue_bed.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_light_blue_bed.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_light_blue_bed.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4930,8 +4930,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_blue_bed.json versions
      "minecraft:light_blue_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_blue_carpet.json versions/1.21.7/data/minecraft/recipe/dye_light_blue_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_light_blue_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_light_blue_carpet.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_light_blue_carpet.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_light_blue_carpet.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4944,7 +4944,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_blue_carpet.json versi
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_blue_harness.json versions/1.21.7/data/minecraft/recipe/dye_light_blue_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_light_blue_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_light_blue_harness.json	2025-11-23 19:01:34.087764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_light_blue_harness.json	2026-03-29 12:55:49.070587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -4977,8 +4977,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_blue_harness.json vers
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_gray_bed.json versions/1.21.7/data/minecraft/recipe/dye_light_gray_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_light_gray_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_light_gray_bed.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_light_gray_bed.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_light_gray_bed.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -4990,8 +4990,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_gray_bed.json versions
      "minecraft:light_gray_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_gray_carpet.json versions/1.21.7/data/minecraft/recipe/dye_light_gray_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_light_gray_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_light_gray_carpet.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_light_gray_carpet.json	2026-03-29 12:55:48.641587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_light_gray_carpet.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5004,7 +5004,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_gray_carpet.json versi
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_gray_harness.json versions/1.21.7/data/minecraft/recipe/dye_light_gray_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_light_gray_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_light_gray_harness.json	2025-11-23 19:01:34.087764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_light_gray_harness.json	2026-03-29 12:55:49.070587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5037,8 +5037,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_light_gray_harness.json vers
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_lime_bed.json versions/1.21.7/data/minecraft/recipe/dye_lime_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_lime_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_lime_bed.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_lime_bed.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_lime_bed.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5050,8 +5050,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_lime_bed.json versions/1.21.
      "minecraft:lime_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_lime_carpet.json versions/1.21.7/data/minecraft/recipe/dye_lime_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_lime_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_lime_carpet.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_lime_carpet.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_lime_carpet.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5064,7 +5064,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_lime_carpet.json versions/1.
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_lime_harness.json versions/1.21.7/data/minecraft/recipe/dye_lime_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_lime_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_lime_harness.json	2025-11-23 19:01:34.087764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_lime_harness.json	2026-03-29 12:55:49.070587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5097,8 +5097,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_lime_harness.json versions/1
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_magenta_bed.json versions/1.21.7/data/minecraft/recipe/dye_magenta_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_magenta_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_magenta_bed.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_magenta_bed.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_magenta_bed.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5110,8 +5110,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_magenta_bed.json versions/1.
      "minecraft:magenta_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_magenta_carpet.json versions/1.21.7/data/minecraft/recipe/dye_magenta_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_magenta_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_magenta_carpet.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_magenta_carpet.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_magenta_carpet.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5124,7 +5124,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_magenta_carpet.json versions
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_magenta_harness.json versions/1.21.7/data/minecraft/recipe/dye_magenta_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_magenta_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_magenta_harness.json	2025-11-23 19:01:34.087764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_magenta_harness.json	2026-03-29 12:55:49.070587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5157,8 +5157,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_magenta_harness.json version
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_orange_bed.json versions/1.21.7/data/minecraft/recipe/dye_orange_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_orange_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_orange_bed.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_orange_bed.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_orange_bed.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5170,8 +5170,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_orange_bed.json versions/1.2
      "minecraft:orange_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_orange_carpet.json versions/1.21.7/data/minecraft/recipe/dye_orange_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_orange_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_orange_carpet.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_orange_carpet.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_orange_carpet.json	2026-03-29 12:55:49.070587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5184,7 +5184,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_orange_carpet.json versions/
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_orange_harness.json versions/1.21.7/data/minecraft/recipe/dye_orange_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_orange_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_orange_harness.json	2025-11-23 19:01:34.087764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_orange_harness.json	2026-03-29 12:55:49.070587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5217,8 +5217,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_orange_harness.json versions
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_pink_bed.json versions/1.21.7/data/minecraft/recipe/dye_pink_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_pink_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_pink_bed.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_pink_bed.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_pink_bed.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5230,8 +5230,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_pink_bed.json versions/1.21.
      "minecraft:pink_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_pink_carpet.json versions/1.21.7/data/minecraft/recipe/dye_pink_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_pink_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_pink_carpet.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_pink_carpet.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_pink_carpet.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5244,7 +5244,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_pink_carpet.json versions/1.
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_pink_harness.json versions/1.21.7/data/minecraft/recipe/dye_pink_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_pink_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_pink_harness.json	2025-11-23 19:01:34.087764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_pink_harness.json	2026-03-29 12:55:49.071587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5277,8 +5277,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_pink_harness.json versions/1
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_purple_bed.json versions/1.21.7/data/minecraft/recipe/dye_purple_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_purple_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_purple_bed.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_purple_bed.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_purple_bed.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5290,8 +5290,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_purple_bed.json versions/1.2
      "minecraft:purple_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_purple_carpet.json versions/1.21.7/data/minecraft/recipe/dye_purple_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_purple_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_purple_carpet.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_purple_carpet.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_purple_carpet.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5304,7 +5304,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_purple_carpet.json versions/
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_purple_harness.json versions/1.21.7/data/minecraft/recipe/dye_purple_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_purple_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_purple_harness.json	2025-11-23 19:01:34.087764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_purple_harness.json	2026-03-29 12:55:49.071587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5337,8 +5337,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_purple_harness.json versions
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_red_bed.json versions/1.21.7/data/minecraft/recipe/dye_red_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_red_bed.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_red_bed.json	2025-11-23 19:01:34.087764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_red_bed.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_red_bed.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5350,8 +5350,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_red_bed.json versions/1.21.7
      "minecraft:red_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_red_carpet.json versions/1.21.7/data/minecraft/recipe/dye_red_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_red_carpet.json	2025-11-23 19:01:33.133764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_red_carpet.json	2025-11-23 19:01:34.088764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_red_carpet.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_red_carpet.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5364,7 +5364,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_red_carpet.json versions/1.2
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_red_harness.json versions/1.21.7/data/minecraft/recipe/dye_red_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_red_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_red_harness.json	2025-11-23 19:01:34.088764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_red_harness.json	2026-03-29 12:55:49.071587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5397,8 +5397,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_red_harness.json versions/1.
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_white_bed.json versions/1.21.7/data/minecraft/recipe/dye_white_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_white_bed.json	2025-11-23 19:01:33.134764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_white_bed.json	2025-11-23 19:01:34.088764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_white_bed.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_white_bed.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5410,8 +5410,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_white_bed.json versions/1.21
      "minecraft:white_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_white_carpet.json versions/1.21.7/data/minecraft/recipe/dye_white_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_white_carpet.json	2025-11-23 19:01:33.134764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_white_carpet.json	2025-11-23 19:01:34.088764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_white_carpet.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_white_carpet.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5424,7 +5424,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_white_carpet.json versions/1
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_white_harness.json versions/1.21.7/data/minecraft/recipe/dye_white_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_white_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_white_harness.json	2025-11-23 19:01:34.088764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_white_harness.json	2026-03-29 12:55:49.071587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5457,8 +5457,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_white_harness.json versions/
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_yellow_bed.json versions/1.21.7/data/minecraft/recipe/dye_yellow_bed.json
---- versions/1.21.5/data/minecraft/recipe/dye_yellow_bed.json	2025-11-23 19:01:33.134764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_yellow_bed.json	2025-11-23 19:01:34.088764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_yellow_bed.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_yellow_bed.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5470,8 +5470,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_yellow_bed.json versions/1.2
      "minecraft:yellow_dye",
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_yellow_carpet.json versions/1.21.7/data/minecraft/recipe/dye_yellow_carpet.json
---- versions/1.21.5/data/minecraft/recipe/dye_yellow_carpet.json	2025-11-23 19:01:33.134764870 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_yellow_carpet.json	2025-11-23 19:01:34.088764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/dye_yellow_carpet.json	2026-03-29 12:55:48.642587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_yellow_carpet.json	2026-03-29 12:55:49.071587969 +0000
 @@ -1,7 +1,7 @@
  {
    "type": "minecraft:crafting_shapeless",
@@ -5484,7 +5484,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_yellow_carpet.json versions/
      [
 diff -urN versions/1.21.5/data/minecraft/recipe/dye_yellow_harness.json versions/1.21.7/data/minecraft/recipe/dye_yellow_harness.json
 --- versions/1.21.5/data/minecraft/recipe/dye_yellow_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/dye_yellow_harness.json	2025-11-23 19:01:34.088764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/dye_yellow_harness.json	2026-03-29 12:55:49.071587969 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "type": "minecraft:crafting_shapeless",
@@ -5518,7 +5518,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/dye_yellow_harness.json versions
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/gray_harness.json versions/1.21.7/data/minecraft/recipe/gray_harness.json
 --- versions/1.21.5/data/minecraft/recipe/gray_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/gray_harness.json	2025-11-23 19:01:34.092764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/gray_harness.json	2026-03-29 12:55:49.074587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5541,7 +5541,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/gray_harness.json versions/1.21.
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/green_harness.json versions/1.21.7/data/minecraft/recipe/green_harness.json
 --- versions/1.21.5/data/minecraft/recipe/green_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/green_harness.json	2025-11-23 19:01:34.092764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/green_harness.json	2026-03-29 12:55:49.075587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5563,8 +5563,8 @@ diff -urN versions/1.21.5/data/minecraft/recipe/green_harness.json versions/1.21
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/lead.json versions/1.21.7/data/minecraft/recipe/lead.json
---- versions/1.21.5/data/minecraft/recipe/lead.json	2025-11-23 19:01:33.140764869 +0000
-+++ versions/1.21.7/data/minecraft/recipe/lead.json	2025-11-23 19:01:34.094764837 +0000
+--- versions/1.21.5/data/minecraft/recipe/lead.json	2026-03-29 12:55:48.648587969 +0000
++++ versions/1.21.7/data/minecraft/recipe/lead.json	2026-03-29 12:55:49.077587969 +0000
 @@ -2,12 +2,11 @@
    "type": "minecraft:crafting_shaped",
    "category": "equipment",
@@ -5581,7 +5581,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/lead.json versions/1.21.7/data/m
    "result": {
 diff -urN versions/1.21.5/data/minecraft/recipe/light_blue_harness.json versions/1.21.7/data/minecraft/recipe/light_blue_harness.json
 --- versions/1.21.5/data/minecraft/recipe/light_blue_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/light_blue_harness.json	2025-11-23 19:01:34.096764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/light_blue_harness.json	2026-03-29 12:55:49.078587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5604,7 +5604,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/light_blue_harness.json versions
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/light_gray_harness.json versions/1.21.7/data/minecraft/recipe/light_gray_harness.json
 --- versions/1.21.5/data/minecraft/recipe/light_gray_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/light_gray_harness.json	2025-11-23 19:01:34.098764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/light_gray_harness.json	2026-03-29 12:55:49.078587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5627,7 +5627,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/light_gray_harness.json versions
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/lime_harness.json versions/1.21.7/data/minecraft/recipe/lime_harness.json
 --- versions/1.21.5/data/minecraft/recipe/lime_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/lime_harness.json	2025-11-23 19:01:34.098764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/lime_harness.json	2026-03-29 12:55:49.079587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5650,7 +5650,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/lime_harness.json versions/1.21.
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/magenta_harness.json versions/1.21.7/data/minecraft/recipe/magenta_harness.json
 --- versions/1.21.5/data/minecraft/recipe/magenta_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/magenta_harness.json	2025-11-23 19:01:34.100764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/magenta_harness.json	2026-03-29 12:55:49.079587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5673,7 +5673,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/magenta_harness.json versions/1.
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/orange_harness.json versions/1.21.7/data/minecraft/recipe/orange_harness.json
 --- versions/1.21.5/data/minecraft/recipe/orange_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/orange_harness.json	2025-11-23 19:01:34.105764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/orange_harness.json	2026-03-29 12:55:49.083587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5696,7 +5696,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/orange_harness.json versions/1.2
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/pink_harness.json versions/1.21.7/data/minecraft/recipe/pink_harness.json
 --- versions/1.21.5/data/minecraft/recipe/pink_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/pink_harness.json	2025-11-23 19:01:34.107764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/pink_harness.json	2026-03-29 12:55:49.085587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5719,7 +5719,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/pink_harness.json versions/1.21.
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/purple_harness.json versions/1.21.7/data/minecraft/recipe/purple_harness.json
 --- versions/1.21.5/data/minecraft/recipe/purple_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/purple_harness.json	2025-11-23 19:01:34.110764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/purple_harness.json	2026-03-29 12:55:49.088587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5742,7 +5742,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/purple_harness.json versions/1.2
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/red_harness.json versions/1.21.7/data/minecraft/recipe/red_harness.json
 --- versions/1.21.5/data/minecraft/recipe/red_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/red_harness.json	2025-11-23 19:01:34.111764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/red_harness.json	2026-03-29 12:55:49.090587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5765,7 +5765,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/red_harness.json versions/1.21.7
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/saddle.json versions/1.21.7/data/minecraft/recipe/saddle.json
 --- versions/1.21.5/data/minecraft/recipe/saddle.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/saddle.json	2025-11-23 19:01:34.113764837 +0000
++++ versions/1.21.7/data/minecraft/recipe/saddle.json	2026-03-29 12:55:49.091587969 +0000
 @@ -0,0 +1,16 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5786,7 +5786,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/saddle.json versions/1.21.7/data
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/white_harness.json versions/1.21.7/data/minecraft/recipe/white_harness.json
 --- versions/1.21.5/data/minecraft/recipe/white_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/white_harness.json	2025-11-23 19:01:34.122764836 +0000
++++ versions/1.21.7/data/minecraft/recipe/white_harness.json	2026-03-29 12:55:49.101587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5809,7 +5809,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/white_harness.json versions/1.21
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/recipe/yellow_harness.json versions/1.21.7/data/minecraft/recipe/yellow_harness.json
 --- versions/1.21.5/data/minecraft/recipe/yellow_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/recipe/yellow_harness.json	2025-11-23 19:01:34.124764836 +0000
++++ versions/1.21.7/data/minecraft/recipe/yellow_harness.json	2026-03-29 12:55:49.101587969 +0000
 @@ -0,0 +1,18 @@
 +{
 +  "type": "minecraft:crafting_shaped",
@@ -5832,7 +5832,7 @@ diff -urN versions/1.21.5/data/minecraft/recipe/yellow_harness.json versions/1.2
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/block/happy_ghast_avoids.json versions/1.21.7/data/minecraft/tags/block/happy_ghast_avoids.json
 --- versions/1.21.5/data/minecraft/tags/block/happy_ghast_avoids.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/block/happy_ghast_avoids.json	2025-11-23 19:01:34.128764836 +0000
++++ versions/1.21.7/data/minecraft/tags/block/happy_ghast_avoids.json	2026-03-29 12:55:49.104587969 +0000
 @@ -0,0 +1,10 @@
 +{
 +  "values": [
@@ -5846,7 +5846,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/block/happy_ghast_avoids.json vers
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/block/plays_ambient_desert_block_sounds.json versions/1.21.7/data/minecraft/tags/block/plays_ambient_desert_block_sounds.json
---- versions/1.21.5/data/minecraft/tags/block/plays_ambient_desert_block_sounds.json	2025-11-23 19:01:33.182477199 +0000
+--- versions/1.21.5/data/minecraft/tags/block/plays_ambient_desert_block_sounds.json	2026-03-29 12:55:48.678493385 +0000
 +++ versions/1.21.7/data/minecraft/tags/block/plays_ambient_desert_block_sounds.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -5858,8 +5858,8 @@ diff -urN versions/1.21.5/data/minecraft/tags/block/plays_ambient_desert_block_s
 -}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/block/sand.json versions/1.21.7/data/minecraft/tags/block/sand.json
---- versions/1.21.5/data/minecraft/tags/block/sand.json	2025-11-23 19:01:33.182764868 +0000
-+++ versions/1.21.7/data/minecraft/tags/block/sand.json	2025-11-23 19:01:34.131870608 +0000
+--- versions/1.21.5/data/minecraft/tags/block/sand.json	2026-03-29 12:55:48.678587969 +0000
++++ versions/1.21.7/data/minecraft/tags/block/sand.json	2026-03-29 12:55:49.107118364 +0000
 @@ -2,7 +2,6 @@
    "values": [
      "minecraft:sand",
@@ -5871,7 +5871,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/block/sand.json versions/1.21.7/da
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/block/triggers_ambient_desert_dry_vegetation_block_sounds.json versions/1.21.7/data/minecraft/tags/block/triggers_ambient_desert_dry_vegetation_block_sounds.json
 --- versions/1.21.5/data/minecraft/tags/block/triggers_ambient_desert_dry_vegetation_block_sounds.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/block/triggers_ambient_desert_dry_vegetation_block_sounds.json	2025-11-23 19:01:34.133764836 +0000
++++ versions/1.21.7/data/minecraft/tags/block/triggers_ambient_desert_dry_vegetation_block_sounds.json	2026-03-29 12:55:49.107587969 +0000
 @@ -0,0 +1,7 @@
 +{
 +  "values": [
@@ -5883,7 +5883,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/block/triggers_ambient_desert_dry_
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/block/triggers_ambient_desert_sand_block_sounds.json versions/1.21.7/data/minecraft/tags/block/triggers_ambient_desert_sand_block_sounds.json
 --- versions/1.21.5/data/minecraft/tags/block/triggers_ambient_desert_sand_block_sounds.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/block/triggers_ambient_desert_sand_block_sounds.json	2025-11-23 19:01:34.133764836 +0000
++++ versions/1.21.7/data/minecraft/tags/block/triggers_ambient_desert_sand_block_sounds.json	2026-03-29 12:55:49.107587969 +0000
 @@ -0,0 +1,6 @@
 +{
 +  "values": [
@@ -5894,7 +5894,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/block/triggers_ambient_desert_sand
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/block/triggers_ambient_dried_ghast_block_sounds.json versions/1.21.7/data/minecraft/tags/block/triggers_ambient_dried_ghast_block_sounds.json
 --- versions/1.21.5/data/minecraft/tags/block/triggers_ambient_dried_ghast_block_sounds.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/block/triggers_ambient_dried_ghast_block_sounds.json	2025-11-23 19:01:34.133764836 +0000
++++ versions/1.21.7/data/minecraft/tags/block/triggers_ambient_dried_ghast_block_sounds.json	2026-03-29 12:55:49.107587969 +0000
 @@ -0,0 +1,6 @@
 +{
 +  "values": [
@@ -5905,7 +5905,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/block/triggers_ambient_dried_ghast
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/dialog/pause_screen_additions.json versions/1.21.7/data/minecraft/tags/dialog/pause_screen_additions.json
 --- versions/1.21.5/data/minecraft/tags/dialog/pause_screen_additions.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/dialog/pause_screen_additions.json	2025-11-23 19:01:34.135764836 +0000
++++ versions/1.21.7/data/minecraft/tags/dialog/pause_screen_additions.json	2026-03-29 12:55:49.109980868 +0000
 @@ -0,0 +1,3 @@
 +{
 +  "values": []
@@ -5913,7 +5913,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/dialog/pause_screen_additions.json
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/dialog/quick_actions.json versions/1.21.7/data/minecraft/tags/dialog/quick_actions.json
 --- versions/1.21.5/data/minecraft/tags/dialog/quick_actions.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/dialog/quick_actions.json	2025-11-23 19:01:34.136751363 +0000
++++ versions/1.21.7/data/minecraft/tags/dialog/quick_actions.json	2026-03-29 12:55:49.110925745 +0000
 @@ -0,0 +1,3 @@
 +{
 +  "values": []
@@ -5921,7 +5921,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/dialog/quick_actions.json versions
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/entity_type/can_equip_harness.json versions/1.21.7/data/minecraft/tags/entity_type/can_equip_harness.json
 --- versions/1.21.5/data/minecraft/tags/entity_type/can_equip_harness.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/entity_type/can_equip_harness.json	2025-11-23 19:01:34.137508052 +0000
++++ versions/1.21.7/data/minecraft/tags/entity_type/can_equip_harness.json	2026-03-29 12:55:49.111690125 +0000
 @@ -0,0 +1,5 @@
 +{
 +  "values": [
@@ -5930,8 +5930,8 @@ diff -urN versions/1.21.5/data/minecraft/tags/entity_type/can_equip_harness.json
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/entity_type/dismounts_underwater.json versions/1.21.7/data/minecraft/tags/entity_type/dismounts_underwater.json
---- versions/1.21.5/data/minecraft/tags/entity_type/dismounts_underwater.json	2025-11-23 19:01:33.186977931 +0000
-+++ versions/1.21.7/data/minecraft/tags/entity_type/dismounts_underwater.json	2025-11-23 19:01:34.137508052 +0000
+--- versions/1.21.5/data/minecraft/tags/entity_type/dismounts_underwater.json	2026-03-29 12:55:48.682955041 +0000
++++ versions/1.21.7/data/minecraft/tags/entity_type/dismounts_underwater.json	2026-03-29 12:55:49.111690125 +0000
 @@ -3,6 +3,7 @@
      "minecraft:camel",
      "minecraft:chicken",
@@ -5941,8 +5941,8 @@ diff -urN versions/1.21.5/data/minecraft/tags/entity_type/dismounts_underwater.j
      "minecraft:llama",
      "minecraft:mule",
 diff -urN versions/1.21.5/data/minecraft/tags/entity_type/fall_damage_immune.json versions/1.21.7/data/minecraft/tags/entity_type/fall_damage_immune.json
---- versions/1.21.5/data/minecraft/tags/entity_type/fall_damage_immune.json	2025-11-23 19:01:33.186977931 +0000
-+++ versions/1.21.7/data/minecraft/tags/entity_type/fall_damage_immune.json	2025-11-23 19:01:34.137508052 +0000
+--- versions/1.21.5/data/minecraft/tags/entity_type/fall_damage_immune.json	2026-03-29 12:55:48.682955041 +0000
++++ versions/1.21.7/data/minecraft/tags/entity_type/fall_damage_immune.json	2026-03-29 12:55:49.111690125 +0000
 @@ -10,6 +10,7 @@
      "minecraft:cat",
      "minecraft:chicken",
@@ -5953,7 +5953,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/entity_type/fall_damage_immune.jso
      "minecraft:ocelot",
 diff -urN versions/1.21.5/data/minecraft/tags/entity_type/followable_friendly_mobs.json versions/1.21.7/data/minecraft/tags/entity_type/followable_friendly_mobs.json
 --- versions/1.21.5/data/minecraft/tags/entity_type/followable_friendly_mobs.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/entity_type/followable_friendly_mobs.json	2025-11-23 19:01:34.137508052 +0000
++++ versions/1.21.7/data/minecraft/tags/entity_type/followable_friendly_mobs.json	2026-03-29 12:55:49.111690125 +0000
 @@ -0,0 +1,29 @@
 +{
 +  "values": [
@@ -5987,7 +5987,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/entity_type/followable_friendly_mo
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/item/happy_ghast_food.json versions/1.21.7/data/minecraft/tags/item/happy_ghast_food.json
 --- versions/1.21.5/data/minecraft/tags/item/happy_ghast_food.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/item/happy_ghast_food.json	2025-11-23 19:01:34.140276615 +0000
++++ versions/1.21.7/data/minecraft/tags/item/happy_ghast_food.json	2026-03-29 12:55:49.114623031 +0000
 @@ -0,0 +1,5 @@
 +{
 +  "values": [
@@ -5997,7 +5997,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/item/happy_ghast_food.json version
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/item/happy_ghast_tempt_items.json versions/1.21.7/data/minecraft/tags/item/happy_ghast_tempt_items.json
 --- versions/1.21.5/data/minecraft/tags/item/happy_ghast_tempt_items.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/item/happy_ghast_tempt_items.json	2025-11-23 19:01:34.140276615 +0000
++++ versions/1.21.7/data/minecraft/tags/item/happy_ghast_tempt_items.json	2026-03-29 12:55:49.114623031 +0000
 @@ -0,0 +1,6 @@
 +{
 +  "values": [
@@ -6008,7 +6008,7 @@ diff -urN versions/1.21.5/data/minecraft/tags/item/happy_ghast_tempt_items.json 
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/item/harnesses.json versions/1.21.7/data/minecraft/tags/item/harnesses.json
 --- versions/1.21.5/data/minecraft/tags/item/harnesses.json	1970-01-01 00:00:00.000000000 +0000
-+++ versions/1.21.7/data/minecraft/tags/item/harnesses.json	2025-11-23 19:01:34.140276615 +0000
++++ versions/1.21.7/data/minecraft/tags/item/harnesses.json	2026-03-29 12:55:49.114623031 +0000
 @@ -0,0 +1,20 @@
 +{
 +  "values": [
@@ -6032,8 +6032,8 @@ diff -urN versions/1.21.5/data/minecraft/tags/item/harnesses.json versions/1.21.
 +}
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/item/horse_food.json versions/1.21.7/data/minecraft/tags/item/horse_food.json
---- versions/1.21.5/data/minecraft/tags/item/horse_food.json	2025-11-23 19:01:33.189770699 +0000
-+++ versions/1.21.7/data/minecraft/tags/item/horse_food.json	2025-11-23 19:01:34.140276615 +0000
+--- versions/1.21.5/data/minecraft/tags/item/horse_food.json	2026-03-29 12:55:48.685915799 +0000
++++ versions/1.21.7/data/minecraft/tags/item/horse_food.json	2026-03-29 12:55:49.114623031 +0000
 @@ -4,6 +4,7 @@
      "minecraft:sugar",
      "minecraft:hay_block",
@@ -6043,8 +6043,8 @@ diff -urN versions/1.21.5/data/minecraft/tags/item/horse_food.json versions/1.21
      "minecraft:golden_apple",
      "minecraft:enchanted_golden_apple"
 diff -urN versions/1.21.5/data/minecraft/tags/item/sand.json versions/1.21.7/data/minecraft/tags/item/sand.json
---- versions/1.21.5/data/minecraft/tags/item/sand.json	2025-11-23 19:01:33.191764868 +0000
-+++ versions/1.21.7/data/minecraft/tags/item/sand.json	2025-11-23 19:01:34.141764836 +0000
+--- versions/1.21.5/data/minecraft/tags/item/sand.json	2026-03-29 12:55:48.687587969 +0000
++++ versions/1.21.7/data/minecraft/tags/item/sand.json	2026-03-29 12:55:49.115587969 +0000
 @@ -2,7 +2,6 @@
    "values": [
      "minecraft:sand",
@@ -6055,8 +6055,8 @@ diff -urN versions/1.21.5/data/minecraft/tags/item/sand.json versions/1.21.7/dat
  }
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/tags/painting_variant/placeable.json versions/1.21.7/data/minecraft/tags/painting_variant/placeable.json
---- versions/1.21.5/data/minecraft/tags/painting_variant/placeable.json	2025-11-23 19:01:33.192764868 +0000
-+++ versions/1.21.7/data/minecraft/tags/painting_variant/placeable.json	2025-11-23 19:01:34.142764836 +0000
+--- versions/1.21.5/data/minecraft/tags/painting_variant/placeable.json	2026-03-29 12:55:48.688587969 +0000
++++ versions/1.21.7/data/minecraft/tags/painting_variant/placeable.json	2026-03-29 12:55:49.117587969 +0000
 @@ -45,6 +45,7 @@
      "minecraft:passage",
      "minecraft:pond",
@@ -6068,8 +6068,8 @@ diff -urN versions/1.21.5/data/minecraft/tags/painting_variant/placeable.json ve
  }
 \ No newline at end of file
 diff -urN versions/1.21.5/data/minecraft/worldgen/configured_feature/patch_leaf_litter.json versions/1.21.7/data/minecraft/worldgen/configured_feature/patch_leaf_litter.json
---- versions/1.21.5/data/minecraft/worldgen/configured_feature/patch_leaf_litter.json	2025-11-23 19:01:33.204764867 +0000
-+++ versions/1.21.7/data/minecraft/worldgen/configured_feature/patch_leaf_litter.json	2025-11-23 19:01:34.157764835 +0000
+--- versions/1.21.5/data/minecraft/worldgen/configured_feature/patch_leaf_litter.json	2026-03-29 12:55:48.702587969 +0000
++++ versions/1.21.7/data/minecraft/worldgen/configured_feature/patch_leaf_litter.json	2026-03-29 12:55:49.130587969 +0000
 @@ -136,8 +136,22 @@
          {
            "type": "minecraft:block_predicate_filter",
@@ -6096,8 +6096,8 @@ diff -urN versions/1.21.5/data/minecraft/worldgen/configured_feature/patch_leaf_
          }
        ]
 diff -urN versions/1.21.5/reports/blocks.json versions/1.21.7/reports/blocks.json
---- versions/1.21.5/reports/blocks.json	2025-11-23 19:01:33.440764859 +0000
-+++ versions/1.21.7/reports/blocks.json	2025-11-23 19:01:34.421764826 +0000
+--- versions/1.21.5/reports/blocks.json	2026-03-29 12:55:48.734587969 +0000
++++ versions/1.21.7/reports/blocks.json	2026-03-29 12:55:49.162587969 +0000
 @@ -4663,7 +4663,7 @@
      "states": [
        {
@@ -132483,8 +132483,8 @@ diff -urN versions/1.21.5/reports/blocks.json versions/1.21.7/reports/blocks.jso
      },
      "states": [
 diff -urN versions/1.21.5/reports/commands.json versions/1.21.7/reports/commands.json
---- versions/1.21.5/reports/commands.json	2025-11-23 19:01:33.441764859 +0000
-+++ versions/1.21.7/reports/commands.json	2025-11-23 19:01:34.422764826 +0000
+--- versions/1.21.5/reports/commands.json	2026-03-29 12:55:48.734587969 +0000
++++ versions/1.21.7/reports/commands.json	2026-03-29 12:55:49.162587969 +0000
 @@ -166,7 +166,8 @@
              }
            }
@@ -133502,8 +133502,8 @@ diff -urN versions/1.21.5/reports/commands.json versions/1.21.7/reports/commands
  }
 \ No newline at end of file
 diff -urN versions/1.21.5/reports/datapack.json versions/1.21.7/reports/datapack.json
---- versions/1.21.5/reports/datapack.json	2025-11-23 19:01:33.441764859 +0000
-+++ versions/1.21.7/reports/datapack.json	2025-11-23 19:01:34.422764826 +0000
+--- versions/1.21.5/reports/datapack.json	2026-03-29 12:55:48.734587969 +0000
++++ versions/1.21.7/reports/datapack.json	2026-03-29 12:55:49.162587969 +0000
 @@ -119,6 +119,26 @@
        "stable": true,
        "tags": true
@@ -133544,8 +133544,8 @@ diff -urN versions/1.21.5/reports/datapack.json versions/1.21.7/reports/datapack
      "minecraft:instrument": {
        "elements": true,
 diff -urN versions/1.21.5/reports/items.json versions/1.21.7/reports/items.json
---- versions/1.21.5/reports/items.json	2025-11-23 19:01:33.442764859 +0000
-+++ versions/1.21.7/reports/items.json	2025-11-23 19:01:34.423764826 +0000
+--- versions/1.21.5/reports/items.json	2026-03-29 12:55:48.734587969 +0000
++++ versions/1.21.7/reports/items.json	2026-03-29 12:55:49.163587969 +0000
 @@ -1623,7 +1623,9 @@
            "minecraft:trader_llama"
          ],
@@ -134538,8 +134538,8 @@ diff -urN versions/1.21.5/reports/items.json versions/1.21.7/reports/items.json
        "minecraft:enchantments": {},
        "minecraft:equippable": {
 diff -urN versions/1.21.5/reports/packets.json versions/1.21.7/reports/packets.json
---- versions/1.21.5/reports/packets.json	2025-11-23 19:01:33.442764859 +0000
-+++ versions/1.21.7/reports/packets.json	2025-11-23 19:01:34.423764826 +0000
+--- versions/1.21.5/reports/packets.json	2026-03-29 12:55:48.735587969 +0000
++++ versions/1.21.7/reports/packets.json	2026-03-29 12:55:49.163587969 +0000
 @@ -1,6 +1,9 @@
  {
    "configuration": {
@@ -134853,8 +134853,8 @@ diff -urN versions/1.21.5/reports/packets.json versions/1.21.7/reports/packets.j
      }
    },
 diff -urN versions/1.21.5/reports/registries.json versions/1.21.7/reports/registries.json
---- versions/1.21.5/reports/registries.json	2025-11-23 19:01:33.442764859 +0000
-+++ versions/1.21.7/reports/registries.json	2025-11-23 19:01:34.423764826 +0000
+--- versions/1.21.5/reports/registries.json	2026-03-29 12:55:48.735587969 +0000
++++ versions/1.21.7/reports/registries.json	2026-03-29 12:55:49.163587969 +0000
 @@ -108,77 +108,86 @@
        "minecraft:burning_time": {
          "protocol_id": 7

@@ -1,6 +1,6 @@
 diff -urN versions/1.18.2/assets/minecraft/blockstates/redstone_wire.json versions/1.18/assets/minecraft/blockstates/redstone_wire.json
---- versions/1.18.2/assets/minecraft/blockstates/redstone_wire.json	2025-11-23 19:01:20.126765309 +0000
-+++ versions/1.18/assets/minecraft/blockstates/redstone_wire.json	2025-11-23 19:01:20.826765286 +0000
+--- versions/1.18.2/assets/minecraft/blockstates/redstone_wire.json	2026-03-29 12:55:44.018587971 +0000
++++ versions/1.18/assets/minecraft/blockstates/redstone_wire.json	2026-03-29 12:55:44.285587971 +0000
 @@ -4,26 +4,26 @@
        "when": {
          "OR": [
@@ -40,8 +40,8 @@ diff -urN versions/1.18.2/assets/minecraft/blockstates/redstone_wire.json versio
          ]
        },
 diff -urN versions/1.18.2/data/minecraft/advancements/end/find_end_city.json versions/1.18/data/minecraft/advancements/end/find_end_city.json
---- versions/1.18.2/data/minecraft/advancements/end/find_end_city.json	2025-11-23 19:01:20.261572687 +0000
-+++ versions/1.18/data/minecraft/advancements/end/find_end_city.json	2025-11-23 19:01:20.944024368 +0000
+--- versions/1.18.2/data/minecraft/advancements/end/find_end_city.json	2026-03-29 12:55:44.112544341 +0000
++++ versions/1.18/data/minecraft/advancements/end/find_end_city.json	2026-03-29 12:55:44.385454112 +0000
 @@ -20,7 +20,7 @@
        "trigger": "minecraft:location",
        "conditions": {
@@ -52,8 +52,8 @@ diff -urN versions/1.18.2/data/minecraft/advancements/end/find_end_city.json ver
        }
      }
 diff -urN versions/1.18.2/data/minecraft/advancements/nether/find_bastion.json versions/1.18/data/minecraft/advancements/nether/find_bastion.json
---- versions/1.18.2/data/minecraft/advancements/nether/find_bastion.json	2025-11-23 19:01:20.262437198 +0000
-+++ versions/1.18/data/minecraft/advancements/nether/find_bastion.json	2025-11-23 19:01:20.945176218 +0000
+--- versions/1.18.2/data/minecraft/advancements/nether/find_bastion.json	2026-03-29 12:55:44.113530676 +0000
++++ versions/1.18/data/minecraft/advancements/nether/find_bastion.json	2026-03-29 12:55:44.386302139 +0000
 @@ -20,7 +20,7 @@
        "trigger": "minecraft:location",
        "conditions": {
@@ -64,8 +64,8 @@ diff -urN versions/1.18.2/data/minecraft/advancements/nether/find_bastion.json v
        }
      }
 diff -urN versions/1.18.2/data/minecraft/advancements/nether/find_fortress.json versions/1.18/data/minecraft/advancements/nether/find_fortress.json
---- versions/1.18.2/data/minecraft/advancements/nether/find_fortress.json	2025-11-23 19:01:20.262437198 +0000
-+++ versions/1.18/data/minecraft/advancements/nether/find_fortress.json	2025-11-23 19:01:20.945765282 +0000
+--- versions/1.18.2/data/minecraft/advancements/nether/find_fortress.json	2026-03-29 12:55:44.113530676 +0000
++++ versions/1.18/data/minecraft/advancements/nether/find_fortress.json	2026-03-29 12:55:44.386302139 +0000
 @@ -20,7 +20,7 @@
        "trigger": "minecraft:location",
        "conditions": {
@@ -76,8 +76,8 @@ diff -urN versions/1.18.2/data/minecraft/advancements/nether/find_fortress.json 
        }
      }
 diff -urN versions/1.18.2/data/minecraft/advancements/story/follow_ender_eye.json versions/1.18/data/minecraft/advancements/story/follow_ender_eye.json
---- versions/1.18.2/data/minecraft/advancements/story/follow_ender_eye.json	2025-11-23 19:01:20.296578684 +0000
-+++ versions/1.18/data/minecraft/advancements/story/follow_ender_eye.json	2025-11-23 19:01:20.989732008 +0000
+--- versions/1.18.2/data/minecraft/advancements/story/follow_ender_eye.json	2026-03-29 12:55:44.151560071 +0000
++++ versions/1.18/data/minecraft/advancements/story/follow_ender_eye.json	2026-03-29 12:55:44.419565378 +0000
 @@ -20,7 +20,7 @@
        "trigger": "minecraft:location",
        "conditions": {
@@ -88,8 +88,8 @@ diff -urN versions/1.18.2/data/minecraft/advancements/story/follow_ender_eye.jso
        }
      }
 diff -urN versions/1.18.2/data/minecraft/loot_tables/chests/shipwreck_map.json versions/1.18/data/minecraft/loot_tables/chests/shipwreck_map.json
---- versions/1.18.2/data/minecraft/loot_tables/chests/shipwreck_map.json	2025-11-23 19:01:20.322765303 +0000
-+++ versions/1.18/data/minecraft/loot_tables/chests/shipwreck_map.json	2025-11-23 19:01:21.024492024 +0000
+--- versions/1.18.2/data/minecraft/loot_tables/chests/shipwreck_map.json	2026-03-29 12:55:44.179197737 +0000
++++ versions/1.18/data/minecraft/loot_tables/chests/shipwreck_map.json	2026-03-29 12:55:44.447604095 +0000
 @@ -13,12 +13,6 @@
                "decoration": "red_x",
                "zoom": 1,
@@ -104,8 +104,8 @@ diff -urN versions/1.18.2/data/minecraft/loot_tables/chests/shipwreck_map.json v
            ],
            "name": "minecraft:map"
 diff -urN versions/1.18.2/data/minecraft/loot_tables/chests/shipwreck_supply.json versions/1.18/data/minecraft/loot_tables/chests/shipwreck_supply.json
---- versions/1.18.2/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-11-23 19:01:20.322765303 +0000
-+++ versions/1.18/data/minecraft/loot_tables/chests/shipwreck_supply.json	2025-11-23 19:01:21.024492024 +0000
+--- versions/1.18.2/data/minecraft/loot_tables/chests/shipwreck_supply.json	2026-03-29 12:55:44.179197737 +0000
++++ versions/1.18/data/minecraft/loot_tables/chests/shipwreck_supply.json	2026-03-29 12:55:44.447604095 +0000
 @@ -113,7 +113,7 @@
                "function": "minecraft:set_stew_effect",
                "effects": [
@@ -168,8 +168,8 @@ diff -urN versions/1.18.2/data/minecraft/loot_tables/chests/shipwreck_supply.jso
                  }
                ]
 diff -urN versions/1.18.2/data/minecraft/loot_tables/chests/underwater_ruin_big.json versions/1.18/data/minecraft/loot_tables/chests/underwater_ruin_big.json
---- versions/1.18.2/data/minecraft/loot_tables/chests/underwater_ruin_big.json	2025-11-23 19:01:20.323765303 +0000
-+++ versions/1.18/data/minecraft/loot_tables/chests/underwater_ruin_big.json	2025-11-23 19:01:21.024492024 +0000
+--- versions/1.18.2/data/minecraft/loot_tables/chests/underwater_ruin_big.json	2026-03-29 12:55:44.179197737 +0000
++++ versions/1.18/data/minecraft/loot_tables/chests/underwater_ruin_big.json	2026-03-29 12:55:44.447604095 +0000
 @@ -108,12 +108,6 @@
                "decoration": "red_x",
                "zoom": 1,
@@ -184,8 +184,8 @@ diff -urN versions/1.18.2/data/minecraft/loot_tables/chests/underwater_ruin_big.
            ],
            "name": "minecraft:map"
 diff -urN versions/1.18.2/data/minecraft/loot_tables/chests/underwater_ruin_small.json versions/1.18/data/minecraft/loot_tables/chests/underwater_ruin_small.json
---- versions/1.18.2/data/minecraft/loot_tables/chests/underwater_ruin_small.json	2025-11-23 19:01:20.323765303 +0000
-+++ versions/1.18/data/minecraft/loot_tables/chests/underwater_ruin_small.json	2025-11-23 19:01:21.024492024 +0000
+--- versions/1.18.2/data/minecraft/loot_tables/chests/underwater_ruin_small.json	2026-03-29 12:55:44.179197737 +0000
++++ versions/1.18/data/minecraft/loot_tables/chests/underwater_ruin_small.json	2026-03-29 12:55:44.447604095 +0000
 @@ -88,12 +88,6 @@
                "decoration": "red_x",
                "zoom": 1,
@@ -200,8 +200,8 @@ diff -urN versions/1.18.2/data/minecraft/loot_tables/chests/underwater_ruin_smal
            ],
            "name": "minecraft:map"
 diff -urN versions/1.18.2/data/minecraft/tags/blocks/azalea_root_replaceable.json versions/1.18/data/minecraft/tags/blocks/azalea_root_replaceable.json
---- versions/1.18.2/data/minecraft/tags/blocks/azalea_root_replaceable.json	2025-11-23 19:01:20.364711384 +0000
-+++ versions/1.18/data/minecraft/tags/blocks/azalea_root_replaceable.json	2025-11-23 19:01:21.066186647 +0000
+--- versions/1.18.2/data/minecraft/tags/blocks/azalea_root_replaceable.json	2026-03-29 12:55:44.217777191 +0000
++++ versions/1.18/data/minecraft/tags/blocks/azalea_root_replaceable.json	2026-03-29 12:55:44.486328008 +0000
 @@ -1,14 +1,8 @@
  {
    "replace": false,
@@ -221,8 +221,8 @@ diff -urN versions/1.18.2/data/minecraft/tags/blocks/azalea_root_replaceable.jso
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/blocks/dripstone_replaceable_blocks.json versions/1.18/data/minecraft/tags/blocks/dripstone_replaceable_blocks.json
---- versions/1.18.2/data/minecraft/tags/blocks/dripstone_replaceable_blocks.json	2025-11-23 19:01:20.365765301 +0000
-+++ versions/1.18/data/minecraft/tags/blocks/dripstone_replaceable_blocks.json	2025-11-23 19:01:21.066186647 +0000
+--- versions/1.18.2/data/minecraft/tags/blocks/dripstone_replaceable_blocks.json	2026-03-29 12:55:44.217777191 +0000
++++ versions/1.18/data/minecraft/tags/blocks/dripstone_replaceable_blocks.json	2026-03-29 12:55:44.486587971 +0000
 @@ -1,6 +1,7 @@
  {
    "replace": false,
@@ -234,7 +234,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/blocks/dripstone_replaceable_block
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/blocks/fall_damage_resetting.json versions/1.18/data/minecraft/tags/blocks/fall_damage_resetting.json
---- versions/1.18.2/data/minecraft/tags/blocks/fall_damage_resetting.json	2025-11-23 19:01:20.365765301 +0000
+--- versions/1.18.2/data/minecraft/tags/blocks/fall_damage_resetting.json	2026-03-29 12:55:44.217777191 +0000
 +++ versions/1.18/data/minecraft/tags/blocks/fall_damage_resetting.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,8 +0,0 @@
 -{
@@ -247,8 +247,8 @@ diff -urN versions/1.18.2/data/minecraft/tags/blocks/fall_damage_resetting.json 
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/blocks/goats_spawnable_on.json versions/1.18/data/minecraft/tags/blocks/goats_spawnable_on.json
---- versions/1.18.2/data/minecraft/tags/blocks/goats_spawnable_on.json	2025-11-23 19:01:20.365765301 +0000
-+++ versions/1.18/data/minecraft/tags/blocks/goats_spawnable_on.json	2025-11-23 19:01:21.066765278 +0000
+--- versions/1.18.2/data/minecraft/tags/blocks/goats_spawnable_on.json	2026-03-29 12:55:44.217777191 +0000
++++ versions/1.18/data/minecraft/tags/blocks/goats_spawnable_on.json	2026-03-29 12:55:44.486587971 +0000
 @@ -3,6 +3,7 @@
    "values": [
      "minecraft:stone",
@@ -258,7 +258,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/blocks/goats_spawnable_on.json ver
      "minecraft:packed_ice",
      "minecraft:gravel"
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/bastion_remnant.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/bastion_remnant.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/bastion_remnant.json	2025-11-23 19:01:20.373920778 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/bastion_remnant.json	2026-03-29 12:55:44.224590244 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/bastion_remnant.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,9 +0,0 @@
 -{
@@ -272,7 +272,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/basti
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/buried_treasure.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/buried_treasure.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/buried_treasure.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/buried_treasure.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/buried_treasure.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -283,7 +283,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/burie
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/desert_pyramid.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/desert_pyramid.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/desert_pyramid.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/desert_pyramid.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/desert_pyramid.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -294,7 +294,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/deser
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/end_city.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/end_city.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/end_city.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/end_city.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/end_city.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -306,7 +306,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/end_c
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/igloo.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/igloo.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/igloo.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/igloo.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/igloo.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,8 +0,0 @@
 -{
@@ -319,7 +319,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/igloo
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/jungle_temple.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/jungle_temple.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/jungle_temple.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/jungle_temple.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/jungle_temple.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -331,7 +331,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/jungl
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/mineshaft.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/mineshaft.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/mineshaft.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/mineshaft.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/mineshaft.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,26 +0,0 @@
 -{
@@ -362,7 +362,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/mines
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/mineshaft_mesa.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/mineshaft_mesa.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/mineshaft_mesa.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/mineshaft_mesa.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/mineshaft_mesa.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -373,7 +373,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/mines
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/nether_fortress.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/nether_fortress.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/nether_fortress.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/nether_fortress.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/nether_fortress.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -384,7 +384,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/nethe
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/nether_fossil.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/nether_fossil.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/nether_fossil.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/nether_fossil.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/nether_fossil.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -395,7 +395,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/nethe
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_monument.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ocean_monument.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_monument.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_monument.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ocean_monument.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -406,7 +406,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_cold.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_cold.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_cold.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_cold.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_cold.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,11 +0,0 @@
 -{
@@ -422,7 +422,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_warm.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_warm.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_warm.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_warm.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ocean_ruin_warm.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,8 +0,0 @@
 -{
@@ -435,7 +435,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ocean
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/pillager_outpost.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/pillager_outpost.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/pillager_outpost.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/pillager_outpost.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/pillager_outpost.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,12 +0,0 @@
 -{
@@ -452,7 +452,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/pilla
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_desert.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_desert.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_desert.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_desert.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_desert.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -463,7 +463,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruine
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_jungle.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_jungle.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_jungle.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_jungle.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_jungle.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -474,7 +474,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruine
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_mountain.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_mountain.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_mountain.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_mountain.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_mountain.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,11 +0,0 @@
 -{
@@ -490,7 +490,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruine
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_nether.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_nether.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_nether.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_nether.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_nether.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -501,7 +501,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruine
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_ocean.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_ocean.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_ocean.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_ocean.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_ocean.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -512,7 +512,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruine
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_standard.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_standard.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_standard.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_standard.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_standard.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,17 +0,0 @@
 -{
@@ -534,7 +534,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruine
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_swamp.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_swamp.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_swamp.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_swamp.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/ruined_portal_swamp.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -545,7 +545,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/ruine
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/shipwreck.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/shipwreck.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/shipwreck.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/shipwreck.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/shipwreck.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -556,7 +556,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/shipw
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/shipwreck_beached.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/shipwreck_beached.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/shipwreck_beached.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/shipwreck_beached.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/shipwreck_beached.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -567,7 +567,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/shipw
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/stronghold.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/stronghold.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/stronghold.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/stronghold.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/stronghold.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,40 +0,0 @@
 -{
@@ -612,7 +612,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/stron
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/swamp_hut.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/swamp_hut.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/swamp_hut.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/swamp_hut.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/swamp_hut.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -623,7 +623,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/swamp
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_desert.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_desert.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_desert.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_desert.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_desert.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -634,7 +634,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/villa
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_plains.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_plains.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_plains.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_plains.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_plains.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -646,7 +646,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/villa
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_savanna.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_savanna.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_savanna.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_savanna.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_savanna.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -657,7 +657,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/villa
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_snowy.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_snowy.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_snowy.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_snowy.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_snowy.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -668,7 +668,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/villa
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_taiga.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_taiga.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_taiga.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/village_taiga.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/village_taiga.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -679,7 +679,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/villa
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/woodland_mansion.json versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/woodland_mansion.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/woodland_mansion.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/woodland_mansion.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/has_structure/woodland_mansion.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -690,7 +690,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/has_structure/woodl
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_badlands.json versions/1.18/data/minecraft/tags/worldgen/biome/is_badlands.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_badlands.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_badlands.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_badlands.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,8 +0,0 @@
 -{
@@ -703,7 +703,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_badlands.json ve
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_beach.json versions/1.18/data/minecraft/tags/worldgen/biome/is_beach.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_beach.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_beach.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_beach.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -715,7 +715,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_beach.json versi
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_deep_ocean.json versions/1.18/data/minecraft/tags/worldgen/biome/is_deep_ocean.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_deep_ocean.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_deep_ocean.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_deep_ocean.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,9 +0,0 @@
 -{
@@ -729,7 +729,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_deep_ocean.json 
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_forest.json versions/1.18/data/minecraft/tags/worldgen/biome/is_forest.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_forest.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_forest.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_forest.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,11 +0,0 @@
 -{
@@ -745,7 +745,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_forest.json vers
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_hill.json versions/1.18/data/minecraft/tags/worldgen/biome/is_hill.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_hill.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_hill.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_hill.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,8 +0,0 @@
 -{
@@ -758,7 +758,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_hill.json versio
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_jungle.json versions/1.18/data/minecraft/tags/worldgen/biome/is_jungle.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_jungle.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_jungle.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_jungle.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,8 +0,0 @@
 -{
@@ -771,7 +771,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_jungle.json vers
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_mountain.json versions/1.18/data/minecraft/tags/worldgen/biome/is_mountain.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_mountain.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_mountain.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_mountain.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,10 +0,0 @@
 -{
@@ -786,7 +786,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_mountain.json ve
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_nether.json versions/1.18/data/minecraft/tags/worldgen/biome/is_nether.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_nether.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_nether.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_nether.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,10 +0,0 @@
 -{
@@ -801,7 +801,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_nether.json vers
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_ocean.json versions/1.18/data/minecraft/tags/worldgen/biome/is_ocean.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_ocean.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_ocean.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_ocean.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,11 +0,0 @@
 -{
@@ -817,7 +817,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_ocean.json versi
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_river.json versions/1.18/data/minecraft/tags/worldgen/biome/is_river.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_river.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_river.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_river.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -829,7 +829,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_river.json versi
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_taiga.json versions/1.18/data/minecraft/tags/worldgen/biome/is_taiga.json
---- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_taiga.json	2025-11-23 19:01:20.374075828 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/biome/is_taiga.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/biome/is_taiga.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,9 +0,0 @@
 -{
@@ -843,7 +843,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/biome/is_taiga.json versi
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json	2025-11-23 19:01:20.374765301 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json	2026-03-29 12:55:44.224671637 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/dolphin_located.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -855,7 +855,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/eye_of_ender_located.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -866,7 +866,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/mineshaft.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/mineshaft.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/mineshaft.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/mineshaft.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/mineshaft.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -878,7 +878,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/ocean_ruin.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -890,7 +890,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/on_ocean_explorer_maps.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -901,7 +901,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/on_treasure_maps.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -912,7 +912,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/on_woodland_explorer_maps.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,6 +0,0 @@
 -{
@@ -923,7 +923,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/ruined_portal.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,12 +0,0 @@
 -{
@@ -940,7 +940,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/shipwreck.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/shipwreck.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/shipwreck.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/shipwreck.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/shipwreck.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -952,7 +952,7 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/village.json versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/village.json
---- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/village.json	2025-11-23 19:01:20.375703692 +0000
+--- versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feature/village.json	2026-03-29 12:55:44.225913850 +0000
 +++ versions/1.18/data/minecraft/tags/worldgen/configured_structure_feature/village.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,10 +0,0 @@
 -{
@@ -967,8 +967,8 @@ diff -urN versions/1.18.2/data/minecraft/tags/worldgen/configured_structure_feat
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/commands.json versions/1.18/reports/commands.json
---- versions/1.18.2/reports/commands.json	2025-11-23 19:01:20.749765288 +0000
-+++ versions/1.18/reports/commands.json	2025-11-23 19:01:21.475765264 +0000
+--- versions/1.18.2/reports/commands.json	2026-03-29 12:55:44.228587971 +0000
++++ versions/1.18/reports/commands.json	2026-03-29 12:55:44.494587971 +0000
 @@ -157,10 +157,7 @@
            "children": {
              "attribute": {
@@ -1114,8 +1114,8 @@ diff -urN versions/1.18.2/reports/commands.json versions/1.18/reports/commands.j
                              "respectTeams": {
                                "type": "argument",
 diff -urN versions/1.18.2/reports/registries.json versions/1.18/reports/registries.json
---- versions/1.18.2/reports/registries.json	2025-11-23 19:01:20.750765288 +0000
-+++ versions/1.18/reports/registries.json	2025-11-23 19:01:21.476765264 +0000
+--- versions/1.18.2/reports/registries.json	2026-03-29 12:55:44.228587971 +0000
++++ versions/1.18/reports/registries.json	2026-03-29 12:55:44.495587971 +0000
 @@ -12579,19 +12579,8 @@
        }
      }
@@ -1354,8 +1354,8 @@ diff -urN versions/1.18.2/reports/registries.json versions/1.18/reports/registri
        "minecraft:single_pool_element": {
          "protocol_id": 0
 diff -urN versions/1.18.2/reports/worldgen/minecraft/dimension_type/overworld.json versions/1.18/reports/worldgen/minecraft/dimension_type/overworld.json
---- versions/1.18.2/reports/worldgen/minecraft/dimension_type/overworld.json	2025-11-23 19:01:20.760765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/dimension_type/overworld.json	2025-11-23 19:01:21.486765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/dimension_type/overworld.json	2026-03-29 12:55:44.232587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/dimension_type/overworld.json	2026-03-29 12:55:44.498587971 +0000
 @@ -1,6 +1,6 @@
  {
    "logical_height": 384,
@@ -1365,8 +1365,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/dimension_type/overworld.js
    "ambient_light": 0.0,
    "respawn_anchor_works": false,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/dimension_type/overworld_caves.json versions/1.18/reports/worldgen/minecraft/dimension_type/overworld_caves.json
---- versions/1.18.2/reports/worldgen/minecraft/dimension_type/overworld_caves.json	2025-11-23 19:01:20.762257545 +0000
-+++ versions/1.18/reports/worldgen/minecraft/dimension_type/overworld_caves.json	2025-11-23 19:01:21.488368424 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/dimension_type/overworld_caves.json	2026-03-29 12:55:44.233587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/dimension_type/overworld_caves.json	2026-03-29 12:55:44.499974735 +0000
 @@ -1,6 +1,6 @@
  {
    "logical_height": 384,
@@ -1376,8 +1376,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/dimension_type/overworld_ca
    "ambient_light": 0.0,
    "respawn_anchor_works": false,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/dimension_type/the_end.json versions/1.18/reports/worldgen/minecraft/dimension_type/the_end.json
---- versions/1.18.2/reports/worldgen/minecraft/dimension_type/the_end.json	2025-11-23 19:01:20.762257545 +0000
-+++ versions/1.18/reports/worldgen/minecraft/dimension_type/the_end.json	2025-11-23 19:01:21.488368424 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/dimension_type/the_end.json	2026-03-29 12:55:44.233587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/dimension_type/the_end.json	2026-03-29 12:55:44.499974735 +0000
 @@ -1,6 +1,6 @@
  {
    "logical_height": 256,
@@ -1387,8 +1387,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/dimension_type/the_end.json
    "ambient_light": 0.0,
    "respawn_anchor_works": false,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/dimension_type/the_nether.json versions/1.18/reports/worldgen/minecraft/dimension_type/the_nether.json
---- versions/1.18.2/reports/worldgen/minecraft/dimension_type/the_nether.json	2025-11-23 19:01:20.762257545 +0000
-+++ versions/1.18/reports/worldgen/minecraft/dimension_type/the_nether.json	2025-11-23 19:01:21.488368424 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/dimension_type/the_nether.json	2026-03-29 12:55:44.233587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/dimension_type/the_nether.json	2026-03-29 12:55:44.499974735 +0000
 @@ -1,6 +1,6 @@
  {
    "logical_height": 128,
@@ -1398,8 +1398,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/dimension_type/the_nether.j
    "ambient_light": 0.1,
    "respawn_anchor_works": true,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json versions/1.18/reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json	2025-11-23 19:01:20.762535236 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json	2025-11-23 19:01:21.488558200 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json	2026-03-29 12:55:44.234444878 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/basalt_deltas.json	2026-03-29 12:55:44.500160682 +0000
 @@ -29,7 +29,9 @@
      "water_fog_color": 329011
    },
@@ -1412,8 +1412,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/basalt_delta
    "features": [
      [],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/crimson_forest.json versions/1.18/reports/worldgen/minecraft/worldgen/biome/crimson_forest.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/crimson_forest.json	2025-11-23 19:01:20.762535236 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/crimson_forest.json	2025-11-23 19:01:21.488558200 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/crimson_forest.json	2026-03-29 12:55:44.234444878 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/crimson_forest.json	2026-03-29 12:55:44.500160682 +0000
 @@ -29,7 +29,9 @@
      "water_fog_color": 329011
    },
@@ -1426,8 +1426,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/crimson_fore
    "features": [
      [],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/nether_wastes.json versions/1.18/reports/worldgen/minecraft/worldgen/biome/nether_wastes.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/nether_wastes.json	2025-11-23 19:01:20.762765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/nether_wastes.json	2025-11-23 19:01:21.488558200 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/nether_wastes.json	2026-03-29 12:55:44.234587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/nether_wastes.json	2026-03-29 12:55:44.500160682 +0000
 @@ -23,7 +23,9 @@
      "water_fog_color": 329011
    },
@@ -1440,8 +1440,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/nether_waste
    "features": [
      [],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json versions/1.18/reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json	2025-11-23 19:01:20.763765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json	2025-11-23 19:01:21.488765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json	2026-03-29 12:55:44.234587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/soul_sand_valley.json	2026-03-29 12:55:44.500587971 +0000
 @@ -29,7 +29,9 @@
      "water_fog_color": 329011
    },
@@ -1454,8 +1454,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/soul_sand_va
    "features": [
      [],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/warped_forest.json versions/1.18/reports/worldgen/minecraft/worldgen/biome/warped_forest.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/warped_forest.json	2025-11-23 19:01:20.763765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/warped_forest.json	2025-11-23 19:01:21.489765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/warped_forest.json	2026-03-29 12:55:44.235587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/biome/warped_forest.json	2026-03-29 12:55:44.500587971 +0000
 @@ -29,7 +29,9 @@
      "water_fog_color": 329011
    },
@@ -1468,8 +1468,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/biome/warped_fores
    "features": [
      [],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json	2026-03-29 12:55:44.237073324 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/amethyst_geode.json	2026-03-29 12:55:44.502498115 +0000
 @@ -65,8 +65,8 @@
            "Name": "minecraft:amethyst_cluster"
          }
@@ -1482,8 +1482,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
          "state": {
            "Name": "minecraft:air"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json	2026-03-29 12:55:44.237073324 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine.json	2026-03-29 12:55:44.502498115 +0000
 @@ -103,7 +103,9 @@
      ],
      "direction": "down",
@@ -1496,8 +1496,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
      },
      "prioritize_tip": true
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json	2026-03-29 12:55:44.237073324 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/cave_vine_in_moss.json	2026-03-29 12:55:44.502498115 +0000
 @@ -93,7 +93,9 @@
      ],
      "direction": "down",
@@ -1510,8 +1510,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
      },
      "prioritize_tip": true
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json	2026-03-29 12:55:44.237073324 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/clay_pool_with_dripleaves.json	2026-03-29 12:55:44.502498115 +0000
 @@ -17,7 +17,7 @@
      },
      "surface": "floor",
@@ -1522,8 +1522,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
        "state": {
          "Name": "minecraft:clay"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json	2026-03-29 12:55:44.237073324 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/clay_with_dripleaves.json	2026-03-29 12:55:44.502498115 +0000
 @@ -17,7 +17,7 @@
      },
      "surface": "floor",
@@ -1534,8 +1534,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
        "state": {
          "Name": "minecraft:clay"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json	2026-03-29 12:55:44.237587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_default.json	2026-03-29 12:55:44.502587971 +0000
 @@ -29,7 +29,9 @@
        "placement": [
          {
@@ -1548,8 +1548,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json	2026-03-29 12:55:44.237587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_flower_forest.json	2026-03-29 12:55:44.502587971 +0000
 @@ -58,7 +58,9 @@
        "placement": [
          {
@@ -1562,8 +1562,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json	2026-03-29 12:55:44.237587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_meadow.json	2026-03-29 12:55:44.502587971 +0000
 @@ -63,7 +63,9 @@
        "placement": [
          {
@@ -1576,8 +1576,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json	2026-03-29 12:55:44.237587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_plain.json	2026-03-29 12:55:44.502587971 +0000
 @@ -56,7 +56,9 @@
        "placement": [
          {
@@ -1590,8 +1590,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json	2025-11-23 19:01:20.766023158 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json	2026-03-29 12:55:44.237587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/flower_swamp.json	2026-03-29 12:55:44.502587971 +0000
 @@ -18,7 +18,9 @@
        "placement": [
          {
@@ -1604,8 +1604,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json	2025-11-23 19:01:20.766765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json	2025-11-23 19:01:21.491134732 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json	2026-03-29 12:55:44.237587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/forest_flowers.json	2026-03-29 12:55:44.502587971 +0000
 @@ -25,7 +25,9 @@
                "placement": [
                  {
@@ -1651,8 +1651,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                    },
                    "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json	2025-11-23 19:01:20.766765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json	2025-11-23 19:01:21.491765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json	2026-03-29 12:55:44.238587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch.json	2026-03-29 12:55:44.503587971 +0000
 @@ -17,7 +17,7 @@
      },
      "surface": "floor",
@@ -1663,8 +1663,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
        "state": {
          "Name": "minecraft:moss_block"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json	2025-11-23 19:01:20.766765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json	2025-11-23 19:01:21.491765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json	2026-03-29 12:55:44.238587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_bonemeal.json	2026-03-29 12:55:44.503587971 +0000
 @@ -17,7 +17,7 @@
      },
      "surface": "floor",
@@ -1675,8 +1675,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
        "state": {
          "Name": "minecraft:moss_block"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json	2025-11-23 19:01:20.766765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json	2025-11-23 19:01:21.491765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json	2026-03-29 12:55:44.238587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/moss_patch_ceiling.json	2026-03-29 12:55:44.503587971 +0000
 @@ -23,7 +23,7 @@
          "max_inclusive": 2
        }
@@ -1687,8 +1687,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
        "state": {
          "Name": "minecraft:moss_block"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json	2025-11-23 19:01:20.768765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json	2026-03-29 12:55:44.239587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_berry_bush.json	2026-03-29 12:55:44.504587971 +0000
 @@ -23,7 +23,9 @@
            "predicate": {
              "predicates": [
@@ -1712,8 +1712,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                }
              ],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json	2025-11-23 19:01:20.768765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json	2026-03-29 12:55:44.239587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_brown_mushroom.json	2026-03-29 12:55:44.504587971 +0000
 @@ -18,7 +18,9 @@
        "placement": [
          {
@@ -1726,8 +1726,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json	2025-11-23 19:01:20.768765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json	2026-03-29 12:55:44.239587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_cactus.json	2026-03-29 12:55:44.504587971 +0000
 @@ -28,7 +28,9 @@
            ],
            "direction": "up",
@@ -1751,8 +1751,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                },
                {
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json	2025-11-23 19:01:20.768765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json	2026-03-29 12:55:44.239587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_crimson_roots.json	2026-03-29 12:55:44.504587971 +0000
 @@ -18,7 +18,9 @@
        "placement": [
          {
@@ -1765,8 +1765,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json	2025-11-23 19:01:20.768765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json	2026-03-29 12:55:44.239587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_dead_bush.json	2026-03-29 12:55:44.504587971 +0000
 @@ -18,7 +18,9 @@
        "placement": [
          {
@@ -1779,8 +1779,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json	2025-11-23 19:01:20.768765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json	2026-03-29 12:55:44.239587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_fire.json	2026-03-29 12:55:44.505587971 +0000
 @@ -28,7 +28,9 @@
            "predicate": {
              "predicates": [
@@ -1804,8 +1804,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                }
              ],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json	2025-11-23 19:01:20.768765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass.json	2026-03-29 12:55:44.505587971 +0000
 @@ -18,7 +18,9 @@
        "placement": [
          {
@@ -1818,8 +1818,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_grass_jungle.json	2026-03-29 12:55:44.505587971 +0000
 @@ -31,7 +31,9 @@
            "predicate": {
              "predicates": [
@@ -1843,8 +1843,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                  },
                  "type": "minecraft:not"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_large_fern.json	2026-03-29 12:55:44.505587971 +0000
 @@ -21,7 +21,9 @@
        "placement": [
          {
@@ -1857,8 +1857,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_melon.json	2026-03-29 12:55:44.505587971 +0000
 @@ -28,7 +28,9 @@
                    -1,
                    0
@@ -1871,8 +1871,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                }
              ],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json	2025-11-23 19:01:21.493765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_pumpkin.json	2026-03-29 12:55:44.505587971 +0000
 @@ -20,7 +20,9 @@
            "predicate": {
              "predicates": [
@@ -1896,8 +1896,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                }
              ],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json	2025-11-23 19:01:21.494765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_red_mushroom.json	2026-03-29 12:55:44.505587971 +0000
 @@ -18,7 +18,9 @@
        "placement": [
          {
@@ -1910,8 +1910,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json	2025-11-23 19:01:21.494765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_soul_fire.json	2026-03-29 12:55:44.505587971 +0000
 @@ -20,7 +20,9 @@
            "predicate": {
              "predicates": [
@@ -1935,8 +1935,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                }
              ],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json	2025-11-23 19:01:21.494765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_sugar_cane.json	2026-03-29 12:55:44.505587971 +0000
 @@ -28,7 +28,9 @@
            ],
            "direction": "up",
@@ -1960,8 +1960,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
                },
                {
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json	2025-11-23 19:01:21.494765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_sunflower.json	2026-03-29 12:55:44.505587971 +0000
 @@ -21,7 +21,9 @@
        "placement": [
          {
@@ -1974,8 +1974,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json	2025-11-23 19:01:21.494765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_taiga_grass.json	2026-03-29 12:55:44.505587971 +0000
 @@ -29,7 +29,9 @@
        "placement": [
          {
@@ -1988,8 +1988,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json	2025-11-23 19:01:21.494765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_tall_grass.json	2026-03-29 12:55:44.505587971 +0000
 @@ -21,7 +21,9 @@
        "placement": [
          {
@@ -2002,8 +2002,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json	2025-11-23 19:01:21.494765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json	2026-03-29 12:55:44.240587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/patch_waterlily.json	2026-03-29 12:55:44.505587971 +0000
 @@ -18,7 +18,9 @@
        "placement": [
          {
@@ -2016,8 +2016,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
            },
            "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json	2025-11-23 19:01:20.769765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json	2025-11-23 19:01:21.494765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json	2026-03-29 12:55:44.241587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/rooted_azalea_tree.json	2026-03-29 12:55:44.505587971 +0000
 @@ -50,7 +50,7 @@
      "root_column_max_height": 100,
      "hanging_root_radius": 3,
@@ -2028,8 +2028,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
        "state": {
          "Name": "minecraft:rooted_dirt"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json	2025-11-23 19:01:20.770765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json	2025-11-23 19:01:21.495765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json	2026-03-29 12:55:44.241587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_closed.json	2026-03-29 12:55:44.506587971 +0000
 @@ -2,7 +2,9 @@
    "config": {
      "rock_count": 5,
@@ -2042,8 +2042,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
        "Properties": {
          "falling": "true"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json	2025-11-23 19:01:20.770765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json	2025-11-23 19:01:21.495765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json	2026-03-29 12:55:44.241587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_feature/spring_nether_open.json	2026-03-29 12:55:44.506587971 +0000
 @@ -2,7 +2,9 @@
    "config": {
      "rock_count": 4,
@@ -2056,8 +2056,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_feature
        "Properties": {
          "falling": "true"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json	2025-11-23 19:01:20.771765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json	2025-11-23 19:01:21.496765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json	2026-03-29 12:55:44.242587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/bastion_remnant.json	2026-03-29 12:55:44.507587971 +0000
 @@ -3,7 +3,5 @@
      "start_pool": "minecraft:bastion/starts",
      "size": 6
@@ -2068,8 +2068,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/buried_treasure.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "probability": 0.01
@@ -2080,8 +2080,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/desert_pyramid.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,6 +1,4 @@
  {
    "config": {},
@@ -2091,8 +2091,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/end_city.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,6 +1,4 @@
  {
    "config": {},
@@ -2102,8 +2102,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/fortress.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,42 +1,4 @@
  {
    "config": {},
@@ -2149,8 +2149,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/igloo.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,6 +1,4 @@
  {
    "config": {},
@@ -2160,8 +2160,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/jungle_pyramid.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,6 +1,4 @@
  {
    "config": {},
@@ -2171,8 +2171,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mansion.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,6 +1,4 @@
  {
    "config": {},
@@ -2182,8 +2182,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft.json	2026-03-29 12:55:44.508445569 +0000
 @@ -3,7 +3,5 @@
      "probability": 0.004,
      "type": "normal"
@@ -2194,8 +2194,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/mineshaft_mesa.json	2026-03-29 12:55:44.508445569 +0000
 @@ -3,7 +3,5 @@
      "probability": 0.004,
      "type": "mesa"
@@ -2206,8 +2206,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/monument.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,26 +1,4 @@
  {
    "config": {},
@@ -2237,8 +2237,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/nether_fossil.json	2026-03-29 12:55:44.508445569 +0000
 @@ -10,8 +10,5 @@
        "type": "minecraft:uniform"
      }
@@ -2250,8 +2250,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_cold.json	2026-03-29 12:55:44.508445569 +0000
 @@ -4,7 +4,5 @@
      "large_probability": 0.3,
      "cluster_probability": 0.9
@@ -2262,8 +2262,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ocean_ruin_warm.json	2026-03-29 12:55:44.508445569 +0000
 @@ -4,7 +4,5 @@
      "large_probability": 0.3,
      "cluster_probability": 0.9
@@ -2274,8 +2274,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/pillager_outpost.json	2026-03-29 12:55:44.508445569 +0000
 @@ -3,20 +3,5 @@
      "start_pool": "minecraft:pillager_outpost/base_plates",
      "size": 7
@@ -2299,8 +2299,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "portal_type": "standard"
@@ -2311,8 +2311,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_desert.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "portal_type": "desert"
@@ -2323,8 +2323,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_jungle.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "portal_type": "jungle"
@@ -2335,8 +2335,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_mountain.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "portal_type": "mountain"
@@ -2347,8 +2347,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_nether.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "portal_type": "nether"
@@ -2359,8 +2359,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_ocean.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "portal_type": "ocean"
@@ -2371,8 +2371,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/ruined_portal_swamp.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "portal_type": "swamp"
@@ -2383,8 +2383,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "is_beached": false
@@ -2395,8 +2395,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/shipwreck_beached.json	2026-03-29 12:55:44.508445569 +0000
 @@ -2,7 +2,5 @@
    "config": {
      "is_beached": true
@@ -2407,8 +2407,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/stronghold.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,7 +1,4 @@
  {
    "config": {},
@@ -2419,8 +2419,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/swamp_hut.json	2026-03-29 12:55:44.508445569 +0000
 @@ -1,29 +1,4 @@
  {
    "config": {},
@@ -2453,8 +2453,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_desert.json	2026-03-29 12:55:44.508445569 +0000
 @@ -3,8 +3,5 @@
      "start_pool": "minecraft:village/desert/town_centers",
      "size": 6
@@ -2466,8 +2466,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_plains.json	2026-03-29 12:55:44.508445569 +0000
 @@ -3,8 +3,5 @@
      "start_pool": "minecraft:village/plains/town_centers",
      "size": 6
@@ -2479,8 +2479,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_savanna.json	2026-03-29 12:55:44.508445569 +0000
 @@ -3,8 +3,5 @@
      "start_pool": "minecraft:village/savanna/town_centers",
      "size": 6
@@ -2492,8 +2492,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_snowy.json	2026-03-29 12:55:44.508445569 +0000
 @@ -3,8 +3,5 @@
      "start_pool": "minecraft:village/snowy/town_centers",
      "size": 6
@@ -2505,8 +2505,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json	2025-11-23 19:01:20.773004382 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json	2025-11-23 19:01:21.497706789 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json	2026-03-29 12:55:44.243915993 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/configured_structure_feature/village_taiga.json	2026-03-29 12:55:44.508587971 +0000
 @@ -3,8 +3,5 @@
      "start_pool": "minecraft:village/taiga/town_centers",
      "size": 6
@@ -2518,7 +2518,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/configured_structu
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json	2025-11-23 19:01:20.774256059 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json	2026-03-29 12:55:44.244850371 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/end/sloped_cheese.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -2530,7 +2530,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/e
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json	2025-11-23 19:01:20.774256059 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json	2026-03-29 12:55:44.244850371 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/base_3d_noise.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,3 +0,0 @@
 -{
@@ -2538,7 +2538,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json	2025-11-23 19:01:20.774391453 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json	2026-03-29 12:55:44.244977619 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/entrances.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,83 +0,0 @@
 -{
@@ -2626,7 +2626,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/noodle.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,94 +0,0 @@
 -{
@@ -2725,7 +2725,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/pillars.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,50 +0,0 @@
 -{
@@ -2780,7 +2780,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,61 +0,0 @@
 -{
@@ -2846,7 +2846,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_2d_thickness_modulator.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,17 +0,0 @@
 -{
@@ -2868,7 +2868,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/caves/spaghetti_roughness_function.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,33 +0,0 @@
 -{
@@ -2906,7 +2906,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/continents.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,12 +0,0 @@
 -{
@@ -2923,7 +2923,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/depth.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,57 +0,0 @@
 -{
@@ -2985,7 +2985,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/erosion.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,12 +0,0 @@
 -{
@@ -3002,7 +3002,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/factor.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,45 +0,0 @@
 -{
@@ -3052,7 +3052,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/ridges.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,12 +0,0 @@
 -{
@@ -3069,7 +3069,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld/sloped_cheese.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,76 +0,0 @@
 -{
@@ -3150,7 +3150,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json	2025-11-23 19:01:20.774481312 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json	2026-03-29 12:55:44.245028204 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/continents.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,12 +0,0 @@
 -{
@@ -3167,7 +3167,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json	2025-11-23 19:01:20.774956343 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json	2026-03-29 12:55:44.245449462 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/depth.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,57 +0,0 @@
 -{
@@ -3229,7 +3229,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json	2025-11-23 19:01:20.774956343 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json	2026-03-29 12:55:44.245449462 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/erosion.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,12 +0,0 @@
 -{
@@ -3246,7 +3246,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json	2025-11-23 19:01:20.774956343 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json	2026-03-29 12:55:44.245449462 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/factor.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,45 +0,0 @@
 -{
@@ -3296,7 +3296,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json	2025-11-23 19:01:20.774956343 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json	2026-03-29 12:55:44.245449462 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/overworld_large_biomes/sloped_cheese.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,76 +0,0 @@
 -{
@@ -3377,7 +3377,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/o
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/shift_x.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/shift_x.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/shift_x.json	2025-11-23 19:01:20.774956343 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/shift_x.json	2026-03-29 12:55:44.245449462 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/shift_x.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,10 +0,0 @@
 -{
@@ -3392,7 +3392,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/s
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/shift_z.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/shift_z.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/shift_z.json	2025-11-23 19:01:20.774956343 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/shift_z.json	2026-03-29 12:55:44.245449462 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/shift_z.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,10 +0,0 @@
 -{
@@ -3407,7 +3407,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/s
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/y.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/y.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/y.json	2025-11-23 19:01:20.774956343 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/y.json	2026-03-29 12:55:44.245449462 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/y.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,7 +0,0 @@
 -{
@@ -3419,14 +3419,14 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/y
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/zero.json versions/1.18/reports/worldgen/minecraft/worldgen/density_function/zero.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/zero.json	2025-11-23 19:01:20.774956343 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/density_function/zero.json	2026-03-29 12:55:44.245449462 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/density_function/zero.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1 +0,0 @@
 -0.0
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise/surface_secondary.json versions/1.18/reports/worldgen/minecraft/worldgen/noise/surface_secondary.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise/surface_secondary.json	2025-11-23 19:01:20.775765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/noise/surface_secondary.json	2025-11-23 19:01:21.498765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise/surface_secondary.json	2026-03-29 12:55:44.245740045 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/noise/surface_secondary.json	2026-03-29 12:55:44.509587971 +0000
 @@ -3,7 +3,6 @@
    "amplitudes": [
      1.0,
@@ -3437,8 +3437,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise/surface_seco
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/amplified.json versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/amplified.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/amplified.json	2025-11-23 19:01:20.775765288 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/amplified.json	2025-11-23 19:01:21.498765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/amplified.json	2026-03-29 12:55:44.246587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/amplified.json	2026-03-29 12:55:44.509587971 +0000
 @@ -1,251 +1,16 @@
  {
 -  "aquifers_enabled": true,
@@ -4410,8 +4410,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/amp
    "default_block": {
      "Name": "minecraft:stone"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/caves.json versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/caves.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/caves.json	2025-11-23 19:01:20.777505254 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/caves.json	2025-11-23 19:01:21.500551294 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/caves.json	2026-03-29 12:55:44.247615634 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/caves.json	2026-03-29 12:55:44.511225810 +0000
 @@ -1,78 +1,16 @@
  {
 -  "aquifers_enabled": false,
@@ -5202,8 +5202,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/cav
    "default_block": {
      "Name": "minecraft:stone"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/end.json versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/end.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/end.json	2025-11-23 19:01:20.777505254 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/end.json	2025-11-23 19:01:21.500551294 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/end.json	2026-03-29 12:55:44.247615634 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/end.json	2026-03-29 12:55:44.511225810 +0000
 @@ -1,71 +1,123 @@
  {
 -  "aquifers_enabled": false,
@@ -5394,8 +5394,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/end
    "default_block": {
      "Name": "minecraft:end_stone"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json	2025-11-23 19:01:20.777505254 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json	2025-11-23 19:01:21.500551294 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json	2026-03-29 12:55:44.247615634 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/floating_islands.json	2026-03-29 12:55:44.511225810 +0000
 @@ -1,78 +1,16 @@
  {
 -  "aquifers_enabled": false,
@@ -6191,8 +6191,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/flo
    "default_block": {
      "Name": "minecraft:stone"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json	2025-11-23 19:01:20.777505254 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json	2025-11-23 19:01:21.500551294 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json	2026-03-29 12:55:44.247615634 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/large_biomes.json	2026-03-29 12:55:44.511225810 +0000
 @@ -1,251 +1,16 @@
  {
 -  "aquifers_enabled": true,
@@ -7164,8 +7164,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/lar
    "default_block": {
      "Name": "minecraft:stone"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/nether.json versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/nether.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/nether.json	2025-11-23 19:01:20.777505254 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/nether.json	2025-11-23 19:01:21.500551294 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/nether.json	2026-03-29 12:55:44.247615634 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/nether.json	2026-03-29 12:55:44.511225810 +0000
 @@ -1,78 +1,16 @@
  {
 -  "aquifers_enabled": false,
@@ -7447,8 +7447,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/net
    "default_block": {
      "Name": "minecraft:netherrack"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/overworld.json versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/overworld.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/overworld.json	2025-11-23 19:01:20.777505254 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/overworld.json	2025-11-23 19:01:21.500551294 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/overworld.json	2026-03-29 12:55:44.247615634 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/noise_settings/overworld.json	2026-03-29 12:55:44.511225810 +0000
 @@ -1,251 +1,16 @@
  {
 -  "aquifers_enabled": true,
@@ -8419,8 +8419,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/noise_settings/ove
    "default_block": {
      "Name": "minecraft:stone"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json	2025-11-23 19:01:20.777765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json	2025-11-23 19:01:21.501698345 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json	2026-03-29 12:55:44.248232017 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/cave_vines.json	2026-03-29 12:55:44.511902786 +0000
 @@ -27,7 +27,9 @@
          "type": "minecraft:has_sturdy_face"
        },
@@ -8433,8 +8433,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/cav
        },
        "max_steps": 12,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json	2025-11-23 19:01:20.778765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json	2025-11-23 19:01:21.501765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json	2026-03-29 12:55:44.248587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/grass_bonemeal.json	2026-03-29 12:55:44.512587971 +0000
 @@ -3,7 +3,9 @@
    "placement": [
      {
@@ -8447,8 +8447,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/gra
        },
        "type": "minecraft:block_predicate_filter"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json	2025-11-23 19:01:20.779765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json	2025-11-23 19:01:21.502765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json	2026-03-29 12:55:44.248587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lake_lava_underground.json	2026-03-29 12:55:44.512587971 +0000
 @@ -26,7 +26,9 @@
          "predicates": [
            {
@@ -8461,8 +8461,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lak
              },
              "type": "minecraft:not"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json	2025-11-23 19:01:20.779765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json	2025-11-23 19:01:21.502765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json	2026-03-29 12:55:44.249587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_ceiling_vegetation.json	2026-03-29 12:55:44.512587971 +0000
 @@ -26,7 +26,9 @@
          "type": "minecraft:solid"
        },
@@ -8475,8 +8475,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lus
        },
        "max_steps": 12,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json	2025-11-23 19:01:20.779765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json	2025-11-23 19:01:21.502765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json	2026-03-29 12:55:44.249587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_clay.json	2026-03-29 12:55:44.512587971 +0000
 @@ -26,7 +26,9 @@
          "type": "minecraft:solid"
        },
@@ -8489,8 +8489,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lus
        },
        "max_steps": 12,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json	2025-11-23 19:01:20.779765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json	2025-11-23 19:01:21.502765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json	2026-03-29 12:55:44.249587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/lush_caves_vegetation.json	2026-03-29 12:55:44.512587971 +0000
 @@ -26,7 +26,9 @@
          "type": "minecraft:solid"
        },
@@ -8503,8 +8503,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/lus
        },
        "max_steps": 12,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json	2025-11-23 19:01:20.785765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json	2025-11-23 19:01:21.505765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json	2026-03-29 12:55:44.252587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/pine_on_snow.json	2026-03-29 12:55:44.515587971 +0000
 @@ -5,7 +5,9 @@
        "direction_of_search": "up",
        "target_condition": {
@@ -8517,8 +8517,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/pin
          },
          "type": "minecraft:not"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json	2025-11-23 19:01:20.785765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json	2025-11-23 19:01:21.505765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json	2026-03-29 12:55:44.252587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/rooted_azalea_tree.json	2026-03-29 12:55:44.515587971 +0000
 @@ -32,7 +32,9 @@
          "type": "minecraft:solid"
        },
@@ -8531,8 +8531,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/roo
        },
        "max_steps": 12,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json	2025-11-23 19:01:20.786765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json	2025-11-23 19:01:21.505765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json	2026-03-29 12:55:44.252587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/seagrass_simple.json	2026-03-29 12:55:44.516587971 +0000
 @@ -18,11 +18,15 @@
                -1,
                0
@@ -8563,8 +8563,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/sea
            }
          ],
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json	2025-11-23 19:01:20.786765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json	2025-11-23 19:01:21.505765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json	2026-03-29 12:55:44.252587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/spore_blossom.json	2026-03-29 12:55:44.516587971 +0000
 @@ -26,7 +26,9 @@
          "type": "minecraft:solid"
        },
@@ -8577,8 +8577,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/spo
        },
        "max_steps": 12,
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json	2025-11-23 19:01:20.787765287 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json	2025-11-23 19:01:21.506765263 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json	2026-03-29 12:55:44.253587971 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/placed_feature/spruce_on_snow.json	2026-03-29 12:55:44.516587971 +0000
 @@ -5,7 +5,9 @@
        "direction_of_search": "up",
        "target_condition": {
@@ -8591,8 +8591,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/placed_feature/spr
          },
          "type": "minecraft:not"
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json	2025-11-23 19:01:20.790727173 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json	2025-11-23 19:01:21.508855309 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json	2026-03-29 12:55:44.255720795 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_coal.json	2026-03-29 12:55:44.518982389 +0000
 @@ -6,7 +6,7 @@
      },
      {
@@ -8604,8 +8604,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fos
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json	2025-11-23 19:01:20.790727173 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json	2025-11-23 19:01:21.508855309 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json	2026-03-29 12:55:44.255720795 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_diamonds.json	2026-03-29 12:55:44.518982389 +0000
 @@ -23,7 +23,7 @@
      },
      {
@@ -8617,8 +8617,8 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fos
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json	2025-11-23 19:01:20.790727173 +0000
-+++ versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json	2025-11-23 19:01:21.508855309 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json	2026-03-29 12:55:44.255720795 +0000
++++ versions/1.18/reports/worldgen/minecraft/worldgen/processor_list/fossil_rot.json	2026-03-29 12:55:44.518982389 +0000
 @@ -6,7 +6,7 @@
      },
      {
@@ -8630,7 +8630,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/processor_list/fos
  }
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json	2025-11-23 19:01:20.790765287 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json	2026-03-29 12:55:44.255720795 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/buried_treasures.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,19 +0,0 @@
 -{
@@ -8654,7 +8654,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/buri
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/desert_pyramids.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,14 +0,0 @@
 -{
@@ -8673,7 +8673,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/dese
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/end_cities.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/end_cities.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/end_cities.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/end_cities.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/end_cities.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,15 +0,0 @@
 -{
@@ -8693,7 +8693,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/end_
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/igloos.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/igloos.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/igloos.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/igloos.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/igloos.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,14 +0,0 @@
 -{
@@ -8712,7 +8712,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/iglo
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/jungle_temples.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,14 +0,0 @@
 -{
@@ -8731,7 +8731,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/jung
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/mineshafts.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,18 +0,0 @@
 -{
@@ -8754,7 +8754,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/mine
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/nether_complexes.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,18 +0,0 @@
 -{
@@ -8777,7 +8777,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/neth
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/nether_fossils.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,14 +0,0 @@
 -{
@@ -8796,7 +8796,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/neth
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/ocean_monuments.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,15 +0,0 @@
 -{
@@ -8816,7 +8816,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ocea
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/ocean_ruins.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,18 +0,0 @@
 -{
@@ -8839,7 +8839,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ocea
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/pillager_outposts.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,14 +0,0 @@
 -{
@@ -8858,7 +8858,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/pill
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/ruined_portals.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,38 +0,0 @@
 -{
@@ -8901,7 +8901,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ruin
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/shipwrecks.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,18 +0,0 @@
 -{
@@ -8924,7 +8924,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/ship
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/strongholds.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/strongholds.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/strongholds.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/strongholds.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/strongholds.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,14 +0,0 @@
 -{
@@ -8943,7 +8943,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/stro
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/swamp_huts.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,14 +0,0 @@
 -{
@@ -8962,7 +8962,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/swam
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/villages.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/villages.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/villages.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/villages.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/villages.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,30 +0,0 @@
 -{
@@ -8997,7 +8997,7 @@ diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/vill
 -}
 \ No newline at end of file
 diff -urN versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json
---- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json	2025-11-23 19:01:20.791828699 +0000
+--- versions/1.18.2/reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json	2026-03-29 12:55:44.256793441 +0000
 +++ versions/1.18/reports/worldgen/minecraft/worldgen/structure_set/woodland_mansions.json	1970-01-01 00:00:00.000000000 +0000
 @@ -1,15 +0,0 @@
 -{
